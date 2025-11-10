@@ -9,7 +9,7 @@ It includes datasets, analysis scripts, survey instruments, qualitative prompts,
 ## 🧠 Overview
 The study combines **quantitative task-based experiments** and **qualitative thematic analysis** to examine developer reasoning and performance differences when reading or debugging string expressions.
 
-- **Participants:** 314 developers (undergraduate, graduate, and faculty)
+- **Participants:** 314
 - **Design:** Mixed-method study with randomized task presentation
 - **Tasks:** 16 programming questions comparing string concatenation and interpolation (four complexity levels)
 - **Post-survey:** Five open-ended questions exploring readability, debugging, learning curve, preference, and improvement suggestions
@@ -20,13 +20,28 @@ The study combines **quantitative task-based experiments** and **qualitative the
 ## 📁 Repository Structure
 ```
 string-readability-study/
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── data/
-├── code/
-├── instruments/
-├── results/
+string-readability-study/
+├── README.md                        # Main documentation
+├── LICENSE                          # Code/data license
+├── CITATION.cff                     # Citation metadata (for Zenodo DOI)
+│
+├── data/                            # Raw and processed datasets
+│   ├── raw/                         # Original anonymized responses
+│   ├── processed/                   # Cleaned and structured datasets
+│
+├── code/                            # Scripts and reproducibility assets
+│   ├── scripts/
+│   ├── notebooks/                   # Jupyter notebooks for exploratory analysis
+│
+├── instruments/                     # Study instruments and materials
+│   ├── survey-app/                  # Web-based experiment platform (Flask)
+│   └── llm/                         # LLM 
+│       ├── codebooks                # LLM qualitative codebooks
+│       ├── prompts                  # LLM qualitative prompts (RQ1–RQ5)
+│
+├── results/                         # Output and visualizations
+│   ├── figures/
+│   ├── csv_xlsx/
 
 ```
 

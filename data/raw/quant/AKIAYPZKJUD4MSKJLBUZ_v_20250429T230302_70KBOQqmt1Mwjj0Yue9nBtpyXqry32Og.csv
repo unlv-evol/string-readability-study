@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,1,L-1,Concatenation,2,2,18.845
+1,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,2,L-1,Interpolation,1,1,22.712
+2,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,3,L-2,Concatenation,1,4,24.411
+3,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,4,L-2,Interpolation,2,2,45.762
+4,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,5,L-2,Concatenation,3,2,9.157
+5,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,6,L-2,Interpolation,4,3,22.325
+6,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,7,L-4,Concatenation,4,4,64.24
+7,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,8,L-4,Interpolation,1,3,45.192
+8,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,9,L-3,Concatenation,3,3,44.989
+9,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,10,L-3,Interpolation,2,3,59.952
+10,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,11,L-4,Concatenation,3,3,130.272
+11,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,12,L-4,Interpolation,1,1,141.14
+12,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,13,L-2,Concatenation,4,4,45.095
+13,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,14,L-2,Interpolation,2,2,57.794
+14,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,15,L-3,Concatenation,1,1,70.088
+15,bd6ae87b,Male,18-24,Sophomore,Some college/university,Nevada,Computer Enginering,1,16,L-3,Interpolation,3,2,0.836

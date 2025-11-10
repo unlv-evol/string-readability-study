@@ -1,0 +1,17 @@
+use Libraries.Compute.Statistics.DataFrame
+use Libraries.Interface.Controls.Charts.BarChart
+use Libraries.Interface.Controls.Charts.BoxPlot
+DataFrame frame
+frame:Load("data/merged_quant.csv")
+frame:AddSelectedFactors("YearInCollege")
+frame:AddSelectedFactors("Category")
+frame:AddSelectedColumns("Duration")
+BoxPlot chart = frame:BoxPlot()
+chart:SetTitle("Task Duration Grouped By College Year")
+chart:SetXAxisTitle("College Year")
+chart:SetTitleFontSize(28)
+chart:SetYAxisTitle("Duration (seconds)")
+chart:SetLegendTitle("Category")
+chart:SetColorPaletteToCalm()
+chart:Display(1000,750)
+chart:Save("BoxPlotCollegeYear.svg")

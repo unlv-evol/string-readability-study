@@ -1,0 +1,114 @@
+body {
+    margin-top: 2em;
+}
+pre {
+    background-color: #f1f1f1;
+}
+pre > code {
+    font-size: 1.4em;
+    font-family: "Courier New", monospace;
+}
+#time-notice {
+    font-size: 13pt;
+    background-color: azure;
+}
+label {
+    font-weight: bold;
+}
+/* #scroll-area {
+    padding: 20px;
+    padding-top: 0px;
+    background: beige;
+    border: solid black;
+    border-width: thin;
+} */
+#scroll-area {
+    width: 100%;  /* Set a fixed width */
+    height: 30em; /* Set a fixed height */
+    padding: 20px;
+    padding-top: 0px;
+    background: beige;
+    border: solid black;
+    border-width: thin;
+    overflow: auto; /* Enables scrolling when content overflows */
+}
+
+#scroll-protocol {
+    width: 100%;  /* Set a fixed width */
+    /* height: 30em; Set a fixed height */
+    
+    background: beige;
+    border: solid black;
+    border-width: thin;
+    overflow: auto; /* Enables scrolling when content overflows */
+
+    /* border: 1px solid cadetblue;
+    border-radius: 0.4em; */
+    padding: 0.3em;
+    padding-top: 0.1em;
+    /* background-color: azure; */
+    margin-bottom: 0.5em;
+}
+/* Demographic survey */
+.comment {
+    font-size: 9pt;
+    font-style: italic;
+}
+
+.input-md {
+    max-width: 250px;
+}
+
+.form-control {
+    font-size: 9pt;
+}
+
+.question  {
+    font-size: 1.2em;
+  }
+  .instruction {
+    border: 1px solid cadetblue;
+    border-radius: 0.4em;
+    padding: 0.3em;
+    padding-top: 0.1em;
+    background-color: azure;
+    margin-bottom: 0.5em;
+  }
+  #submitPage {
+    border: 1px solid cadetblue;
+    width: auto;
+    border-radius: 0.4em;
+    padding: 0.3em;
+    text-align: center;
+    background-color: rgb(95, 158, 160, 0.4);
+  }
+  .container-fluid {
+    padding: 30px;
+    padding-top: 0px;
+}
+  #time-notice {
+    font-size: 13pt;
+    background-color: azure;
+    padding: 1em;
+    border: 1px solid gray
+}
+.donotuse {
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* Post Survey Questions */
+#post-survey .question {
+    margin-bottom: 25px;
+}
+#post-survey textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}

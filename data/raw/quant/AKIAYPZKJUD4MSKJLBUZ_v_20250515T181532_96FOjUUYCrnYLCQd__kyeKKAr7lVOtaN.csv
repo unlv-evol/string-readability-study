@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,1,L-1,Concatenation,2,1,9.116
+1,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,2,L-1,Interpolation,1,1,9.093
+2,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,3,L-2,Concatenation,1,1,24.517
+3,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,4,L-2,Interpolation,2,2,14.379
+4,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,5,L-2,Concatenation,3,3,12.088
+5,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,6,L-2,Interpolation,4,3,7.591
+6,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,7,L-4,Concatenation,4,4,27.865
+7,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,8,L-4,Interpolation,1,1,23.457
+8,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,9,L-3,Concatenation,3,3,21.025
+9,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,10,L-3,Interpolation,2,2,17.328
+10,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,11,L-4,Concatenation,3,1,33.977
+11,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,12,L-4,Interpolation,1,3,15.64
+12,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,13,L-2,Concatenation,4,4,21.632
+13,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,14,L-2,Interpolation,2,2,13.12
+14,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,15,L-3,Concatenation,1,1,17.063
+15,a5762d21,Male,25-35,Graduate,Bachelor Degree,Nevada,Computer Science && Biology,3,16,L-3,Interpolation,3,3,11.602

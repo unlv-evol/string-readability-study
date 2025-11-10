@@ -1,0 +1,17 @@
+use Libraries.Compute.Statistics.DataFrame
+use Libraries.Compute.Statistics.Tests.Regression
+DataFrame frame
+frame:Load("data/merged_quant.csv")
+frame:AddSelectedColumns("Duration")
+//frame:AddSelectedFactors("CA")
+frame:AddSelectedFactors("YearInCollege")
+Regression result = frame:RegressionOnSelected()
+output result:GetFormalSummary()
+output result:GetSummary()
+output "Beta: "+ result:GetCoefficients():ToText()
+output "Residuals: " + result:GetResiduals():ToText()
+output "Residual Sum of Squared: " + result:GetResidualSumOfSquares()
+output "Total Sum of Squared: " + result:GetTotalSumOfSquares()
+output "F " + result:GetCriticalValue()
+output "p = " + result:GetProbabilityValue()
+output "R^2: " + result:GetEffectSize()

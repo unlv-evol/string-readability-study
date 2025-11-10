@@ -1,0 +1,542 @@
+{% extends "base.html" %} 
+{% block title %}Language Study{% endblock %} 
+
+{% block content %}
+<div class="container">
+  <h3 class="donotuse">Do not use your browser navigation controls!</h3>
+    <br>
+    
+    <div id="questionContainer" style="display: none;">
+      <br />
+      <div id="1" class="question" style="display: none;">
+        <h4>Task 1 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation. </h4>
+          <pre>
+              <code>
+                "John Doe, " + "3" + "1"
+              </code>
+          </pre>
+          Options: <br />
+          &nbsp;&nbsp;1. "JohnDoe, 31" <br />
+          &nbsp;&nbsp;2. "John Doe, 31" <br />
+          &nbsp;&nbsp;3. "Doe " <br />
+          &nbsp;&nbsp;4. "John There" <br />
+          <input type="hidden" value="Concatenation" id="category" /> <!--1. concatenation -->
+          <input type="hidden" value="2" id="answer" />
+          <input type="hidden" value="L-1" id="complexity" />
+          <input type="hidden" class="btn btn-success next-btn" data-next="2" />
+      </div>
+      <div id="2" class="question" style="display: none;">
+        <h4>Task 2 of 16: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
+          <pre>
+            <code>
+              "{5}{6}, John Doe"
+            </code>
+        </pre>
+        <!-- A. "....." + 4 * 3 + "....." -->
+        <!-- B. "....." + ${4 * 3} + "....." -->
+        Options: <br />
+        &nbsp;&nbsp;1. "56, John Doe" <br />
+        &nbsp;&nbsp;2. "John Doe, 56" <br />
+        &nbsp;&nbsp;3. "56, Doe John" <br />
+        &nbsp;&nbsp;4. "Doe John There" <br />
+      <input type="hidden" value="Interpolation" id="category" /> <!--2. interpolation -->
+      <input type="hidden" value="1" id="answer" />
+      <input type="hidden" value="L-1" id="complexity" />
+      <input type="hidden" class="btn btn-success next-btn" data-next="3" />
+    </div>
+    <div id="3" class="question" style="display: none;">
+      <h4>Task 3 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation.</h4>
+        <pre>
+            <code>
+              a = "123 Main St, "
+              b = "Springfield, "
+              c = "OH"
+
+              a + (b + c)
+            </code>
+        </pre>
+        Options: <br />
+        &nbsp;&nbsp;1. "123 Main St, (Springfield, OH)" <br />
+        &nbsp;&nbsp;2. "123 Main St,Springfield,OH"  <br />
+        &nbsp;&nbsp;3. "123 Main St,(Springfield,OH)" <br />
+        &nbsp;&nbsp;4. "123 Main St, Springfield, OH" <br />
+      <input type="hidden" value="Concatenation" id="category" /> <!-- 1. concatenation-->
+      <input type="hidden" value="1" id="answer" />
+      <input type="hidden" value="L-2" id="complexity" />
+      <input type="hidden" class="btn btn-success next-btn" data-next="4" />
+  </div>
+  <div id="4" class="question" style="display: none;">
+    <h4>Task 4 of 16: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
+      <pre>
+        <code>
+            a = "123 Main St, "
+            b = "Springfield, "
+            c = "OH"
+            
+            "{b} ({a} {c})"
+        </code>
+    </pre>
+    Options: <br />
+    &nbsp;&nbsp;1. "Springfield,(123 Main St),OH" <br />
+    &nbsp;&nbsp;2. "Springfield, (123 Main St, OH)" <br />
+    &nbsp;&nbsp;3. "123 Main St, (Springfield, OH)" <br />
+    &nbsp;&nbsp;4. "(123 Main St,Springfield),OH" <br />
+  <input type="hidden" value="Interpolation" id="category" />  <!-- interpolation -->
+  <input type="hidden" value="2" id="answer" />
+  <input type="hidden" value="L-2" id="complexity" />
+  <input type="hidden" class="btn btn-success next-btn" data-next="5" />
+  </div>
+  <div id="5" class="question" style="display: none;">
+    <h4>Task 5 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation. </h4>
+    <!-- c = 4 * 3 -->
+    <!-- ("....." + a * b + ".....") -->
+      <pre>
+          <code>
+            name = "Daniel" 
+            score = 50
+            total = 100
+
+            "Hello " + name + ", your score is " + score + " out of " + total + "."
+          </code>
+      </pre>
+      <!-- A. "....." + 4 * 3 + "....." -->
+      <!-- B. "....." + ${4 * 3} + "....." -->
+      Options: <br />
+      &nbsp;&nbsp;1. "Hello name, your score is score out of total." <br />
+      &nbsp;&nbsp;2. "Hello Daniel, your 50 is score out of total." <br />
+      &nbsp;&nbsp;3. "Hello Daniel, your score is 50 out of 100." <br />
+      &nbsp;&nbsp;4. "Hello Daniel, your score is 100 out of 50." <br />
+      <input type="hidden" value="Concatenation" id="category" /> <!--1. concatenation -->
+      <input type="hidden" value="3" id="answer" />
+      <input type="hidden" value="L-2" id="complexity" />
+      <input type="hidden" class="btn btn-success next-btn" data-next="6" />
+  </div>
+  <div id="6" class="question" style="display: none;">
+    <h4>Task 6 of 16: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
+      <pre>
+        <code>
+          name = "Daniel" 
+          score = 50
+          total = 100
+
+          "{name}, out of {total}, you scored {score}."
+        </code>
+    </pre>
+    <!-- A. "....." + 4 * 3 + "....." -->
+    <!-- B. "....." + ${4 * 3} + "....." -->
+    Options: <br />
+    &nbsp;&nbsp;1. "Hello Daniel, your score is 50 out of 100." <br />
+    &nbsp;&nbsp;2. "Daniel, you scored 50 out of 100." <br />
+    &nbsp;&nbsp;3. "Daniel, out of 100, you scored 50" <br />
+    &nbsp;&nbsp;4. "Daniel, out of 100, you scored 100" <br />
+  <input type="hidden" value="Interpolation" id="category" /> <!--2. interpolation -->
+  <input type="hidden" value="4" id="answer" />
+  <input type="hidden" value="L-2" id="complexity" />
+  <input type="hidden" class="btn btn-success next-btn" data-next="7" />
+</div>
+<div id="7" class="question" style="display: none;">
+  <h4>Task 7 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation.</h4>
+    <pre>
+        <code>
+          "World, " + 1 + 2 + 3 + (1 + 1 + 1 + 1) + ("5" + (6 + 7))
+        </code>
+    </pre>
+    Options: <br />
+    &nbsp;&nbsp;1. World, 123("5"(67)) <br />
+    &nbsp;&nbsp;2.  World, 123("5")) <br />
+    &nbsp;&nbsp;3. 123(1111)("5"(67)), World <br />
+    &nbsp;&nbsp;4. World, 123(1111)("5"(67)) <br />
+  <input type="hidden" value="Concatenation" id="category" />
+  <input type="hidden" value="L-4" id="complexity" />
+  <input type="hidden" value="4" id="answer" />
+  <input type="hidden" class="btn btn-success next-btn" data-next="8" />
+</div>
+<div id="8" class="question" style="display: none;">
+<h4>Task 8 of 16: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
+  <pre>
+    <code>
+      "{1} {2} {3} {({9} {9} {9} {1})} World { ({"5"} {(67)} )}"
+    </code>
+</pre>
+Options: <br />
+&nbsp;&nbsp;1. "1 2 3 (9 9 9 1) World ("5" (67) )" <br />
+&nbsp;&nbsp;2. "123(9991)World("5"(67))" <br />
+&nbsp;&nbsp;3. ""1 2 3 ({9} {9} {9} 1) World ("5" (67) )" <br />
+&nbsp;&nbsp;4. ""1 2 3 9 9 9 1 World "5"67" <br />
+<input type="hidden" value="Interpolation" id="category" />
+<input type="hidden" value="1" id="answer" />
+<input type="hidden" value="L-4" id="complexity" />
+<input type="hidden" class="btn btn-success next-btn" data-next="9" />
+</div>
+
+<div id="9" class="question" style="display: none;">
+  <h4>Task 9 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation. </h4>
+      <pre>
+        <code>
+            a = 5
+            b = 6
+            c = 4
+            d = 10
+            
+            "a = " + a + " d = " + d  + " c = " +  c + " b = " + b
+        </code>
+    </pre>
+    Options: <br />
+    &nbsp;&nbsp;1.  "a = 5 b = 6 c = 4 d = 10" <br />
+    &nbsp;&nbsp;2. "a = 5 d = 6 c = 10 b = 4" <br />
+    &nbsp;&nbsp;3. "a = 5 d = 10 c = 4 b = 6 " <br />
+    &nbsp;&nbsp;4. "b = 6 d = 10 c = 4 a = 5 "" <br />
+    <input type="hidden" value="Concatenation" id="category" /> <!--1. concatenation -->
+    <input type="hidden" value="3" id="answer" />
+    <input type="hidden" value="L-3" id="complexity" />
+    <input type="hidden" class="btn btn-success next-btn" data-next="10" />
+</div>
+
+<div id="10" class="question" style="display: none;">
+  <h4>Task 10 of 16: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
+    <pre>
+      <code>
+        a = 5
+        b = 6
+        c = 4
+        d = 10
+        
+        "a = {a} b = {d} c = {b}  d = {c}"
+      </code>
+  </pre>
+  Options: <br />
+  &nbsp;&nbsp;1. "a = 4 b = 5 c = 6  d = 10" <br />
+  &nbsp;&nbsp;2. "a = 5 b = 10 c = 6  d = 4" <br />
+  &nbsp;&nbsp;3. "a = {a} b = {d} c = {b}  d = {c}" <br />
+  &nbsp;&nbsp;4. "a = a b = b c = b  d = c" <br />
+<input type="hidden" value="Interpolation" id="category" /> <!--2. interpolation -->
+<input type="hidden" value="2" id="answer" />
+<input type="hidden" value="L-3" id="complexity" />
+<input type="hidden" class="btn btn-success next-btn" data-next="11" />
+</div>
+
+<div id="11" class="question" style="display: none;">
+  <h4>Task 11 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation.</h4>
+    <pre>
+        <code>
+          "(0 " + " 1)" + "(1 " + " 1)" +...+ m + n-1 + l-2 = m(m+1)/2 = O(m^2)
+        </code>
+    </pre> 
+    Options: <br />
+    &nbsp;&nbsp;1. "(01)(11) ... mn-1l-2 = m(m1)/2 = O(m^2)" <br />
+    &nbsp;&nbsp;2. "12...mn-1l-2=mm1/2=0m^2" <br />
+    &nbsp;&nbsp;3. "(0 1) (1 1) ... m n-1 l-2 = m(m 1)/2 = O(m^2)" <br />
+    &nbsp;&nbsp;4. "1 2 ... mn-1l-2 = mm1/2 = 0m^2" <br />
+  <input type="hidden" value="Concatenation" id="category" />
+  <input type="hidden" value="L-4" id="complexity" />
+  <input type="hidden" value="3" id="answer" />
+  <input type="hidden" class="btn btn-success next-btn" data-next="12" />
+  </div>
+
+<div id="12" class="question" style="display: none;">
+<h4>Task 12 of 16: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
+  <pre>
+      <code>
+        "{(0 2 1)} {(1 2 1)} {...} n {m-1} {l-2} = m(m 1)/2 = O(m^2)"
+      </code>
+  </pre>
+  Options: <br />
+  &nbsp;&nbsp;1. "(0 2 1) (1 2 1) ... n m-1 l-2 = m(m 1)/2 = O(m^2)" <br />
+  &nbsp;&nbsp;2. "3 4 ... n m-1 l-2 = m(m 1)/2 = O(m^2)" <br />
+  &nbsp;&nbsp;3. "(021)(121) ... nm-1l-2 = m(m 1)/2 = O(m^2)" <br />
+  &nbsp;&nbsp;4. " ... n m-1 l-2 = m(m 1)/2 = O(m^2)" <br />
+<input type="hidden" value="Interpolation" id="category" />
+<input type="hidden" value="1" id="answer" />
+<input type="hidden" value="L-4" id="complexity" />
+<input type="hidden" class="btn btn-success next-btn" data-next="13" />
+</div>
+<div id="13" class="question" style="display: none;">
+<h4>Task 13 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation.</h4>
+<pre>
+  <code>
+      a = "Hi"
+      b = "There"
+      userName = "Peter"
+      
+      "C:\\Users\\" + userName + "\\Documents"
+  </code>
+</pre>
+Options: <br />
+&nbsp;&nbsp;1. "Hi There Peter" <br />
+&nbsp;&nbsp;2. "C:\\Users\\Documents\\Peter" <br />
+&nbsp;&nbsp;3. "C:\\Peter\\Users\\Documents" <br />
+&nbsp;&nbsp;4. "C:\\Users\\Peter\\Documents" <br />
+<input type="hidden" value="Concatenation" id="category" />
+<input type="hidden" value="4" id="answer" />
+<input type="hidden" value="L-2" id="complexity" />
+<input type="hidden" class="btn btn-success next-btn" data-next="14" />
+</div>
+<div id="14" class="question" style="display: none;">
+<h4>Task 14 of 16: The "{ }" symbol represents Interpolation. Press 1, 2, 3 or 4 to select the correct Interpolation. </h4>
+<pre>
+  <code>
+      a = "Hi"
+      doc = "Downloads"
+      userName = "Peter"
+      
+      "C://Users//{doc}//{userName}"
+  </code>
+</pre>
+Options: <br />
+&nbsp;&nbsp;1. "C://Users//Peter//Peter" <br />
+&nbsp;&nbsp;2. "C://Users//Downloads//Peter" <br />
+&nbsp;&nbsp;3. "C://Users//Peter//Downloads" <br />
+&nbsp;&nbsp;4. "C:\\Users\\Peter\\Documents" <br />
+<input type="hidden" value="Interpolation" id="category" /> 
+<input type="hidden" value="2" id="answer" />
+<input type="hidden" value="L-2" id="complexity" />
+<input type="hidden" class="btn btn-success next-btn" data-next="15" />
+</div>
+
+<div id="15" class="question" style="display: none;">
+<h4>Task 15 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation.</h4>
+<pre>
+  <code>
+    domain = "example.com"
+    query = "?user=john"
+    protocol = "https://"
+    path = "/home"
+    
+    protocol + domain + path + query 
+  </code>
+</pre>
+<!-- A. "....." + 4 * 3 + "....." -->
+<!-- B. "....." + ${4 * 3} + "....." -->
+Options: <br />
+&nbsp;&nbsp;1. "https://example.com/home?user=john" <br />
+&nbsp;&nbsp;2. "https://example.com /home ?user=john" <br />
+&nbsp;&nbsp;3. "https://example.com/home" <br />
+&nbsp;&nbsp;4. "https://example.com?user=john" <br />
+<input type="hidden" value="Concatenation" id="category" /> <!--1. concatenation -->
+<input type="hidden" value="1" id="answer" />
+<input type="hidden" value="L-3" id="complexity" />
+<input type="hidden" class="btn btn-success next-btn" data-next="16" />
+</div>
+
+<div id="16" class="question" data-next="submitPage" style="display: none;">
+<h4>Task 16 of 16: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
+<pre>
+  <code>
+    domain = "example.com"
+    query = "?user=john"
+    protocol = "https://"
+    path = "/home"
+    
+    "https://protocol/{domain}/path/{query}"
+  </code>
+</pre>
+Options: <br />
+&nbsp;&nbsp;1. "https://protocol/home/?user=john 4" <br />
+&nbsp;&nbsp;2. "https://example.com//home/?user=john" <br />
+&nbsp;&nbsp;3. "https://protocol/example.com/path/?user=john" <br />
+&nbsp;&nbsp;4. "https://https:///example.com//home/?user=john" <br />
+<input type="hidden" value="Interpolation" id="category" /> <!-- interpolation -->
+<input type="hidden" value="3" id="answer" />
+<input type="hidden" value="L-3" id="complexity" />
+<!-- <input type="hidden" class="btn btn-success next-btn" data-next="17" /> -->
+</div>
+
+<!-- <div id="17" class="question" style="display: none;">
+<h4>Task 17 of 20: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
+<pre>
+<code>
+  a = "Hi"
+  b = "There"
+  c = 4
+  
+  "{b} {a} {c}"
+</code>
+</pre>
+Options: <br />
+&nbsp;&nbsp;1. "Hi There 4" <br />
+&nbsp;&nbsp;2. "There 4 Hi" <br />
+&nbsp;&nbsp;3. "4 There Hi " <br />
+&nbsp;&nbsp;4. "There Hi 4" <br />
+<input type="hidden" value="2" id="category" />
+<input type="hidden" value="4" id="answer" />
+<input type="hidden" class="btn btn-success next-btn" data-next="18" />
+</div>
+
+<div id="18" class="question" style="display: none;">
+  <h4>Task 18 of 20: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation.</h4>
+  <pre>
+    <code>
+        a = "Hi"
+        b = "There"
+        c = 4
+        
+        c + b + a
+    </code>
+  </pre>
+  Options: <br />
+  &nbsp;&nbsp;1. "Hi There 4" <br />
+  &nbsp;&nbsp;2. "Hi 4 There" <br />
+  &nbsp;&nbsp;3. "4 There Hi " <br />
+  &nbsp;&nbsp;4. "4 Hi There" <br />
+  <input type="hidden" value="1" id="category" />
+  <input type="hidden" value="3" id="answer" />
+  <input type="hidden" class="btn btn-success next-btn" data-next="19" />
+  </div>
+
+  <div id="19" class="question" style="display: none;">
+  <h4>Task 19 of 20: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
+  <pre>
+  <code>
+    a = "Hi"
+    b = "There"
+    c = 4
+    
+    "{b} {a} {c}"
+  </code>
+  </pre>
+  Options: <br />
+  &nbsp;&nbsp;1. "Hi There 4" <br />
+  &nbsp;&nbsp;2. "There 4 Hi" <br />
+  &nbsp;&nbsp;3. "4 There Hi " <br />
+  &nbsp;&nbsp;4. "There Hi 4" <br />
+  <input type="hidden" value="2" id="category" />
+  <input type="hidden" value="4" id="answer" />
+  <input type="hidden" class="btn btn-success next-btn" data-next="20" />
+  </div>
+  <div id="20" class="question" data-next="submitPage" style="display: none;">
+    <h4>Task 20 of 20: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
+    <pre>
+    <code>
+      a = "Hi"
+      b = "There"
+      c = 4
+      
+      "{b} {a} {c}"
+    </code>
+    </pre>
+    Options: <br />
+    &nbsp;&nbsp;1. "Hi There 4" <br />
+    &nbsp;&nbsp;2. "There 4 Hi" <br />
+    &nbsp;&nbsp;3. "4 There Hi " <br />
+    &nbsp;&nbsp;4. "There Hi 4" <br />
+    <input type="hidden" value="2" id="category" />
+    <input type="hidden" value="4" id="answer" />
+    </div> -->
+
+<div id="submitPage" style="display: none;">
+      <h4 class="text-success">Thank you for participating in this study!</h4>
+    </div>
+  </form>
+  </div>
+  
+  
+<!-- Bootstrap JS (optional, if you need JavaScript features) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const questionDivs = document.querySelectorAll('.question');
+    const nextButtons = document.querySelectorAll('.next-btn');
+    const submitPage = document.getElementById('submitPage');
+    const questionContainer = document.getElementById('questionContainer');
+    let userAnswers = {};
+    let startTime;
+    let duration;
+
+    function getCurrentQuestion() {
+      const questions = document.querySelectorAll('.question');
+      for (let i = 0; i < questions.length; i++) {
+        if (questions[i].style.display !== 'none') {
+          return questions[i];
+        }
+      }
+      return null;
+    }
+
+    // Function to handle keyboard navigation
+    function handleKeyboardNavigation(event) {
+      const currentQuestion = getCurrentQuestion();
+      if (!currentQuestion) return; // No current question found
+      
+      const nextButton = currentQuestion.querySelector('.next-btn');
+      const questionId = currentQuestion.id;
+      const userAnswer = event.key;
+      const correctAnswer = currentQuestion.querySelector('#answer').value;
+      const category = currentQuestion.querySelector('#category').value;
+      const complexity = currentQuestion.querySelector('#complexity').value;
+
+      // Check if the key pressed is a valid answer option
+      if(['1', '2', '3', '4'].includes(userAnswer)) {
+        // Store the user's answer and the correct answer together
+        const endTime = new Date();
+        duration = (endTime - startTime) / 1000; // Calculate duration in seconds
+        console.log(duration);
+
+        userAnswers[questionId] = { complexity, category, correctAnswer, userAnswer, duration };
+
+        startTime = new Date();
+        // console.log(duration)
+        // userAnswers[questionId] = { userAnswer, correctAnswer };
+
+        // Check if it's the last question
+        if (currentQuestion.getAttribute('data-next') === "submitPage") {
+          // Send all answers to the backend
+          fetch('/save', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(userAnswers),
+          })
+          .then(response => response.json())
+          .then(data => {
+            console.log('Success:', data);
+            // Optionally, redirect the user or display a success message
+            currentQuestion.style.display = 'none';
+            window.location = "/post-survey"
+            // submitPage.style.display = 'block';
+            // setTimeout(() => {
+            //   window.location = "/"
+            // }, 5000);
+          })
+          .catch((error) => {
+            console.error('Error:', error);
+          });
+        } else {
+          // Proceed to the next question
+          nextButton.click();
+        }
+      }
+    }
+    // Show the question container and the first question
+    // questionContainer.style.display = 'block';
+    // document.getElementById('question1').style.display = 'block';
+    // Initialize the start time and show the first question
+    setTimeout(() => {
+      startTime = new Date(); // Set the start time just before displaying the first question
+      questionContainer.style.display = 'block';
+      document.getElementById('1').style.display = 'block';
+    }, 0);
+
+    
+    nextButtons.forEach(function(button, index) {
+      button.addEventListener('click', function() {
+
+        const nextQuestionId = button.getAttribute('data-next');
+        const nextQuestion = document.getElementById(nextQuestionId);
+
+        // Hide current question
+        button.closest('.question').style.display = 'none';
+        if (nextQuestionId === 'submitPage'){
+          submitPage.style.display = 'block';
+        }else{
+          nextQuestion.style.display = 'block';
+        }
+        
+      });
+    });
+
+    // Listen for keydown events to handle keyboard navigation
+    document.addEventListener('keydown', handleKeyboardNavigation);
+  })
+</script>
+{% endblock %} 

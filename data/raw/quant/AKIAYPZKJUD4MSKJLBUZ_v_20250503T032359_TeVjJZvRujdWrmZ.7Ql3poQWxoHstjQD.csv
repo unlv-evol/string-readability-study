@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,1,L-1,Concatenation,2,2,14.871
+1,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,2,L-1,Interpolation,1,1,14.052
+2,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,3,L-2,Concatenation,1,4,12.631
+3,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,4,L-2,Interpolation,2,1,12.242
+4,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,5,L-2,Concatenation,3,3,10.635
+5,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,6,L-2,Interpolation,4,2,12.842
+6,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,7,L-4,Concatenation,4,1,25.737
+7,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,8,L-4,Interpolation,1,1,17.056
+8,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,9,L-3,Concatenation,3,1,12.958
+9,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,10,L-3,Interpolation,2,2,13.5
+10,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,11,L-4,Concatenation,3,3,19.695
+11,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,12,L-4,Interpolation,1,1,15.257
+12,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,13,L-2,Concatenation,4,3,13.888
+13,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,14,L-2,Interpolation,2,2,15.707
+14,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,15,L-3,Concatenation,1,1,18.616
+15,ca37d68f,Male,36-44,Junior,Bachelor Degree,Nevada,Computer Science,30,16,L-3,Interpolation,3,4,12.69

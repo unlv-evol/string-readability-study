@@ -1,0 +1,2 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,1fa8158d,"String concatenation is more readable because the {} making me feel like it would be printed, and I think everything in the """" should be the strings that would be hardcore printed",Interpolation does affect my ability to quickly understand code snippets,I would choose string concatenation,N/A,N/A

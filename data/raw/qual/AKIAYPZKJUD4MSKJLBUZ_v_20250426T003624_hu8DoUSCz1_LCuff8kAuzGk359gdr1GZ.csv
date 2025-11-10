@@ -1,0 +1,33 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,282be7cd,"In this survey, I found string interpolation to be significantly more readable. It just feels more intuitive to me to visually see where the variables are embedded in my string.
+
+For example- print(f""Hello {name}, sup?"")
+
+Many editors like VS Code would highlight ""{name}"" in a different color, making it more intuitive to understand that it's a variable to be plugged in.","In string concatenation, it sometimes just takes you a second to gather your thoughts.
+
+For example, when printing- 
+
+""Water"" + 4
+
+I would need to run it and understand what will be printed, or if it will give me an error.
+
+Whereas-
+
+num = 4
+""Water {num}""
+
+This just feels right to the point. I have a variable that I want to plug after ""Water""","I would and have been using string interpolation for all my programming tasks, with a few minor exceptions here and there. As mentioned before, interpolation feels like a more solidified, grounded method.","I have significant experience working in CS. I've worked on multiple projects, ranging from personal ones to production-ready ones for startups.
+
+Recently, I've been working in inference engineering for Agentic LLMs, where I serve a system prompt with the tools embedded using string interpolation.
+Example:
+
+""""""
+You are a helpful assistant. Please use the following tools to help the user.
+Tools:
+{tools}
+
+Tools description:
+{tools_description}
+""""""","Having an IDE/editor highlight specifically what the variables are is really helpful.
+
+For example, in VS Code working in Python, in my previous response, the ""{tools}"" and ""{tools_description}"" would be highlighted in blue and the rest of the string in orange."

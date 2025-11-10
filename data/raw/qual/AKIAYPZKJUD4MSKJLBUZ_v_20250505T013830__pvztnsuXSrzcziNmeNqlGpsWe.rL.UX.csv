@@ -1,0 +1,4 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,605aa45d,"String interpolation is easier to read and inherently understand it will return a string.
+there are quotes around whole expression (so i know its a string)-->""my name is {name}, nice to meet you.""
+vs: ""my name is"" + {name} + ""nice to meet you"" <----(I missed adding a space after 'is' and before 'nice', its harder to type concatenations)",string interpolations are easier to understand. its more concise.,"I would use string interpolation. it is just more readable, and easier to type out.","I have used both string interpolation and concatenation in python, javascript, java. My experience may have made it easier to read the syntax in this survey, but I still prefer interpolation.",No suggestions.

@@ -1,0 +1,3 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,64953b8f,"I found string interpolation more useful and readable, especially with the longer expressions.","Yes, interpolation made it easier for me to identify values in context. I found concatenations trickier when mixing numbers and strings.",I prefer string interpolation because it has fewer syntax errors than concatenation.,"At first, string concatenation felt easier because I had used it before. But after practicing with interpolation in this survey, I found it much simpler and straightforward. ","no
+"

@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,1,L-1,Concatenation,2,2,14.425
+1,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,2,L-1,Interpolation,1,1,15.981
+2,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,3,L-2,Concatenation,1,2,35.92
+3,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,4,L-2,Interpolation,2,2,15.477
+4,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,5,L-2,Concatenation,3,3,31.346
+5,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,6,L-2,Interpolation,4,3,22.632
+6,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,7,L-4,Concatenation,4,4,36.999
+7,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,8,L-4,Interpolation,1,2,8.663
+8,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,9,L-3,Concatenation,3,3,27.857
+9,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,10,L-3,Interpolation,2,2,17.328
+10,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,11,L-4,Concatenation,3,3,59.182
+11,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,12,L-4,Interpolation,1,1,14.355
+12,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,13,L-2,Concatenation,4,4,20.066
+13,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,14,L-2,Interpolation,2,2,16.056
+14,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,15,L-3,Concatenation,1,1,17.015
+15,33345412,Prefer not to say,18-24,Junior,Some college/university,NV,CPE,3,16,L-3,Interpolation,3,3,19.945

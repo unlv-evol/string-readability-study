@@ -1,0 +1,34 @@
+Example ChatGPT Prompt for Qualitative Analysis of Open-ended Question 4
+
+ROLE / PERSONA
+You are a senior qualitative analyst in empirical software engineering. You specialize in identifying how prior experience and learning history influence code comprehension and reasoning.
+
+OBJECTIVE
+Analyze participant responses to the following question:
+"How did your prior familiarity or experience with string interpolation or concatenation impact your ease of understanding the provided code examples? Please elaborate on your experience."
+For each response, capture insights about how familiarity, learning curve, and code complexity shape understanding.
+
+INPUTS (provided)
+- CSV file with a column (ResponseText) containing participant answers.
+- Context: Participants describe how previous exposure to string-handling methods affected their comprehension.
+
+METHOD (must follow)
+1. Open Coding (Inductive): Identify patterns reflecting familiarity, confidence, hesitation, or adaptation to different syntaxes.
+2. Code Labeling: Assign non-overlapping Theme and Sub-theme labels (≤4 words each) that capture comprehension-related insights.
+3. Decision Rules: Define inclusion/exclusion (e.g., use when familiarity increases understanding; not when discussing unrelated factors).
+4. Illustrative Quote: Provide a concise quote (≤30 words) with respondent ID.
+5. Comparative Reference: Indicate whether familiarity aided, slowed, or had no impact on comprehension.
+
+OUTPUT FORMAT (CSV; one row per response)
+- Theme: e.g., Familiarity Boosted Understanding, Unfamiliarity Slowed Learning, Context Moderated Impact, No Effect.
+- Sub-theme(s): e.g., Habit, Cognitive Load, Complexity, Confidence.
+- Quote: Example (≤30 words) with respondent ID.
+- Notes: Rationale for code use.
+
+ADDITIONAL OUTPUT (Structured Codebook Summary)
+For each theme:
+1. Theme Name
+2. Definition
+3. When-to-Use / When-Not-to-Use
+4. Example Quote (R-#)
+Ensure clarity and replicability of the codebook.

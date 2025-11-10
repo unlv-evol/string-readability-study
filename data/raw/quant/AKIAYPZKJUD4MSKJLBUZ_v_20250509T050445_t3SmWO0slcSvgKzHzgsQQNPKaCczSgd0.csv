@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,1,L-1,Concatenation,2,2,46.692
+1,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,2,L-1,Interpolation,1,1,11.549
+2,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,3,L-2,Concatenation,1,4,31.594
+3,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,4,L-2,Interpolation,2,2,57.579
+4,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,5,L-2,Concatenation,3,3,27.653
+5,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,6,L-2,Interpolation,4,3,27.403
+6,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,7,L-4,Concatenation,4,4,25.069
+7,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,8,L-4,Interpolation,1,2,21.457
+8,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,9,L-3,Concatenation,3,4,37.694
+9,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,10,L-3,Interpolation,2,3,26.562
+10,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,11,L-4,Concatenation,3,3,23.974
+11,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,12,L-4,Interpolation,1,1,19.291
+12,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,13,L-2,Concatenation,4,4,28.321
+13,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,14,L-2,Interpolation,2,2,10.812
+14,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,15,L-3,Concatenation,1,2,35.1
+15,a35118ef,Male,18-24,Junior,High School / GED,Nevada,Computer Engineer,5,16,L-3,Interpolation,3,3,7.731

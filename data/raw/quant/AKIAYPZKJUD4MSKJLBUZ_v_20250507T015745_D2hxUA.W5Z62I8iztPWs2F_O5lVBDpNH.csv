@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,1,L-1,Concatenation,2,2,33.642
+1,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,2,L-1,Interpolation,1,1,27.289
+2,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,3,L-2,Concatenation,1,4,26.31
+3,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,4,L-2,Interpolation,2,2,19.967
+4,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,5,L-2,Concatenation,3,3,29.153
+5,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,6,L-2,Interpolation,4,3,13.608
+6,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,7,L-4,Concatenation,4,4,44.764
+7,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,8,L-4,Interpolation,1,1,27.211
+8,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,9,L-3,Concatenation,3,3,17.857
+9,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,10,L-3,Interpolation,2,2,17.64
+10,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,11,L-4,Concatenation,3,3,26.163
+11,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,12,L-4,Interpolation,1,1,11.328
+12,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,13,L-2,Concatenation,4,4,18.491
+13,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,14,L-2,Interpolation,2,2,15.683
+14,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,15,L-3,Concatenation,1,1,37.757
+15,66ae5bc8,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,10,16,L-3,Interpolation,3,3,3.118

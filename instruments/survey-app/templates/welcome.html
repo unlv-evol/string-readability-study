@@ -1,0 +1,59 @@
+{% extends "base.html" %} 
+{% block title %}Computing Research{% endblock %} 
+
+{% block content %}
+
+<div class="container">
+  <br>
+    <h1>Programming Language Syntax Study: String Interpolation and Concatenation</h1>
+    <p>Welcome to the language study task administration site. We thank you for your interest in helping advance the science of programming language design. The study is conducted using scientific methods and it is important to adhere to the guidelines in your participation</p>
+    <br>
+    <div class="panel panel-default">
+        <div class="panel-body" id="time-notice">
+          <p>Estimated time for this study: <b>10-15 minutes maximum</b></p>
+          <p>The study is <b>timed</b> and it is important to do it in <b>one session</b> without interruption.  If you do not have the time to do the study right now, please <b>wait until you have the time and return.</b>
+          </p>
+        </div>
+      </div>
+      <br>
+    <h3>Things to know before you begin:</h3>
+      <ul style="list-style-type:disc">
+        <li>Before you begin the study, we will ask you to review an Informed Consent Document which outlines the procedures of the study and the risks and benefits of participation.  You will have an opportunity to ask questions about the document and the procedures before you begin.</li>
+        <li>Your answers are confidential and recorded in our results database without any personally identifiable information. 
+
+        </li> 
+           <!-- We request an email address for contact purposes which is kept in a separate database file.-->
+        <!-- <li>If you have been offered the opportunity for extra credit in a course, you will be asked for personal information so that we may notify your instructor of your participation in the study.  This information will be kept in the separate database file with your contact information. Only the research team members will see your answers and results on the study tasks.  They will not be available to your course instructor.</li> -->
+        <li>You may or may not be physically supervised during the study, but in either case it is important that you do not search the internet or use materials other than what is given to you as part of the study. This behavior could impact the results of the study and would make your participation pointless.</li>
+        <li>Since this study involves a timed element, it requires either a desktop or laptop computer and cannot be completed on a mobile device.</li>
+        <li>You have the right to terminate the study at any time, but we will not be able to utilize the data <b>unless you reach the Completion Page</b>.</li>
+      </ul>
+      <div class="alert alert-danger" id="browser-warning" hidden>
+          <h3><strong>Warning!</strong> This study should preferably run using Chrome! There are confirmed severe bugs in Firefox.</h3>
+      </div>
+      <div class="alert alert-danger" id="mobile-warning" hidden>
+          <h3><strong>Warning!</strong> This study should not be run on a mobile platform, you need a keyboard.</h3>
+      </div>
+    
+    <div class="row">
+      <div class="col-lg-9"> <!--left column-->
+        <div class="panel panel-default">
+          <div class="panel-body" id="best-shot">
+            <!-- <h3>If you are not sure or do not know what to do, just try anyway.</h3> -->
+            <p>
+              <br>
+              <a href="{{ url_for('consent') }}"><button type="submit" class="btn btn-success">Begin Study</button></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3"> <!--right column-->
+        <!-- <form role="form" action="code/begin_tasks.php" method="post"> -->
+          
+        <!-- </form> -->
+      </div>
+    </div>
+    
+  </div>
+
+  {% endblock %} 

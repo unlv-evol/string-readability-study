@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,1,L-1,Concatenation,2,2,5.897
+1,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,2,L-1,Interpolation,1,1,5.687
+2,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,3,L-2,Concatenation,1,4,10.879
+3,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,4,L-2,Interpolation,2,2,11.576
+4,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,5,L-2,Concatenation,3,3,10.024
+5,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,6,L-2,Interpolation,4,3,9.254
+6,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,7,L-4,Concatenation,4,4,14.217
+7,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,8,L-4,Interpolation,1,1,11.184
+8,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,9,L-3,Concatenation,3,3,13.12
+9,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,10,L-3,Interpolation,2,2,6.344
+10,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,11,L-4,Concatenation,3,1,16.735
+11,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,12,L-4,Interpolation,1,1,2.224
+12,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,13,L-2,Concatenation,4,4,6.345
+13,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,14,L-2,Interpolation,2,2,5.432
+14,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,15,L-3,Concatenation,1,1,12.839
+15,190a4420,Male,18-24,Junior,Some college/university,Nevada,BS Computer Science,3,16,L-3,Interpolation,3,3,9.223

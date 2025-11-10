@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,1,L-1,Concatenation,2,2,26.576
+1,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,2,L-1,Interpolation,1,1,27.272
+2,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,3,L-2,Concatenation,1,4,31.395
+3,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,4,L-2,Interpolation,2,2,62.103
+4,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,5,L-2,Concatenation,3,3,33.629
+5,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,6,L-2,Interpolation,4,3,29.455
+6,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,7,L-4,Concatenation,4,4,117.116
+7,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,8,L-4,Interpolation,1,1,139.564
+8,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,9,L-3,Concatenation,3,3,93.889
+9,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,10,L-3,Interpolation,2,2,19.163
+10,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,11,L-4,Concatenation,3,3,22.955
+11,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,12,L-4,Interpolation,1,1,25.649
+12,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,13,L-2,Concatenation,4,4,24.251
+13,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,14,L-2,Interpolation,2,2,30.047
+14,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,15,L-3,Concatenation,1,1,136.107
+15,a2763935,Male,18-24,Freshman,Some college/university,Nevada,Electrical Engineering,0,16,L-3,Interpolation,3,3,30.253

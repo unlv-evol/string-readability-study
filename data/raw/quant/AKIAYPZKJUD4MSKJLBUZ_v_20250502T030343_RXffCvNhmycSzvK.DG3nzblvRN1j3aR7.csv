@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,1,L-1,Concatenation,2,1,24.4
+1,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,2,L-1,Interpolation,1,1,5.838
+2,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,3,L-2,Concatenation,1,4,14.168
+3,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,4,L-2,Interpolation,2,3,1.182
+4,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,5,L-2,Concatenation,3,1,1.257
+5,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,6,L-2,Interpolation,4,3,1.111
+6,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,7,L-4,Concatenation,4,2,1.088
+7,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,8,L-4,Interpolation,1,1,0.889
+8,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,9,L-3,Concatenation,3,3,0.856
+9,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,10,L-3,Interpolation,2,4,1.04
+10,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,11,L-4,Concatenation,3,3,1.119
+11,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,12,L-4,Interpolation,1,2,1.151
+12,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,13,L-2,Concatenation,4,1,1.142
+13,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,14,L-2,Interpolation,2,4,0.92
+14,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,15,L-3,Concatenation,1,2,0.723
+15,dc6ec21b,Male,18-24,Senior,High School / GED,NV,Computer Science,2,16,L-3,Interpolation,3,1,0.6

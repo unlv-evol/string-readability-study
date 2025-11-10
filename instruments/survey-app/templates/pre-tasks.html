@@ -1,0 +1,156 @@
+{% extends "base.html" %} 
+{% block title %}Language Study{% endblock %} 
+
+{% block content %}
+<div class="container">
+  <h3 class="donotuse">Do not use your browser navigation controls!</h3>
+    <br>
+    
+    <div id="questionContainer" style="display: none;">
+      <h1>Practice Tasks</h1>
+      Before you start the actual experiment, we thought it is a good idea to practice with a few tasks. There are four tasks and you can repeat as many times as you need. The symbol <b>"+"</b> is for concatenation and <b>"{ }"</b> for interpolation (embedding). Read the task and select <b>THE OPTION YOU THINK IS CORRECT</b> by pressing <b>1, 2, 3 or 4</b>. THE NEXT TASK WILL AUTOMATICALLY APPEAR. Once you feel confident to start the actual experiment, click <b>"PROCEED"</b> at the button right corner of practice task 4 or press <b>"ENTER / RETURN"</b> key on your keyboard. To repeat the tasks, simply press <b>RIGHT ARROW KEY</b>.
+      <br />
+      <br />
+      <div id="question1" class="question" style="display: none;">
+        <h4>Task 1 of 4: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation. </h4>
+
+          <pre>
+              <code>
+                a = "Hello "
+                b = "World"
+
+                a + b
+              </code>
+          </pre>
+
+          Options: <br />
+          &nbsp;&nbsp;1. "HelloWorld" <br />
+          &nbsp;&nbsp;2. "Hello World" <br />
+          &nbsp;&nbsp;3. "World " <br />
+          &nbsp;&nbsp;4. "There" <br />
+          <input type="hidden" value="Concatenated" id="Concatenated" />
+          <input type="hidden" class="btn btn-success next-btn" data-next="question2" />
+      </div>
+      <div id="question2" class="question" style="display: none;">
+        <h4>Task 2 of 4: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
+        <pre>
+          <code>
+            a = "Hello "
+            b = "World"
+
+            "{b}{a}"
+          </code>
+      </pre>
+
+      Options: <br />
+      &nbsp;&nbsp;1. "WorldHello " <br />
+      &nbsp;&nbsp;2. "Hello World" <br />
+      &nbsp;&nbsp;3. "World " <br />
+      &nbsp;&nbsp;4. "There" <br />
+      <input type="hidden" value="Concatenated" id="Concatenated" />
+      <input type="hidden" class="btn btn-success next-btn" data-next="question3" />
+    </div>
+    <div id="question3" class="question" style="display: none;">
+      <h4>Task 3 of 4: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation.</h4>
+      <pre>
+          <code>
+              a = "Hi"
+              b = "There"
+              c = 4
+              
+              c + b + a
+          </code>
+      </pre>
+      Options: <br />
+      &nbsp;&nbsp;1. "Hi There 4" <br />
+      &nbsp;&nbsp;2. "Hi 4 There" <br />
+      &nbsp;&nbsp;3. "4 There Hi " <br />
+      &nbsp;&nbsp;4. "4 Hi There" <br />
+      <input type="hidden" value="Concatenated" id="Concatenated" />
+      <input type="hidden" class="btn btn-success next-btn" data-next="question4" />
+  </div>
+  <div id="question4" class="question" style="display: none;">
+    <h4>Task 4 of 4: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
+    <pre>
+      <code>
+          a = "Hi"
+          b = "There"
+          c = 4
+          
+          "{b} {a} {c}"
+      </code>
+  </pre>
+  Options: <br />
+  &nbsp;&nbsp;1. "Hi There 4" <br />
+  &nbsp;&nbsp;2. "There 4 Hi" <br />
+  &nbsp;&nbsp;3. "4 There Hi " <br />
+  &nbsp;&nbsp;4. "There Hi 4" <br />
+  <input type="hidden" value="Concatenated" id="Concatenated" />
+  <!-- <input type="hidden" class="btn btn-success next-btn" data-next="question4" /> -->
+  
+    <p align="right">
+      <br>
+      <button type="button" class="btn btn-warning next-btn" data-next="question1">Try Again</button>
+      <a href="{{ url_for('experiment') }}"><button type="button" class="btn btn-success next-btn" data-next="submitPage">Proceed</button></a>
+    </p>
+  </form>
+  </div>
+  
+
+<!-- Bootstrap JS (optional, if you need JavaScript features) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const questionDivs = document.querySelectorAll('.question');
+    const nextButtons = document.querySelectorAll('.next-btn');
+    const submitPage = document.getElementById('submitPage');
+    const questionContainer = document.getElementById('questionContainer');
+    let taskStart; // Variable to store the start time of each task
+    let currentTaskNumber = 1; // Variable to store the current task number
+    const taskDurations = []; // Array to store task durations
+    const taskNumbers = []; // Array to store task numbers
+
+    // Function to handle keyboard navigation
+    function handleKeyboardNavigation(event) {
+      const currentQuestion = document.querySelector('.question:not([style*="display: none;"])');
+      const nextButton = currentQuestion.querySelector('.next-btn');
+      switch(event.key){
+        case '1':case '2':case '3':case '4':
+          nextButton.click();
+          break;
+        case 'Enter':
+          window.location = "/experiment"
+          break;
+      }
+    }
+    // Show the question container and the first question
+    questionContainer.style.display = 'block';
+    document.getElementById('question1').style.display = 'block';
+
+    
+    nextButtons.forEach(function(button, index) {
+      button.addEventListener('click', function() {
+        const nextQuestionId = button.getAttribute('data-next');
+        const nextQuestion = document.getElementById(nextQuestionId);
+
+        // Hide current question
+        button.closest('.question').style.display = 'none';
+
+        // Show next question or submit page if it's the last question
+        if (nextQuestionId === 'submitPage') {
+          submitPage.style.display = 'block';
+          // Generate and download CSV file with task durations and numbers
+          // downloadCSV(gender, age, COY, YOE, taskNumbers,taskDurations);
+        } else {
+          nextQuestion.style.display = 'block';
+          taskStart = Date.now(); // Record start time for the next task
+          currentTaskNumber++; // Increment task number
+        }
+      });
+    });
+
+    // Listen for keydown events to handle keyboard navigation
+    document.addEventListener('keydown', handleKeyboardNavigation);
+  })
+</script>
+{% endblock %} 

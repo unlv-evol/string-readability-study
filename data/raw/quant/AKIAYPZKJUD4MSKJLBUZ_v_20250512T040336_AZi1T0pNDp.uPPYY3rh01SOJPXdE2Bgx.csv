@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,1,L-1,Concatenation,2,2,31.865
+1,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,2,L-1,Interpolation,1,1,20.897
+2,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,3,L-2,Concatenation,1,4,47.514
+3,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,4,L-2,Interpolation,2,2,67.502
+4,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,5,L-2,Concatenation,3,3,33.565
+5,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,6,L-2,Interpolation,4,3,11.443
+6,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,7,L-4,Concatenation,4,4,77.563
+7,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,8,L-4,Interpolation,1,1,11.612
+8,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,9,L-3,Concatenation,3,3,49.834
+9,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,10,L-3,Interpolation,2,2,24.349
+10,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,11,L-4,Concatenation,3,3,55.182
+11,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,12,L-4,Interpolation,1,3,35.655
+12,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,13,L-2,Concatenation,4,4,21.522
+13,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,14,L-2,Interpolation,2,2,17.665
+14,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,15,L-3,Concatenation,1,2,51.12
+15,6cb35c65,Female,36-44,Junior,Associate Degree,NV,CS,10,16,L-3,Interpolation,3,4,33.032

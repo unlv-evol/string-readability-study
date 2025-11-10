@@ -1,0 +1,14 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,a5762d21,"String concatenation is more readable simply because it has less text to parse through. For example, if a = ""(1"" and b = ""0)"", then a + b is much easier to read than {a} {b}. However, it also depends on the context a bit. I like the interpolation of f strings in python, especially in an IDE that can color the interpolated section differently than the rest of the string. f""/Users/{user}/Downloads"" is easier for me to read than ""/Users/"" + user + ""/Downloads"". So, I think if only variables are used, then concatenation is simpler. But if there is a mix of string with variables interspersed, interpolation is easier.","Yes, interpolation vs concatenation affected my ability to quickly understand the code snippets. Just like the example I gave in 1, a + b is easier to read than {a} {b}, but f""/Users/{user}/Downloads""  is easier to read than  ""/Users/"" + user + ""/Downloads"". ","If I had to pick, I would probably choose interpolation. In general, this type of thing comes up for me most when I am reading in files to pandas or numpy. In fact, I was recently working on a project where the original authors wrote out all of the file names as concatenated strings (in python). I will give a real example: 
+
+genome_cov_file = data_path+'/data/'+cell_line+'/distal_reg_paper_bam/GM12878_DNase.bigWig'
+seqs_bed_file = data_path+'/data/csv/seqs_bed/'+organism+'/'+genome+'/'+res+'/sequences_'+chr_temp+'.bed'
+seqs_cov_file = data_path+'/data/'+cell_line+'/seqs_cov/distal_reg_paper/DNase_cov_RPGC_'+chr_temp+'.h5'
+
+Seeing all of the quote characters can be a bit disorienting. This annoyed me enough that I rewrote them as f strings:
+
+genome_cov_file = f'{data_path}/data/{cell_line}/K562_{epi_type}.bigWig'
+seqs_bed_file = f'{data_path}/data/{cell_line}/seqs_cov/sequences_{chr_temp}.bed'
+seqs_cov_file = f'{data_path}/data/{cell_line}/seqs_cov/signals/{epi_type}_cov_{chr_temp}.h5'
+
+I much prefer the f strings. ",I have good experience with both concatenation and interpolation. I would say that my knowledge or lack thereof did not affect my ease of understanding. ,"I am not sure. An idea I have is to allow concatenation of strings only if there are no string literals being concatenated together, i.e. a + b + c. When you have a mix of string literals and variables, then interpolation should be enforced, i.e. ""/Users/{user}/Downloads"". Reducing the amount of characters to visually parse is the ultimate goal. Essentially, I am trying to eliminate unnecessary brackets {} for concatenation and unnecessary quotes """" for interpolation.  "

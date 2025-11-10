@@ -1,0 +1,2 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,002de4ae,String interpolation is straight forward,"I guess string interpolation is less error prone, however, concatenation should be more compatible to different language",I guess that would be string interpolation,Easy to recognise the inserted value/ variable,"Encoure flagging potential errors within the IDE, some languages may not directly allows concatenating mixed datatypes."

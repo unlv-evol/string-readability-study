@@ -1,0 +1,2 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,ee23099e,I found the string interpolation t be more readable than concetenation. ,No.,I would prefer string interpolation for future programming tasks because it felt more readable and concise.,It took me a minute be a minute to understand what string interpolation was because I have only every used string concatenation.,I think the use of brackets because difficult to read and could become confusing if the language uses {} for other operations. 

@@ -1,0 +1,4 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,610081e7,"More readable the concatenation, because I am used to it.","In this case, it did not really play a role, because the output was what made it difficult to select the correct option","I am more familiar with concatenation, so that would be my choice.","Concatenation was just easier, because I know how it works (from Java). For interpolation, I more had to guess what would happen.","Itself, the concatenation/interpolation were not the issue, but keeping track of what exactly is the output, so e.g., whether ""a"" is printed, or the value that a holds. The longer the ouptut got and the more often it alternated between the literatal and the stored value.
+
+Not related to this question here, but please ignore my response for Q14 and 15, I accidentally hit the number buttons. Also, I would have preferred the answer option ""Do not know"""

@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,1,L-1,Concatenation,2,2,25.053
+1,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,2,L-1,Interpolation,1,1,21.972
+2,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,3,L-2,Concatenation,1,4,18.798
+3,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,4,L-2,Interpolation,2,2,21.372
+4,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,5,L-2,Concatenation,3,3,24.556
+5,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,6,L-2,Interpolation,4,3,29.701
+6,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,7,L-4,Concatenation,4,4,61.047
+7,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,8,L-4,Interpolation,1,2,26.678
+8,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,9,L-3,Concatenation,3,2,20.141
+9,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,10,L-3,Interpolation,2,2,21.724
+10,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,11,L-4,Concatenation,3,1,154.004
+11,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,12,L-4,Interpolation,1,1,42.064
+12,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,13,L-2,Concatenation,4,4,24.794
+13,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,14,L-2,Interpolation,2,2,25.91
+14,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,15,L-3,Concatenation,1,1,18.811
+15,228f5b94,Male,25-35,Sophomore,Some college/university,Nevada,Computer Engineering,5,16,L-3,Interpolation,3,2,20.868

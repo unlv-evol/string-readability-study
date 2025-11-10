@@ -1,0 +1,8 @@
+flask
+requests
+python-dotenv
+flask-mail
+pandas
+boto3
+plotly
+mathplotlib

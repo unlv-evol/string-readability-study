@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,1,L-1,Concatenation,2,2,17.415
+1,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,2,L-1,Interpolation,1,1,12.642
+2,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,3,L-2,Concatenation,1,1,35.536
+3,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,4,L-2,Interpolation,2,1,1.646
+4,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,5,L-2,Concatenation,3,3,16.613
+5,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,6,L-2,Interpolation,4,3,9.118
+6,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,7,L-4,Concatenation,4,4,29.873
+7,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,8,L-4,Interpolation,1,4,23.413
+8,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,9,L-3,Concatenation,3,3,21.602
+9,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,10,L-3,Interpolation,2,2,19.342
+10,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,11,L-4,Concatenation,3,3,20.85
+11,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,12,L-4,Interpolation,1,1,35.623
+12,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,13,L-2,Concatenation,4,4,17.384
+13,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,14,L-2,Interpolation,2,4,9.512
+14,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,15,L-3,Concatenation,1,4,0.878
+15,610081e7,Female,36-44,Not Applicable,Ph. D.,Germany,CS,20,16,L-3,Interpolation,3,3,41.601

@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,1,L-1,Concatenation,2,2,17.5
+1,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,2,L-1,Interpolation,1,1,24.802
+2,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,3,L-2,Concatenation,1,4,14.927
+3,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,4,L-2,Interpolation,2,2,30.045
+4,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,5,L-2,Concatenation,3,3,24.011
+5,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,6,L-2,Interpolation,4,3,13.443
+6,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,7,L-4,Concatenation,4,4,30.058
+7,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,8,L-4,Interpolation,1,1,21.118
+8,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,9,L-3,Concatenation,3,3,14.776
+9,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,10,L-3,Interpolation,2,2,32.981
+10,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,11,L-4,Concatenation,3,3,15.088
+11,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,12,L-4,Interpolation,1,1,25.535
+12,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,13,L-2,Concatenation,4,4,17.294
+13,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,14,L-2,Interpolation,2,2,11.08
+14,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,15,L-3,Concatenation,1,1,24.644
+15,29b8cfa1,Female,18-24,Sophomore,High School / GED,Nevada,Math Secondary Education,0,16,L-3,Interpolation,3,3,14.503

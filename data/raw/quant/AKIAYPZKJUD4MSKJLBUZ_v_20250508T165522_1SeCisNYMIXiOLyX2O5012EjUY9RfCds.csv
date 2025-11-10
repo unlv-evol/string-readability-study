@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,1,L-1,Concatenation,2,1,13.688
+1,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,2,L-1,Interpolation,1,1,17.598
+2,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,3,L-2,Concatenation,1,4,31.766
+3,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,4,L-2,Interpolation,2,2,62.495
+4,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,5,L-2,Concatenation,3,3,18.104
+5,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,6,L-2,Interpolation,4,3,13.835
+6,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,7,L-4,Concatenation,4,2,41.271
+7,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,8,L-4,Interpolation,1,2,26.253
+8,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,9,L-3,Concatenation,3,3,24.073
+9,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,10,L-3,Interpolation,2,3,43.61
+10,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,11,L-4,Concatenation,3,1,51.036
+11,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,12,L-4,Interpolation,1,1,39.205
+12,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,13,L-2,Concatenation,4,4,25.061
+13,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,14,L-2,Interpolation,2,2,15.96
+14,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,15,L-3,Concatenation,1,1,21.687
+15,e263d648,Prefer not to say,18-24,Junior,Some college/university,Nevada,Computer Science,3,16,L-3,Interpolation,3,3,30.969

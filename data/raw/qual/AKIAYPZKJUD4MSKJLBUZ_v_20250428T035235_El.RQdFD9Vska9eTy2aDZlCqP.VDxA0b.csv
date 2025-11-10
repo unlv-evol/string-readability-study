@@ -1,0 +1,2 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,917ff1e7,I found the string concatenation approaches were much more effective at readability.,Interpolation was unfamiliar to me,Concatenation as it is much more efficient to read.,Interpolation was more difficult,Only use concatenation with the + symbol.

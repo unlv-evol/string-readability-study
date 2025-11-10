@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,1,L-1,Concatenation,2,2,52.266
+1,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,2,L-1,Interpolation,1,1,22.295
+2,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,3,L-2,Concatenation,1,1,19.125
+3,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,4,L-2,Interpolation,2,2,19.772
+4,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,5,L-2,Concatenation,3,3,10.146
+5,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,6,L-2,Interpolation,4,3,27.655
+6,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,7,L-4,Concatenation,4,4,57.1
+7,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,8,L-4,Interpolation,1,2,13.407
+8,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,9,L-3,Concatenation,3,3,26.556
+9,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,10,L-3,Interpolation,2,2,20.713
+10,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,11,L-4,Concatenation,3,3,22.429
+11,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,12,L-4,Interpolation,1,2,23.857
+12,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,13,L-2,Concatenation,4,4,12.613
+13,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,14,L-2,Interpolation,2,2,13.035
+14,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,15,L-3,Concatenation,1,1,21.414
+15,1f51ef4d,Prefer not to say,18-24,Graduate,Bachelor Degree,Nevada,Computer Science,5,16,L-3,Interpolation,3,3,17.977

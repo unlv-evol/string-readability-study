@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,1,L-1,Concatenation,2,2,28.4
+1,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,2,L-1,Interpolation,1,1,20.567
+2,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,3,L-2,Concatenation,1,4,56.3
+3,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,4,L-2,Interpolation,2,2,26.186
+4,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,5,L-2,Concatenation,3,3,32.48
+5,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,6,L-2,Interpolation,4,3,29.756
+6,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,7,L-4,Concatenation,4,4,89.859
+7,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,8,L-4,Interpolation,1,4,54.478
+8,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,9,L-3,Concatenation,3,3,33.341
+9,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,10,L-3,Interpolation,2,2,37.193
+10,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,11,L-4,Concatenation,3,3,41.799
+11,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,12,L-4,Interpolation,1,1,69.242
+12,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,13,L-2,Concatenation,4,4,32.687
+13,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,14,L-2,Interpolation,2,2,32.164
+14,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,15,L-3,Concatenation,1,1,30.142
+15,002de4ae,Male,25-35,Not Applicable,Ph. D.,Québec,Software Engineering,2,16,L-3,Interpolation,3,3,0.894

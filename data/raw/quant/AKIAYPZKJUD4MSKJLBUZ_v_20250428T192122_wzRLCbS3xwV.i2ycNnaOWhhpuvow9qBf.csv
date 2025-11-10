@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,1,L-1,Concatenation,2,2,23.004
+1,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,2,L-1,Interpolation,1,1,22.576
+2,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,3,L-2,Concatenation,1,1,28.529
+3,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,4,L-2,Interpolation,2,2,18.463
+4,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,5,L-2,Concatenation,3,3,23.54
+5,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,6,L-2,Interpolation,4,3,19.275
+6,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,7,L-4,Concatenation,4,4,34.413
+7,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,8,L-4,Interpolation,1,1,42.133
+8,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,9,L-3,Concatenation,3,3,21.662
+9,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,10,L-3,Interpolation,2,1,23.637
+10,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,11,L-4,Concatenation,3,3,69.007
+11,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,12,L-4,Interpolation,1,1,9.327
+12,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,13,L-2,Concatenation,4,4,15.154
+13,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,14,L-2,Interpolation,2,2,19.634
+14,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,15,L-3,Concatenation,1,3,54.372
+15,3eecf562,Female,18-24,Sophomore,Associate Degree,NV,CS,1,16,L-3,Interpolation,3,3,37.405

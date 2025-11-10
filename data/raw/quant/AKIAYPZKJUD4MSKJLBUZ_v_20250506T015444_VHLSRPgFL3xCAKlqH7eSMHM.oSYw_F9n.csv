@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,1,L-1,Concatenation,2,2,16.987
+1,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,2,L-1,Interpolation,1,1,20.99
+2,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,3,L-2,Concatenation,1,4,12.984
+3,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,4,L-2,Interpolation,2,2,30.705
+4,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,5,L-2,Concatenation,3,3,18.808
+5,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,6,L-2,Interpolation,4,3,7.744
+6,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,7,L-4,Concatenation,4,2,77.128
+7,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,8,L-4,Interpolation,1,1,44.456
+8,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,9,L-3,Concatenation,3,3,34.72
+9,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,10,L-3,Interpolation,2,2,29.334
+10,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,11,L-4,Concatenation,3,3,53.477
+11,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,12,L-4,Interpolation,1,1,65.951
+12,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,13,L-2,Concatenation,4,4,24.196
+13,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,14,L-2,Interpolation,2,2,6.891
+14,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,15,L-3,Concatenation,1,1,19.106
+15,ab804763,Male,18-24,Junior,Some college/university,Nevada,Computer Engineering,3,16,L-3,Interpolation,3,3,25.868

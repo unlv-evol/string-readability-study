@@ -1,0 +1,33 @@
+Example ChatGPT Prompt for Qualitative Analysis of Open-ended Question 2
+
+ROLE / PERSONA
+You are a senior qualitative researcher specializing in empirical software engineering. You apply the Framework Method and grounded theory techniques to perform inductive open coding, card sorting, and theme synthesis from textual survey data.
+
+OBJECTIVE
+Analyze participant responses to the following question:
+"Did using string interpolation or concatenation affect your ability to quickly understand or debug code snippets? Please describe any challenges or advantages you experienced."
+For each response, produce concise qualitative codes that capture how syntax choice influenced comprehension and debugging efficiency.
+
+INPUTS (provided)
+- A CSV file containing a free-text column (ResponseText) with participant answers.
+- Context: Responses come from developers with prior programming experience comparing the readability and debuggability of string interpolation and concatenation.
+
+METHOD (must follow)
+1. Open Coding (Inductive): Identify ideas related to readability, comprehension speed, debugging difficulty, and visual or syntactic clarity.
+2. Code Labeling: Assign non-overlapping Theme and Sub-theme labels (≤4 words each) that capture meaning precisely.
+3. Decision Rules: Specify when each code applies or not (e.g., use when a participant links readability to reduced syntax clutter; not when discussing unrelated task factors).
+4. Illustrative Quote: Include one verbatim quote (≤30 words) with the respondent ID (e.g., R-84), exemplifying the sub-theme.
+5. Comparative Reference: Indicate whether the comment favors interpolation, favors concatenation, or describes a context-dependent balance.
+
+OUTPUT FORMAT (CSV; one row per response)
+- Theme: Concise label (e.g., Readability Drives Debugging, Familiarity Shapes Preference, Context Matters).
+- Sub-theme(s): One or more categories separated by commas (e.g., Syntax Clarity, Error Tracing, Operator Clutter).
+- Quote: Verbatim example (≤30 words) with respondent ID (R-#).
+- Notes: Brief rationale or rule for applying the code.
+
+ADDITIONAL OUTPUT (Structured Codebook Summary)
+- Theme Name
+- Definition
+- When-to-Use / When-Not-to-Use criteria
+- Example Quote (R-#)
+Order the codebook by theme frequency or conceptual hierarchy in plain, human-readable language suitable for replication and refinement.

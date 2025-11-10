@@ -1,0 +1,16 @@
+use Libraries.Compute.Statistics.DataFrame
+use Libraries.Interface.Controls.Charts.BoxPlot
+DataFrame frame
+frame:Load("data/merged_quant.csv")
+frame:AddSelectedColumns("Duration")
+frame:AddSelectedFactors("Complexity,Category")
+BoxPlot chart = frame:BoxPlot()
+chart:SetColorPaletteToCalm()
+chart:SetTitle("Task Completion Duration Measured in Second")
+chart:SetTitleFontSize(28)
+chart:SetXAxisTitle("Task Group")
+chart:SetYAxisTitle("Duration (seconds)")
+chart:Display(1000,750)
+chart:Save("Fig-TaskLevels-Duration.svg")
+
+ //chart:Save("output/BoxPlotTaskGroup.svg")

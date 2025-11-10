@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,1,L-1,Concatenation,2,2,14.13
+1,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,2,L-1,Interpolation,1,1,17.379
+2,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,3,L-2,Concatenation,1,1,21.446
+3,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,4,L-2,Interpolation,2,2,12.716
+4,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,5,L-2,Concatenation,3,3,17.67
+5,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,6,L-2,Interpolation,4,3,6.963
+6,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,7,L-4,Concatenation,4,1,30.499
+7,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,8,L-4,Interpolation,1,4,12.528
+8,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,9,L-3,Concatenation,3,3,17.264
+9,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,10,L-3,Interpolation,2,2,16.693
+10,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,11,L-4,Concatenation,3,1,38.022
+11,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,12,L-4,Interpolation,1,1,11.311
+12,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,13,L-2,Concatenation,4,4,12.337
+13,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,14,L-2,Interpolation,2,2,9.914
+14,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,15,L-3,Concatenation,1,1,21.806
+15,edc9d07f,Female,25-35,Not Applicable,Masters Degree,Switzerland,Data Science,5,16,L-3,Interpolation,3,3,11.216

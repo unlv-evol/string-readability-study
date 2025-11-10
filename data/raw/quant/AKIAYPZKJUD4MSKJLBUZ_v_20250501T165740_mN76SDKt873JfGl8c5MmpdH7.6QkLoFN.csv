@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,1,L-1,Concatenation,2,2,27.707
+1,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,2,L-1,Interpolation,1,1,47.03
+2,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,3,L-2,Concatenation,1,1,19.052
+3,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,4,L-2,Interpolation,2,2,15.69
+4,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,5,L-2,Concatenation,3,2,12.229
+5,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,6,L-2,Interpolation,4,2,4.887
+6,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,7,L-4,Concatenation,4,1,1.668
+7,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,8,L-4,Interpolation,1,3,0.375
+8,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,9,L-3,Concatenation,3,2,0.564
+9,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,10,L-3,Interpolation,2,3,0.826
+10,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,11,L-4,Concatenation,3,1,0.42
+11,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,12,L-4,Interpolation,1,2,0.406
+12,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,13,L-2,Concatenation,4,3,0.43
+13,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,14,L-2,Interpolation,2,2,0.527
+14,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,15,L-3,Concatenation,1,4,0.473
+15,b2479403,Male,18-24,Junior,Associate Degree,NV,Computer Science ,1,16,L-3,Interpolation,3,3,19.367

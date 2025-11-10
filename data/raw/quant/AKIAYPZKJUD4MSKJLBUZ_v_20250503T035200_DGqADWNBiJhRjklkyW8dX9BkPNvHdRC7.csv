@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,1,L-1,Concatenation,2,2,17.535
+1,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,2,L-1,Interpolation,1,1,7.903
+2,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,3,L-2,Concatenation,1,4,46.176
+3,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,4,L-2,Interpolation,2,2,11.48
+4,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,5,L-2,Concatenation,3,3,14.808
+5,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,6,L-2,Interpolation,4,3,10.56
+6,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,7,L-4,Concatenation,4,4,50.696
+7,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,8,L-4,Interpolation,1,1,31.016
+8,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,9,L-3,Concatenation,3,3,8.84
+9,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,10,L-3,Interpolation,2,2,23.288
+10,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,11,L-4,Concatenation,3,3,112.376
+11,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,12,L-4,Interpolation,1,1,31.856
+12,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,13,L-2,Concatenation,4,4,10.448
+13,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,14,L-2,Interpolation,2,2,12.488
+14,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,15,L-3,Concatenation,1,1,25.008
+15,e8068a53,Female,18-24,Junior,Associate Degree,Nevada,Computer Science,0,16,L-3,Interpolation,3,3,34.736

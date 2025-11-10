@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,1,L-1,Concatenation,2,2,17.833
+1,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,2,L-1,Interpolation,1,1,16.854
+2,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,3,L-2,Concatenation,1,4,21.836
+3,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,4,L-2,Interpolation,2,2,21.795
+4,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,5,L-2,Concatenation,3,3,14.77
+5,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,6,L-2,Interpolation,4,3,9.391
+6,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,7,L-4,Concatenation,4,1,27.749
+7,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,8,L-4,Interpolation,1,1,24.283
+8,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,9,L-3,Concatenation,3,3,15.468
+9,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,10,L-3,Interpolation,2,4,19.33
+10,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,11,L-4,Concatenation,3,1,14.385
+11,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,12,L-4,Interpolation,1,1,6.216
+12,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,13,L-2,Concatenation,4,4,15.21
+13,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,14,L-2,Interpolation,2,2,10.29
+14,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,15,L-3,Concatenation,1,1,21.432
+15,49a2839b,Male,18-24,Senior,Some college/university,Nevada,BA in Economics,3,16,L-3,Interpolation,3,2,22.988

@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,1,L-1,Concatenation,2,2,15.296
+1,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,2,L-1,Interpolation,1,1,26.408
+2,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,3,L-2,Concatenation,1,4,29.352
+3,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,4,L-2,Interpolation,2,3,24.503
+4,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,5,L-2,Concatenation,3,3,79.232
+5,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,6,L-2,Interpolation,4,3,23.376
+6,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,7,L-4,Concatenation,4,4,55.658
+7,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,8,L-4,Interpolation,1,1,17.822
+8,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,9,L-3,Concatenation,3,3,20.679
+9,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,10,L-3,Interpolation,2,2,15.088
+10,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,11,L-4,Concatenation,3,3,19.784
+11,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,12,L-4,Interpolation,1,1,16.527
+12,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,13,L-2,Concatenation,4,4,17.057
+13,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,14,L-2,Interpolation,2,2,22.207
+14,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,15,L-3,Concatenation,1,1,26.56
+15,0ff1d621,Male,25-35,Junior,Some college/university,Nevada,CS,2,16,L-3,Interpolation,3,3,23.848

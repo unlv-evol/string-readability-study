@@ -1,0 +1,34 @@
+Example ChatGPT Prompt for Qualitative Analysis of Open-ended Question 5
+
+ROLE / PERSONA
+You are a senior qualitative researcher in software engineering, focusing on developer feedback and design improvement in programming language usability.
+
+OBJECTIVE
+Analyze participant responses to the following question:
+"Do you have any suggestions or recommendations on how either string interpolation or concatenation syntax could be improved to enhance readability and comprehension?"
+For each response, identify actionable insights related to syntax design, readability, formatting, or tooling.
+
+INPUTS (provided)
+- CSV file containing participant responses in a free-text column (ResponseText).
+- Context: Developers propose improvements to syntax, formatting, or tooling to enhance readability.
+
+METHOD (must follow)
+1. Open Coding (Inductive): Extract ideas relating to syntax, readability, formatting, IDE support, and developer experience.
+2. Code Labeling: Assign concise Theme and Sub-theme labels (≤4 words) representing the improvement type or rationale.
+3. Decision Rules: Clarify when a code applies (e.g., use for readability suggestions; not for general opinions).
+4. Illustrative Quote: Include one short quote (≤30 words) with respondent ID.
+5. Comparative Reference: Note if the suggestion relates more to interpolation, concatenation, or general readability.
+
+OUTPUT FORMAT (CSV; one row per response)
+- Theme: e.g., Readability Improvements, Tooling Support, Syntax Simplification, Standardization, No Suggestions.
+- Sub-theme(s): e.g., Variable Highlighting, Formatting Conventions, Placeholder Clarity, Linter Feedback.
+- Quote: Verbatim example (≤30 words) with respondent ID.
+- Notes: Short explanation of rationale.
+
+ADDITIONAL OUTPUT (Structured Codebook Summary)
+Include:
+1. Theme Name
+2. Definition
+3. When-to-Use / When-Not-to-Use
+4. Example Quote (R-#)
+Organize the summary logically to support replication and refinement.

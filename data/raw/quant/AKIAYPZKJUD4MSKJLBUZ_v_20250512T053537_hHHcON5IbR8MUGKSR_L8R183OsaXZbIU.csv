@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,1,L-1,Concatenation,2,2,30.778
+1,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,2,L-1,Interpolation,1,1,6.787
+2,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,3,L-2,Concatenation,1,4,20.701
+3,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,4,L-2,Interpolation,2,2,14.591
+4,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,5,L-2,Concatenation,3,3,44.561
+5,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,6,L-2,Interpolation,4,3,16.899
+6,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,7,L-4,Concatenation,4,4,26.981
+7,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,8,L-4,Interpolation,1,2,9.986
+8,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,9,L-3,Concatenation,3,3,30.871
+9,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,10,L-3,Interpolation,2,3,3.232
+10,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,11,L-4,Concatenation,3,3,55.618
+11,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,12,L-4,Interpolation,1,1,16.385
+12,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,13,L-2,Concatenation,4,4,16.091
+13,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,14,L-2,Interpolation,2,2,7.589
+14,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,15,L-3,Concatenation,1,1,31.655
+15,acff7b20,Male,18-24,Sophomore,Some college/university,Nevada,Computer Engineering,2,16,L-3,Interpolation,3,4,14.687

@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,1,L-1,Concatenation,2,2,12.999
+1,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,2,L-1,Interpolation,1,1,15.999
+2,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,3,L-2,Concatenation,1,4,32.584
+3,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,4,L-2,Interpolation,2,2,24.002
+4,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,5,L-2,Concatenation,3,3,20.378
+5,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,6,L-2,Interpolation,4,3,19.612
+6,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,7,L-4,Concatenation,4,4,43.934
+7,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,8,L-4,Interpolation,1,4,28.54
+8,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,9,L-3,Concatenation,3,3,15.365
+9,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,10,L-3,Interpolation,2,2,24.468
+10,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,11,L-4,Concatenation,3,1,43.108
+11,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,12,L-4,Interpolation,1,1,20.432
+12,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,13,L-2,Concatenation,4,4,22.143
+13,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,14,L-2,Interpolation,2,2,16.341
+14,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,15,L-3,Concatenation,1,1,29.069
+15,40263bce,Male,25-35,Not Applicable,Masters Degree,Netherlands,Computer Science,10,16,L-3,Interpolation,3,3,23.374

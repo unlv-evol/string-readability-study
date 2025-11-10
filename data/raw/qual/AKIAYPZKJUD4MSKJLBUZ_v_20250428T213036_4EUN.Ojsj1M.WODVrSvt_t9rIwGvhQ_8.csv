@@ -1,0 +1,2 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,cba94f93,I thought string interpolation was more readable because it keeps the text intact,not really,string interpolation is much clearer,I just knew what I was looking at a little more than someone who has never seen it ,favor interpolation over concatenation. 

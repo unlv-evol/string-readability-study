@@ -1,0 +1,4 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,9ff7163e,I found string interpolation to be more readable as quotation marks can get lost in between the +`s.,"String interpolation made it easier to know where spaces should go which made it faster to understand.
+
+",I would chose string interpolation based on the previously stated reasons.,"I am more familiar with concatenation so at first this was easier to understand, especially with some of the more simple sentences. However, as sentences became longer and variables were introduces, I found string interpolation to be easier to read.",

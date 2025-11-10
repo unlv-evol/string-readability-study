@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,1,L-1,Concatenation,2,2,36.926
+1,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,2,L-1,Interpolation,1,1,14.958
+2,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,3,L-2,Concatenation,1,4,30.577
+3,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,4,L-2,Interpolation,2,4,2.616
+4,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,5,L-2,Concatenation,3,3,40.728
+5,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,6,L-2,Interpolation,4,3,13.816
+6,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,7,L-4,Concatenation,4,4,55.873
+7,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,8,L-4,Interpolation,1,2,38.553
+8,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,9,L-3,Concatenation,3,3,23.208
+9,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,10,L-3,Interpolation,2,2,36.016
+10,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,11,L-4,Concatenation,3,3,40.585
+11,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,12,L-4,Interpolation,1,1,29.208
+12,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,13,L-2,Concatenation,4,4,36.568
+13,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,14,L-2,Interpolation,2,2,13.952
+14,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,15,L-3,Concatenation,1,1,27.408
+15,548a9462,Male,25-35,Junior,Some college/university,NV,Computer Engineering,5,16,L-3,Interpolation,3,4,24.529

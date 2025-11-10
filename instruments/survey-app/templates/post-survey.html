@@ -1,0 +1,40 @@
+{% extends "base.html" %} 
+{% block title %}Language Study{% endblock %} 
+
+{% block content %}
+
+<div class="container">
+    <div id="post-survey" class="question">
+        <!-- <h3>Post-Survey Questions</h3> -->
+        <div class="post-survey-instructions" style="padding: 15px; border-radius: 8px; background-color: #f8f9fa; margin-bottom: 20px;">
+            <h4><b>Instructions for Open-ended Questions:</b></h4>
+            <p>
+                <em>Please answer each question thoughtfully and in as much detail as possible. Your explanations and examples are valuable in helping us understand your experience with different programming string manipulation techniques. There are no right or wrong answers—we are interested in your honest and detailed reflections.</em>
+            </p>
+        </div>
+        <form action="/process-post-survey" method="POST">
+        <div id="post-start" style="padding: 15px; border-radius: 8px; background-color: #f8f9fa; margin-bottom: 20px;">
+        <label>1. Based on your experience with both string interpolation and string concatenation in the survey, which approach did you find more readable, and why? Please provide specific examples or reasons to support your viewpoint.</label>
+        <textarea id="q1" rows="3" class="form-control" name="readability_reflection" required></textarea><br>
+
+        <label><strong>2. Did using string interpolation or concatenation affect your ability to quickly understand or debug code snippets? Please describe any challenges or advantages you experienced.</strong></label>
+        <textarea id="q2" rows="3" class="form-control" name="comprehension_debugging" required></textarea><br>
+
+        <label><strong>3. If you were tasked with choosing between string interpolation and string concatenation for future programming tasks, which would you prefer, and what specific factors influenced your choice?</strong></label>
+        <textarea id="q3" rows="3" class="form-control" name="preference_rationale" required></textarea><br>
+
+        <label><strong>4. How did your prior familiarity or experience with string interpolation or concatenation impact your ease of understanding the provided code examples? Please elaborate on your experience.</strong></label>
+        <textarea id="q4" rows="3" class="form-control" name="learning_curve" required></textarea><br>
+
+        <label><strong><!-- <label><strong>5. Suggestions for Improvement:</strong><br> -->
+          5. Do you have any suggestions or recommendations on how either string interpolation or concatenation syntax could be improved to enhance readability and comprehension?</strong></label>
+        <textarea id="q5" rows="3" class="form-control" name="suggestions_improvement"></textarea><br>
+
+        <button type="submit" class="btn btn-success" id="submit-all">Submit</button>
+    </form>
+    </div>
+    </div>
+
+</div>
+
+  {% endblock %} 

@@ -1,0 +1,15 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,f0ad7b95,"I found string interpolation more readable than concatenation. For example: ""Hello {name}, your score is {score}"" is easier to read than ""Hello "" + name + "", your score is "" + str(score).
+Interpolation keeps the sentence structure clean and avoids extra + signs or type conversions.
+It’s especially helpful when working with file paths or longer strings.
+
+","String interpolation made it easier to understand and debug code quickly.
+I could instantly see what the final output would look like, like in ""{a} + {b} = {a + b}"".
+With concatenation, I had to check for missing + signs or type errors like mixing strings and integers.
+Interpolation felt more organized, especially when dealing with multiple variables.
+
+","I would prefer string interpolation because it’s easier to read and makes the code look cleaner. It helps avoid mistakes like missing spaces or mixing data types. Overall, it saves time and makes debugging simpler.","My prior experience with both interpolation and concatenation made the code examples easier to understand. I was already used to how they work, so I could follow the logic quickly. It felt more like a review than something new or confusing.","One suggestion is to make interpolation the default or more consistent across languages, so it's easier to use without extra symbols. It would also help if error messages clearly explained when types don’t match in concatenation. Overall, simpler and more unified syntax would make both methods easier to learn and read.
+
+
+
+"

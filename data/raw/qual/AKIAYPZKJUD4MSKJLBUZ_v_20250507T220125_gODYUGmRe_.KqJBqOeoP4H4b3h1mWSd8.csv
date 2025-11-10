@@ -1,0 +1,2 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,072c06d2,"Concatenation is more readable in my opinion. The plus makes more sense compared to curly braces which I associate with loops, comparisons, functions, classes, etc","Interpolation was challenging at times, especially in combination with quotation marks and parenthesis.","I would use concatenation, like I always have.","I am quite familiar with concatenation, but very new to string interpolation.",No

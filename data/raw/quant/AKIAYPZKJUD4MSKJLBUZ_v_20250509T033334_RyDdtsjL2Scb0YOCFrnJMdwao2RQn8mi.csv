@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,1,L-1,Concatenation,2,2,20.797
+1,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,2,L-1,Interpolation,1,1,21.321
+2,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,3,L-2,Concatenation,1,4,21.055
+3,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,4,L-2,Interpolation,2,2,19.689
+4,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,5,L-2,Concatenation,3,3,30.897
+5,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,6,L-2,Interpolation,4,3,19.389
+6,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,7,L-4,Concatenation,4,4,60.583
+7,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,8,L-4,Interpolation,1,1,50.623
+8,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,9,L-3,Concatenation,3,3,31.829
+9,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,10,L-3,Interpolation,2,2,19.32
+10,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,11,L-4,Concatenation,3,3,46.469
+11,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,12,L-4,Interpolation,1,1,39.096
+12,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,13,L-2,Concatenation,4,4,17.254
+13,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,14,L-2,Interpolation,2,2,12.177
+14,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,15,L-3,Concatenation,1,1,44.836
+15,073e928f,Prefer not to say,18-24,Freshman,Associate Degree,NV,Computer Science,2,16,L-3,Interpolation,3,3,23.15

@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,1,L-1,Concatenation,2,2,17.069
+1,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,2,L-1,Interpolation,1,1,19.058
+2,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,3,L-2,Concatenation,1,4,30.577
+3,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,4,L-2,Interpolation,2,2,41.409
+4,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,5,L-2,Concatenation,3,3,44.631
+5,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,6,L-2,Interpolation,4,4,225.376
+6,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,7,L-4,Concatenation,4,4,46.246
+7,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,8,L-4,Interpolation,1,1,54.263
+8,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,9,L-3,Concatenation,3,3,22.901
+9,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,10,L-3,Interpolation,2,2,37.992
+10,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,11,L-4,Concatenation,3,3,9.695
+11,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,12,L-4,Interpolation,1,1,8.922
+12,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,13,L-2,Concatenation,4,4,10.217
+13,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,14,L-2,Interpolation,2,2,11.648
+14,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,15,L-3,Concatenation,1,1,30.33
+15,2b144d1a,Female,18-24,Sophomore,Some college/university,Nevada,Computer Science,12,16,L-3,Interpolation,3,3,17.652

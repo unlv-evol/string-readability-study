@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,1,L-1,Concatenation,2,2,15.187
+1,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,2,L-1,Interpolation,1,1,12.223
+2,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,3,L-2,Concatenation,1,4,24.044
+3,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,4,L-2,Interpolation,2,2,9.399
+4,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,5,L-2,Concatenation,3,3,14.773
+5,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,6,L-2,Interpolation,4,3,10.709
+6,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,7,L-4,Concatenation,4,4,43.853
+7,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,8,L-4,Interpolation,1,2,14.226
+8,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,9,L-3,Concatenation,3,3,20.342
+9,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,10,L-3,Interpolation,2,2,10.35
+10,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,11,L-4,Concatenation,3,3,13.208
+11,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,12,L-4,Interpolation,1,1,10.547
+12,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,13,L-2,Concatenation,4,4,14.016
+13,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,14,L-2,Interpolation,2,2,5.322
+14,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,15,L-3,Concatenation,1,1,37.985
+15,b1a43cbd,Male,25-35,Senior,Bachelor Degree,Nevada,CS,10,16,L-3,Interpolation,3,3,26.349

@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,1,L-1,Concatenation,2,2,21.407
+1,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,2,L-1,Interpolation,1,1,27.345
+2,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,3,L-2,Concatenation,1,4,24.268
+3,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,4,L-2,Interpolation,2,2,6.148
+4,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,5,L-2,Concatenation,3,3,5.492
+5,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,6,L-2,Interpolation,4,3,6.503
+6,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,7,L-4,Concatenation,4,1,23.058
+7,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,8,L-4,Interpolation,1,1,6.4
+8,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,9,L-3,Concatenation,3,3,4.858
+9,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,10,L-3,Interpolation,2,2,5.522
+10,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,11,L-4,Concatenation,3,3,5.0
+11,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,12,L-4,Interpolation,1,1,4.245
+12,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,13,L-2,Concatenation,4,4,5.281
+13,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,14,L-2,Interpolation,2,2,4.366
+14,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,15,L-3,Concatenation,1,1,4.339
+15,e58cd0f8,Male,18-24,Junior,Associate Degree,Nevada,Computer Engineering,0,16,L-3,Interpolation,3,3,3.895

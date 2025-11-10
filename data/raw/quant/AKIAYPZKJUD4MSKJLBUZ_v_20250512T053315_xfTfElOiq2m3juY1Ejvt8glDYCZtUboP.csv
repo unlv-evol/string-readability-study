@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,1,L-1,Concatenation,2,2,6.609
+1,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,2,L-1,Interpolation,1,1,8.14
+2,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,3,L-2,Concatenation,1,4,25.526
+3,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,4,L-2,Interpolation,2,2,15.856
+4,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,5,L-2,Concatenation,3,3,21.366
+5,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,6,L-2,Interpolation,4,3,14.211
+6,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,7,L-4,Concatenation,4,4,64.493
+7,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,8,L-4,Interpolation,1,3,18.196
+8,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,9,L-3,Concatenation,3,3,23.061
+9,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,10,L-3,Interpolation,2,2,13.866
+10,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,11,L-4,Concatenation,3,1,24.641
+11,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,12,L-4,Interpolation,1,1,28.296
+12,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,13,L-2,Concatenation,4,4,16.126
+13,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,14,L-2,Interpolation,2,2,12.011
+14,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,15,L-3,Concatenation,1,1,18.376
+15,6d314cac,Male,18-24,Sophomore,High School / GED,Nevada,Comp Sci,1,16,L-3,Interpolation,3,4,20.726

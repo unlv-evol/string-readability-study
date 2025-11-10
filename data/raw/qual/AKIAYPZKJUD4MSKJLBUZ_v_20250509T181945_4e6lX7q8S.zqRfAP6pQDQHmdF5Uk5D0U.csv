@@ -1,0 +1,3 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,df0664a3,"concatenation, easier to follow that it is being added, with interpolation, sometimes i get lost with where the brackets start and stop seeing multiple brackets.",with concatenation i thought it was easier.,"concatenation is better i think, with interpolation, with longer sequence of adding strings, i get lost.","longer examples were time consuming to checking. Specifically when there is """" (quotes) and concatenation and interpolation I think.","making it easier to comprehend just by seeing rather than following multiple syntax would be better, i think.
+"

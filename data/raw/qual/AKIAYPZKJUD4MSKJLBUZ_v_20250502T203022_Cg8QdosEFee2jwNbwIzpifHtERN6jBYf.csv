@@ -1,0 +1,11 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,c54bce8e,"In my personal opinion, I found string interpolation to be more readable. This is because the brackets {} bring more attention to the variable name, and the line of pseudocode is not covered by an abundance of plus symbols, which may make reading at a faster pace more difficult.
+
+For example, here are some variables:
+name = ""Tom""
+gpa = ""4.0""
+
+A sentence in interpolation: ""Hello {name}, congratulations on passing with a {gpa} GPA!""
+A sentence in concatenation: ""Hello "" + name + "", congratulations on passing with a "" + gpa + "" GPA!""
+
+To me, the sentence in interpolation is easier to read. ","If the code is relatively simple, then both interpolation and concatenation is relatively easy to read. However, as it got more difficult, I found myself having an easier time with interpolation. But, if the provided code becomes incredibly hard to read, then it does not really matter how it was written.","String interpolation is easier to read, but concatenation is easier to type. I think which one I would use depends on how I'm using the code. If I want to show my code to someone with no background knowledge on coding languages, I would use string interpolation, but if the code is mainly for my own personal use or I'm only showing the final output, I would just use concatenation.","I have never heard of string interpolation prior to this survey, so for the majority of the time, I had no idea if I was putting in the correct answers. However, once I understood how it works, determining the output became much easier. Concatenation was never much of a problem to begin with, provided that the provided pseudocode wasn't too complicated. ","I think both string interpolation and string concatenation are relatively easy to teach. It doesn't need any changing in terms of readability and comprehension, it really just comes down to preference. What really matters is how people would use it."

@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,1,L-1,Concatenation,2,2,17.11
+1,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,2,L-1,Interpolation,1,1,8.921
+2,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,3,L-2,Concatenation,1,1,17.148
+3,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,4,L-2,Interpolation,2,2,15.304
+4,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,5,L-2,Concatenation,3,3,23.491
+5,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,6,L-2,Interpolation,4,3,14.421
+6,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,7,L-4,Concatenation,4,4,22.284
+7,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,8,L-4,Interpolation,1,1,19.217
+8,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,9,L-3,Concatenation,3,3,30.749
+9,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,10,L-3,Interpolation,2,2,32.427
+10,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,11,L-4,Concatenation,3,3,14.608
+11,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,12,L-4,Interpolation,1,1,9.252
+12,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,13,L-2,Concatenation,4,4,10.842
+13,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,14,L-2,Interpolation,2,2,7.585
+14,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,15,L-3,Concatenation,1,1,29.437
+15,ddf6043a,Male,36-44,Junior,Some college/university,NV,Computer Science,0,16,L-3,Interpolation,3,2,9.344

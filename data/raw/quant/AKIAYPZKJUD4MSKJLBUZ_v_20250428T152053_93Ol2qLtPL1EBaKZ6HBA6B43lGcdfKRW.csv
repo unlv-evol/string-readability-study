@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,1,L-1,Concatenation,2,2,21.029
+1,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,2,L-1,Interpolation,1,1,12.115
+2,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,3,L-2,Concatenation,1,1,26.029
+3,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,4,L-2,Interpolation,2,2,57.884
+4,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,5,L-2,Concatenation,3,3,34.056
+5,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,6,L-2,Interpolation,4,3,11.562
+6,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,7,L-4,Concatenation,4,4,32.51
+7,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,8,L-4,Interpolation,1,1,30.73
+8,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,9,L-3,Concatenation,3,3,59.015
+9,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,10,L-3,Interpolation,2,2,23.436
+10,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,11,L-4,Concatenation,3,3,40.882
+11,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,12,L-4,Interpolation,1,1,25.329
+12,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,13,L-2,Concatenation,4,4,26.384
+13,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,14,L-2,Interpolation,2,2,15.644
+14,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,15,L-3,Concatenation,1,1,28.821
+15,ff9b72cd,Female,18-24,Sophomore,Some college/university,Nevada,"Computer Science, now Math",2,16,L-3,Interpolation,3,4,18.218

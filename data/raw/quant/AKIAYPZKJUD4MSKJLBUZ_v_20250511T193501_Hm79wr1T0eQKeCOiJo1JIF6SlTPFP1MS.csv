@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,1,L-1,Concatenation,2,2,15.015
+1,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,2,L-1,Interpolation,1,3,10.269
+2,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,3,L-2,Concatenation,1,4,8.84
+3,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,4,L-2,Interpolation,2,3,0.54
+4,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,5,L-2,Concatenation,3,1,1.72
+5,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,6,L-2,Interpolation,4,2,0.251
+6,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,7,L-4,Concatenation,4,3,0.261
+7,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,8,L-4,Interpolation,1,2,0.246
+8,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,9,L-3,Concatenation,3,3,0.38
+9,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,10,L-3,Interpolation,2,2,0.227
+10,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,11,L-4,Concatenation,3,1,0.213
+11,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,12,L-4,Interpolation,1,2,0.205
+12,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,13,L-2,Concatenation,4,3,0.187
+13,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,14,L-2,Interpolation,2,3,0.153
+14,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,15,L-3,Concatenation,1,2,0.248
+15,b030ab16,Male,18-24,Junior,Some college/university,NV ,Computer Science & Psychology ,3,16,L-3,Interpolation,3,1,0.279

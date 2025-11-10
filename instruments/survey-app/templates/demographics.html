@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% block title %}Language Study{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h3 class="donotuse">Do not use your browser navigation controls!</h3>
+    <br>
+    <!-- Demographic information -->
+    <div id="demog">
+        <h2>Demographics Survey</h2>
+        <p>Please provide the following information about yourself. This information is anonymous and confidential. Please respond to every question. If you are not sure what a question is asking, make your best guess and answer accordingly.</p>
+        <!-- <p>Please be assured that the details you provide will be used strictly for research purposes only. All data will be anonymized and handled with the utmost confidentiality, ensuring that individual responses cannot be linked back to participants.</p> -->
+        <form method="post" action="/process">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group" aria-label="What is your highest level of education completed?">
+                        <label for="education">What is your highest level of education completed?</label>
+                        <select class="form-control input-md" name="education" required>
+                            <option></option>
+                            <option>High School / GED</option>
+                            <option>Some college/university</option>
+                            <option>Associate Degree</option>
+                            <option>Bachelor Degree</option>
+                            <option>Masters Degree</option>
+                            <option>Professional Doctorate</option>
+                            <option>Ph. D.</option>
+                            <option>Other</option>
+                        </select>
+                        <p class="comment">If you received your highest degree in another country, please pick the best
+                            match.</p>
+                    </div>
+
+                    <div class="form-group" aria-label="At what institution are you completing this study?">
+                        <label for="institution">At what institution are you completing this study?</label>
+                        <input type="text" class="form-control input-md" name="institution" required>
+                        <p class="comment">Type "none" if not affiliated or in school.</p>
+                    </div>
+
+                    <div class="form-group" aria-label="In what state are you completing this study?">
+                        <label for="state">In what state are you completing this study?</label>
+                        <input type="text" class="form-control input-md" name="state" required>
+                        <p class="comment">If outside the United States, type the name of the country where you are
+                            completing this study.</p>
+                    </div>
+
+                    <div class="form-group" aria-label="What is or was your major?">
+                        <label for="major">What is or was your major?</label>
+                        <input type="text" class="form-control input-md" name="major" required>
+                        <p class="comment">Type "none" if non-degree seeking or never in school.</p>
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="form-group"
+                        aria-label="If you are enrolled in college, approximately what year are you in your education?">
+                        <label for="year">If you are enrolled in college, approximately what year are you in your
+                            education?</label>
+                        <select class="form-control input-md" name="year" required>
+                            <option></option>
+                            <option>Not Applicable</option>
+                            <option>Freshman</option>
+                            <option>Sophomore</option>
+                            <option>Junior</option>
+                            <option>Senior</option>
+                            <option>Graduate</option>
+                            <option>Post-graduate</option>
+                            <option>Non-degree seeking</option>
+                        </select>
+                        <p class="comment">If you are enrolled in another country, please pick the best match. If not in
+                            school, select "Not Applicable"</p>
+                    </div>
+
+                    <div class="form-group" aria-label="How many years of working with computer programs do you have?">
+                        <label for="jobxp">How many years of working with computer programs do you have?</label>
+                        <input type="number" class="form-control input-md" name="jobxp" min="0" required>
+                        <p class="comment">Enter 0 if none.</p>
+                    </div>
+
+                    <div class="form-group" aria-label="What is your age?">
+                        <label for="age">What is your age?</label>
+                        <!-- <input type="number" class="form-control input-md" name="age" min="0" required> -->
+                        <select class="form-control input-md" id="age" name="age" required>
+                            <option value="0"></option>
+                            <option value="18-24">18-24</option>
+                            <option value="25-35">25-35</option>
+                            <option value="36-44">35-44</option>
+                            <option value="45-54">45-54</option>
+                            <option value="55-64">55-64</option>
+                            <option value="65 or Over">65 or Over</option>
+                        </select>
+                        <p class="comment">Select your age group.</p>
+                    </div>
+
+                    <div class="form-group" aria-label="What is your gender?">
+                        <label for="gender">What is your gender?</label>
+                        <select class="form-control input-md" name="gender" required>
+                            <option></option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                            <option>Prefer not to say</option>
+                        </select>
+                        <p class="comment">Select your gender</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Start button -->
+            <input type="submit" id="startBtn" class="btn btn-success" value="Next >>">
+    </div>
+    </form>
+
+
+
+    <!-- Bootstrap JS (optional, if you need JavaScript features) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    {% endblock %}

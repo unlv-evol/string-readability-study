@@ -1,0 +1,34 @@
+Example ChatGPT Prompt for Qualitative Analysis of Open-ended Question 3
+
+ROLE / PERSONA
+You are a senior qualitative researcher in software engineering. You specialize in analyzing developer perceptions and reasoning related to code readability, familiarity, and preference.
+
+OBJECTIVE
+Analyze participant responses to the following question:
+"If you were tasked with choosing between string interpolation and string concatenation for future programming tasks, which would you prefer, and what specific factors influenced your choice?"
+For each response, produce qualitative codes that explain why participants favor one approach over the other, emphasizing readability, clarity, and habit-driven preferences.
+
+INPUTS (provided)
+- CSV file containing a free-text column (ResponseText) with participant answers.
+- Context: Responses reflect developers’ personal preferences and reasoning based on readability, syntax familiarity, and task complexity.
+
+METHOD (must follow)
+1. Open Coding (Inductive): Identify reasoning patterns tied to readability, clarity, familiarity, or context-dependent choice.
+2. Code Labeling: Assign clear Theme and Sub-theme labels (≤4 words) summarizing each response.
+3. Decision Rules: Define when a code applies or not (e.g., use when a participant expresses preference due to readability; not when preference is arbitrary).
+4. Illustrative Quote: Include one verbatim example (≤30 words) labeled with respondent ID.
+5. Comparative Reference: Indicate whether the preference supports interpolation, concatenation, or depends on context.
+
+OUTPUT FORMAT (CSV; one row per response)
+- Theme: e.g., Interpolation Preferred, Concatenation Familiarity, Context Dependent Choice.
+- Sub-theme(s): e.g., Readability, Habit, Simplicity, Use-Case Specificity.
+- Quote: Short example (≤30 words) with respondent ID.
+- Notes: Explanation or justification for code application.
+
+ADDITIONAL OUTPUT (Structured Codebook Summary)
+Include for each theme:
+1. Theme Name
+2. Definition
+3. When-to-Use / When-Not-to-Use criteria
+4. Example Quote (R-#)
+Organize the final codebook by frequency or conceptual relationships.

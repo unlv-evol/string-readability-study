@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,1,L-1,Concatenation,2,2,22.125
+1,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,2,L-1,Interpolation,1,1,16.654
+2,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,3,L-2,Concatenation,1,1,20.212
+3,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,4,L-2,Interpolation,2,1,4.711
+4,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,5,L-2,Concatenation,3,3,22.792
+5,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,6,L-2,Interpolation,4,3,7.576
+6,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,7,L-4,Concatenation,4,4,16.318
+7,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,8,L-4,Interpolation,1,1,16.828
+8,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,9,L-3,Concatenation,3,3,14.773
+9,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,10,L-3,Interpolation,2,2,17.604
+10,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,11,L-4,Concatenation,3,3,19.078
+11,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,12,L-4,Interpolation,1,3,3.417
+12,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,13,L-2,Concatenation,4,4,11.251
+13,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,14,L-2,Interpolation,2,2,12.37
+14,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,15,L-3,Concatenation,1,1,20.403
+15,bc141bf2,Female,25-35,Post-graduate,Masters Degree,The Netherlands,Data science & AI,7,16,L-3,Interpolation,3,3,21.182

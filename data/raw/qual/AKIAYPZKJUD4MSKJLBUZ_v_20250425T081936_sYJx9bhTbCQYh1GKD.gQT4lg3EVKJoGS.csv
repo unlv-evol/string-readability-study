@@ -1,0 +1,2 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,87ff9740,"They both have their advantages. I think that concatenation is more readable than interpolation for example, “a” + b + “c” is clearer than “a{b}c”.",There were some typos I think? so that was a challenge. ,"I prefer concatenation, because its more fundamental than interpolation.  The “addition” is just clearer. ",Because I have coded in multiple languages both are approachable as far as readability goes. ,I don’t! 

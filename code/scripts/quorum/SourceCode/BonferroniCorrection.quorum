@@ -1,0 +1,12 @@
+use Libraries.Compute.Statistics.DataFrame
+use Libraries.Compute.Statistics.Tests.CompareMeansPairwise
+DataFrame frame
+frame:Load("data/merged_quant.csv")
+frame:AddSelectedFactors("Category,YearInCollege")
+frame:AddSelectedColumns("Duration")
+CompareMeansPairwise result
+result:UseStrictCorrection(true)
+result:Calculate(frame)
+output result:GetPairwiseSummary()
+output result:GetFormalSummary()
+

@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,1,L-1,Concatenation,2,2,21.798
+1,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,2,L-1,Interpolation,1,1,15.212
+2,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,3,L-2,Concatenation,1,4,32.25
+3,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,4,L-2,Interpolation,2,2,70.364
+4,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,5,L-2,Concatenation,3,3,28.347
+5,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,6,L-2,Interpolation,4,3,13.673
+6,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,7,L-4,Concatenation,4,4,44.162
+7,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,8,L-4,Interpolation,1,2,35.485
+8,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,9,L-3,Concatenation,3,3,60.836
+9,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,10,L-3,Interpolation,2,2,42.887
+10,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,11,L-4,Concatenation,3,3,23.957
+11,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,12,L-4,Interpolation,1,1,22.819
+12,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,13,L-2,Concatenation,4,4,24.106
+13,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,14,L-2,Interpolation,2,2,16.273
+14,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,15,L-3,Concatenation,1,1,35.057
+15,9fdb488e,Male,25-35,Senior,Some college/university,Nevada,Guitar Performance,1,16,L-3,Interpolation,3,3,24.862

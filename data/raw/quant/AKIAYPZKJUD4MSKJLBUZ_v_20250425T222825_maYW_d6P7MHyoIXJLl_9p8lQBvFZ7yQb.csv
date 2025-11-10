@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,1,L-1,Concatenation,2,2,6.789
+1,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,2,L-1,Interpolation,1,1,5.404
+2,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,3,L-2,Concatenation,1,1,16.406
+3,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,4,L-2,Interpolation,2,1,16.09
+4,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,5,L-2,Concatenation,3,3,25.424
+5,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,6,L-2,Interpolation,4,3,15.889
+6,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,7,L-4,Concatenation,4,4,34.648
+7,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,8,L-4,Interpolation,1,4,6.956
+8,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,9,L-3,Concatenation,3,3,24.627
+9,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,10,L-3,Interpolation,2,2,7.032
+10,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,11,L-4,Concatenation,3,3,20.242
+11,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,12,L-4,Interpolation,1,1,6.694
+12,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,13,L-2,Concatenation,4,4,7.002
+13,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,14,L-2,Interpolation,2,2,29.036
+14,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,15,L-3,Concatenation,1,1,5.272
+15,ab9dba9b,Male,25-35,Senior,Some college/university,Nevada,Computer Science,3,16,L-3,Interpolation,3,2,5.552

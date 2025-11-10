@@ -1,0 +1,6 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,09bfdad5,"f""{firstName} {lastName} is {age} years old.""
+","""Age: "" + str(age)
+","let message = `Hello, ${name}`;
+","f""Hello, {name}""
+",Interpolation is already pretty solid in most modern languages

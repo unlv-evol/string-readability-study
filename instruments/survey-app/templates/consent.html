@@ -1,0 +1,61 @@
+{% extends "base.html" %} 
+{% block title %}Language Study{% endblock %} 
+
+{% block content %}
+<div class="container-fluid">
+  <h3 class="donotuse">Do not use your browser navigation controls!</h3>
+    <div>
+      <h2>Informed Consent Form</h2>
+      <hr />
+      <h3>TITLE OF STUDY:   Impact of String Interpolation on Program Readability</h3>
+      <!-- <h6 color="blue">PI: Dr. Andreas Stefik, andreas.stefik@unlv.edu, Co-PI: Dr. John Businge, john.busing@unlv.edu</h6> -->
+      <!-- <p>For questions regarding the rights of research subjects, any complaints or comments regarding the manner in which the study is being conducted, contact <b>the UNLV Office of Research Integrity – Human Subjects at 702-895-2794, toll free at 877-895-2794 or via email at IRB@unlv.edu.</b></p> -->
+    </div>
+    
+    <div id="scroll-area">
+      <br />
+      <h4>Purpose of the Study</h4>
+      <p>You are invited to participate in a research study. The purpose of this study is to investigate computer program readability.</p>
+      <h4>Participants</h4>
+      <p>You are being asked to participate in the study because you fit this criteria: over 18 years old and in the computer science field.
+      </p>
+      <h4>Procedures</h4>
+      <p>If you volunteer to participate in this study, you will be asked to do the following:</p>
+      <ol>
+        <li>Read programming languages or abstract code snippets.</li>
+        <li>Practice and answer questions related to computer programming languages.</li>
+      </ol>
+      <h4>Benefits</h4>
+      <p>You may learn about programming languages by participating in this study. Other than possibly contributing to scientific knowledge in the field, there are otherwise no benefits for participation.</p>
+      <h4>Risks</h4>
+      <p>
+        There are risks involved in all research studies. This study may include only minimal risks, you may experience some mental distress. Computer programming can be very mathematical and might require significant effort. You may find the task of reading code snippets complex and frustrating. Further, the easiest way for us to gather information about how well our tools are working is to do so electronically. While we will do our best to keep all information confidential, and the information we are collecting is not of a personal nature, no computer security mechanism is perfectly secure.
+        <!-- There are risks involved in all research studies and while this study includes only minimal risks, you may experience some mental distress. Many students that are learning to program a computer find the experience challenging. Computer programming can be very mathematical and might require significant effort. Tasks in this study are designed to be very simple (not more than 5 lines of code). Further, the easiest way for us to gather information about how well our tools are working is to do so electronically. While we will do our best to keep all information confidential, and the information we are collecting is not of a personal nature, no computer security mechanism is perfectly secure.</p> -->
+      <h4>Cost/Compensation</h4>
+      <p>There will not be any financial cost/compensation to you to participate or for participating in this study.</p>
+      <h4>Confidentiality</h4>
+      <p>All information gathered in this study will be kept as confidential as possible. No reference will be made in written or oral materials that could link you to this study. Importantly, the information we are collecting is not of a personal nature. 
+        <!-- All records will be stored in a locked facility at UNLV for 5 years after completion of the study.  Since this study is part     of an international research collaboration, non-identifiable data may also be shared securely to trained research collaborators in the US and Europe. -->
+      </p>
+      <h4>Voluntary Participation</h4>
+      <p>Your participation in this study is voluntary. You may withdraw from the study at any time You may ask questions about this study at the beginning or any time during the research study.</p>
+
+      <h4>Contact Information</h4>
+      <p>
+        For questions or concerns about the study, you may contact <b>Daniel Ogenrwot</b> on cell: <b>+17024857149</b>, email: <b>ogenrwot@unlv.nevada.edu</b> or <b></b>Dr. Andreas Stefik at <b>andreas.stefik@unlv.edu</b> or <b>Dr. John Businge</b> at <b>john.businge@unlv.edu</b> <br>
+        For questions regarding the rights of research subjects, any complaints or comments regarding the manner in which the study is being conducted, contact the UNLV Office of Research Integrity – Human Subjects at <b>702-895-2794</b> or via email at <b>IRB@unlv.edu</b>.
+      </p>
+      </div>
+
+    <!-- <form role="form" action="" method="post"> -->
+      <div class="form-group">
+        <br>
+        <h4>Participant Consent</h4>
+        <p>I have read the above information and agree to participate in this study. I have been able to ask questions about the research study. I am at least 18 years of age. A copy of this form has been given to me (<a href="{{ url_for('download_file', filename='InformedConsentForm.pdf') }}" download> Informed Consent Form </a>).
+        </p>
+      <a href="{{ url_for('protocol') }}"><button type="submit" class="btn btn-success bt-lg">I Accept</button></a>
+      <a href="{{ url_for('decline') }}"><button type="button" class="btn btn-danger bt-lg">I Decline</button></a>
+      </div>
+    <!-- </form> -->
+  </div>
+  {% endblock %} 

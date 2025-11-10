@@ -1,0 +1,7 @@
+use Libraries.Compute.Statistics.DataFrame
+use Libraries.Compute.Statistics.Tests.CorrelateGroups 
+DataFrame frame
+frame:Load("data/merged_quant.csv")
+frame:AddSelectedColumns("UserAnswer,CorrectAnswer")
+CorrelateGroups correlate = frame:CorrelateSelectedColumns()
+output correlate:GetFormalSummary()

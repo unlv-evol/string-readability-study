@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,1,L-1,Concatenation,2,2,17.894
+1,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,2,L-1,Interpolation,1,1,10.18
+2,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,3,L-2,Concatenation,1,4,27.184
+3,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,4,L-2,Interpolation,2,2,20.014
+4,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,5,L-2,Concatenation,3,3,22.231
+5,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,6,L-2,Interpolation,4,3,15.996
+6,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,7,L-4,Concatenation,4,4,47.913
+7,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,8,L-4,Interpolation,1,2,27.714
+8,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,9,L-3,Concatenation,3,3,25.693
+9,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,10,L-3,Interpolation,2,2,12.075
+10,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,11,L-4,Concatenation,3,3,76.493
+11,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,12,L-4,Interpolation,1,1,19.869
+12,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,13,L-2,Concatenation,4,4,24.368
+13,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,14,L-2,Interpolation,2,2,7.996
+14,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,15,L-3,Concatenation,1,1,29.63
+15,f1a4e398,Male,25-35,Sophomore,High School / GED,NV,CS,0,16,L-3,Interpolation,3,2,21.64

@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,1,L-1,Concatenation,2,2,29.284
+1,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,2,L-1,Interpolation,1,1,13.743
+2,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,3,L-2,Concatenation,1,4,11.235
+3,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,4,L-2,Interpolation,2,2,23.518
+4,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,5,L-2,Concatenation,3,3,23.032
+5,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,6,L-2,Interpolation,4,3,12.073
+6,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,7,L-4,Concatenation,4,2,76.623
+7,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,8,L-4,Interpolation,1,4,29.141
+8,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,9,L-3,Concatenation,3,3,30.601
+9,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,10,L-3,Interpolation,2,2,13.679
+10,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,11,L-4,Concatenation,3,3,40.185
+11,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,12,L-4,Interpolation,1,1,11.732
+12,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,13,L-2,Concatenation,4,4,14.009
+13,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,14,L-2,Interpolation,2,2,12.25
+14,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,15,L-3,Concatenation,1,1,18.35
+15,63c5bdb9,Male,18-24,Sophomore,High School / GED,Netherlands,Computer Science and Engineering,8,16,L-3,Interpolation,3,4,11.756

@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,1,L-1,Concatenation,2,2,21.768
+1,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,2,L-1,Interpolation,1,1,13.787
+2,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,3,L-2,Concatenation,1,4,19.881
+3,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,4,L-2,Interpolation,2,3,10.284
+4,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,5,L-2,Concatenation,3,3,17.503
+5,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,6,L-2,Interpolation,4,3,10.267
+6,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,7,L-4,Concatenation,4,4,67.575
+7,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,8,L-4,Interpolation,1,3,53.405
+8,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,9,L-3,Concatenation,3,3,18.336
+9,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,10,L-3,Interpolation,2,2,11.044
+10,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,11,L-4,Concatenation,3,3,21.188
+11,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,12,L-4,Interpolation,1,1,6.083
+12,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,13,L-2,Concatenation,4,4,16.903
+13,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,14,L-2,Interpolation,2,3,11.761
+14,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,15,L-3,Concatenation,1,1,17.287
+15,d55237a8,Male,25-35,Post-graduate,Bachelor Degree,NV,Computer Science,6,16,L-3,Interpolation,3,4,6.955

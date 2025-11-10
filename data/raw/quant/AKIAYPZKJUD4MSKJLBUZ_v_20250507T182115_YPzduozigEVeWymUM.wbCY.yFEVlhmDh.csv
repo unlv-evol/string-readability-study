@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,1,L-1,Concatenation,2,2,22.316
+1,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,2,L-1,Interpolation,1,1,76.334
+2,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,3,L-2,Concatenation,1,4,37.672
+3,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,4,L-2,Interpolation,2,2,50.781
+4,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,5,L-2,Concatenation,3,3,20.343
+5,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,6,L-2,Interpolation,4,3,66.504
+6,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,7,L-4,Concatenation,4,4,64.231
+7,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,8,L-4,Interpolation,1,1,20.439
+8,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,9,L-3,Concatenation,3,3,41.375
+9,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,10,L-3,Interpolation,2,2,22.552
+10,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,11,L-4,Concatenation,3,3,60.606
+11,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,12,L-4,Interpolation,1,1,19.384
+12,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,13,L-2,Concatenation,4,4,14.927
+13,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,14,L-2,Interpolation,2,2,11.903
+14,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,15,L-3,Concatenation,1,1,31.6
+15,26fe1d42,Female,25-35,Graduate,Bachelor Degree,NV,Computer Science,7,16,L-3,Interpolation,3,4,47.646

@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,1,L-1,Concatenation,2,2,36.939
+1,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,2,L-1,Interpolation,1,1,23.783
+2,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,3,L-2,Concatenation,1,4,53.061
+3,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,4,L-2,Interpolation,2,3,10.676
+4,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,5,L-2,Concatenation,3,3,26.213
+5,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,6,L-2,Interpolation,4,3,25.133
+6,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,7,L-4,Concatenation,4,2,65.033
+7,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,8,L-4,Interpolation,1,1,15.142
+8,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,9,L-3,Concatenation,3,4,23.547
+9,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,10,L-3,Interpolation,2,2,11.9
+10,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,11,L-4,Concatenation,3,3,15.009
+11,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,12,L-4,Interpolation,1,1,13.969
+12,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,13,L-2,Concatenation,4,4,20.933
+13,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,14,L-2,Interpolation,2,2,11.622
+14,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,15,L-3,Concatenation,1,1,19.886
+15,19f35aa3,Female,18-24,Junior,Some college/university,NEVADA,COMPUTER SCIENCE,4,16,L-3,Interpolation,3,3,17.862

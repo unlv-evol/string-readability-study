@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,1,L-1,Concatenation,2,1,23.551
+1,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,2,L-1,Interpolation,1,1,13.513
+2,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,3,L-2,Concatenation,1,2,3.232
+3,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,4,L-2,Interpolation,2,2,15.596
+4,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,5,L-2,Concatenation,3,3,16.234
+5,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,6,L-2,Interpolation,4,3,21.333
+6,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,7,L-4,Concatenation,4,2,10.64
+7,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,8,L-4,Interpolation,1,2,10.186
+8,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,9,L-3,Concatenation,3,3,27.025
+9,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,10,L-3,Interpolation,2,2,8.943
+10,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,11,L-4,Concatenation,3,3,20.639
+11,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,12,L-4,Interpolation,1,1,6.398
+12,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,13,L-2,Concatenation,4,4,13.899
+13,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,14,L-2,Interpolation,2,2,12.931
+14,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,15,L-3,Concatenation,1,1,24.598
+15,19fb9b8b,Male,18-24,Freshman,High School / GED,nv,computer science,2,16,L-3,Interpolation,3,2,31.774

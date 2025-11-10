@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,1,L-1,Concatenation,2,2,30.337
+1,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,2,L-1,Interpolation,1,1,9.74
+2,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,3,L-2,Concatenation,1,4,57.69
+3,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,4,L-2,Interpolation,2,3,13.707
+4,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,5,L-2,Concatenation,3,3,31.201
+5,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,6,L-2,Interpolation,4,3,15.169
+6,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,7,L-4,Concatenation,4,4,186.333
+7,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,8,L-4,Interpolation,1,2,58.561
+8,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,9,L-3,Concatenation,3,3,94.97
+9,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,10,L-3,Interpolation,2,2,23.335
+10,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,11,L-4,Concatenation,3,3,95.856
+11,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,12,L-4,Interpolation,1,1,339.518
+12,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,13,L-2,Concatenation,4,4,27.067
+13,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,14,L-2,Interpolation,2,2,14.343
+14,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,15,L-3,Concatenation,1,1,25.298
+15,5fa10aff,Male,18-24,Junior,Some college/university,Nevada,Computer Science,3,16,L-3,Interpolation,3,3,195.192

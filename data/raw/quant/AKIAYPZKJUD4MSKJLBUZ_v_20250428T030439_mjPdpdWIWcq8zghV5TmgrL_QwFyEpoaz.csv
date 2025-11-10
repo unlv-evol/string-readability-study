@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,1,L-1,Concatenation,2,2,22.403
+1,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,2,L-1,Interpolation,1,1,16.573
+2,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,3,L-2,Concatenation,1,4,20.51
+3,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,4,L-2,Interpolation,2,2,11.132
+4,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,5,L-2,Concatenation,3,3,32.142
+5,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,6,L-2,Interpolation,4,2,8.173
+6,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,7,L-4,Concatenation,4,1,2.093
+7,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,8,L-4,Interpolation,1,4,1.181
+8,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,9,L-3,Concatenation,3,1,1.453
+9,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,10,L-3,Interpolation,2,3,4.785
+10,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,11,L-4,Concatenation,3,1,2.629
+11,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,12,L-4,Interpolation,1,2,1.541
+12,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,13,L-2,Concatenation,4,1,2.573
+13,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,14,L-2,Interpolation,2,2,1.378
+14,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,15,L-3,Concatenation,1,4,0.687
+15,134c2b79,Male,25-35,Sophomore,Some college/university,NV,CS,4,16,L-3,Interpolation,3,1,4.3

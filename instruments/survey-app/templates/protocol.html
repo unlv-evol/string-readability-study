@@ -1,0 +1,81 @@
+{% extends "base.html" %} 
+{% block title %}Language Study{% endblock %} 
+
+{% block content %}
+
+<div class="container">
+  <h3 class="donotuse">Do not use your browser navigation controls!</h3>
+  <br>
+    <h1>Experiment Protocol</h1>
+    <p>Please read the following protocol carefully so that you understand what will happen during the study.</p>
+  <div class="" id="scroll-protocol">
+    <h4>Literal String Interpolation Experiment</h4>
+    <p>String interpolation allows you to embed expressions into string literals, 
+        making it easier to include variables, expressions, 
+        or functions within a string. Similarily, concatenation enables you to joint strings together. <br /><br />In this exercise, you will encounter different possible 
+        permutations of string <u>concatenation</u>  and <u>interpolation</u> syntax. For simplicity the symbols <b>"+"</b> and <b>"{ }"</b> are used to denote <u>concatenation</u>  and <u>interpolation</u> respectively. <b><u>Your task is to select option 1, 2, 3 or 4 as quickly as possible to indicate whether you think the output is CORRECT. PRESS 1, 2, 3, or 4 on the keyboard to select the correct answer. To navigate to the next task, press the RIGHT ARROW KEY</u></b>.
+    </p>
+  </div>
+    
+    <h4>Study Information:</h4>
+    <div>
+        <p>In this study, you will be reading code snippets that might not be tied to any programming language. You will be required to select the code snippet (based on syntax) that you <underline>think</underline> is correct.
+        Try to solve as much of the given assignment as possible. Potentially, this can help to improve programming languages. Keep in mind that in this study we are investigating programming languages, not you or your programming abilities.
+        </p>
+    </div>
+    <div>
+    <!-- <h4>Study Scenario:</h4>
+      <p>Imagine that you have recently completed a degree in computer science. You have just started your first job, where you are told that you will be writing computer programs in a programming language that you might not be familiar with. Your coworker provides you with a code sample that you have to modify in order to solve the tasks at hand.
+      </p>
+    </div> -->
+    <!-- <h4>Before Each Task</h4>
+    <div>
+        <p>Before the first task, you will be shown code samples to solve the problems. The sample will be displayed on the left part of the task screen for you to review.  A timer will be shown on the screen to inform you how long you have to review the sample. When the timer is up, an assignment will appear in the top portion of the screen, along with an editable text editor box where you can type your solution.  You are encouraged to maximize your browser window for the study for best viewing and to reduce distractions.  There are a total of <b>six</b> tasks in this study, lasting no more than 45 minutes each.
+      </p>
+    </div> -->
+    <!-- <div class="panel panel-success">
+      <div class="panel-body" id="during-task">
+        <h4>During Each Task</h4>
+            <p>During each task, you will attempt to solve the assignment in the style of programming language suggested in the code sample.  A timer will be displayed indicating the remaining time for the particular task.  You will continue to have access to the code samples you previously viewed. There are several rules that are important to follow during these tasks:</p>
+          <ol>
+            <li>Follow the assignment instructions carefully.</li>
+            <li>You have a set time to finish each task.</li>
+            <li>Use all of the allotted time to try and finish as much of each task as possible.</li>
+            <li>You may use the code samples to complete the tasks.</li>
+            <li>You are not allowed to use any help except the code samples. <b>Do not use the internet.</b></li>
+            <li>Do not use your computer for anything else but completing this task (e.g. do not check email, Facebook or play games).</li>
+            <li><b>Turn off your cell phone and TV to reduce distractions.</b></li>
+            <li>If you do not know what to do, try anyway and give it your best shot.</li>
+          </ol>
+      </div>
+    </div> -->
+    <!-- <h4>After Each Task</h4>
+    <div>
+        <p>After each task, your response will be saved and you will proceed to review the next code samples.  Follow through the entire study until you receive a confirmation of completion at the end.  There are a total of <b>six</b> tasks in this study.</p>
+    </div> -->
+    <h4>The Code Snippets:</h4>
+    <div>
+      <p>The code snippets given to you may not be related to a particular programming language. You are to apply your previous programming experience to make a non-subject decision on which option from a list of 4 options is CORRECT. In order to do so, study the code snippets provided in each question and select option 1, 2, 3 or 4 as quickly as possible to indicate whether you think the output is CORRECT. No pressure, do not feel obligated to rush. You choice should be based on your best judgement</p>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-9"> <!--left column-->
+        <div class="panel panel-default">
+          <div class="panel-body" id="best-shot">
+            <h3>If you are not sure or do not know what to do, just try anyway.</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3"> <!--right column-->
+        <!-- <form role="form" action="code/begin_tasks.php" method="post"> -->
+          <p align="right">
+            <br>
+            <a href="{{ url_for('demographics') }}"><button type="submit" class="btn btn-success">Begin</button></a>
+          </p>
+        <!-- </form> -->
+      </div>
+    </div>
+    
+  </div>
+
+  {% endblock %} 

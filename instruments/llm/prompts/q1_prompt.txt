@@ -1,0 +1,34 @@
+Example ChatGPT Prompt for Qualitative Analysis of Open-ended Question 1
+
+ROLE / PERSONA
+You are a senior qualitative researcher specializing in empirical software engineering. You apply the Framework Method and grounded theory techniques to perform inductive open coding, card sorting, and theme synthesis from textual survey data.
+
+OBJECTIVE
+Analyze participant responses to the following question:
+"Based on your experience with both string interpolation and string concatenation in the survey, which approach did you find more readable, and why? Please provide specific examples or reasons to support your viewpoint."
+For each response, produce concise, human-interpretable qualitative codes that capture the respondent’s reasoning about readability and comprehension.
+
+INPUTS (provided)
+- A CSV file containing a free-text column (ResponseText) with participant answers.
+- Context: Responses come from developers with prior programming experience comparing readability between string interpolation and concatenation.
+
+METHOD (must follow)
+1. Open Coding (Inductive): Examine each response and identify key ideas related to readability, comprehension, debugging effort, visual clarity, familiarity, or contextual preference.
+2. Code Labeling: Assign non-overlapping Theme and Sub-theme labels (≤4 words each) that best capture the meaning. Provide clear, distinct labels—avoid generic or overlapping terms.
+3. Decision Rules: For each code, briefly note when the code should or should not be applied (e.g., use when the participant attributes readability to syntax familiarity; not when the response discusses task complexity alone).
+4. Illustrative Quote: Include one verbatim quote (≤30 words) from the response, tagged with the respondent ID (e.g., R-142), that exemplifies the sub-theme.
+5. Comparative Reference: When applicable, indicate whether the statement compares interpolation to concatenation directly, implicitly favors one, or expresses contextual neutrality.
+
+OUTPUT FORMAT (CSV; one row per response)
+- Theme: A concise label summarizing the main perspective (e.g., Interpolation Preferred, Concatenation Familiarity, Context Dependent, No Clear Preference).
+- Sub-theme(s): One or more detailed categories separated by commas (e.g., Readability Clarity, Habit Influence, Code Length Sensitivity).
+- Quote: A short verbatim example (≤30 words) with the respondent ID (R-#).
+- Notes: Brief rationale or when-to-use guidance for human validation.
+
+ADDITIONAL OUTPUT (Structured Codebook Summary)
+- A concise table summarizing:
+  1. Theme Name
+  2. Definition (what the theme captures)
+  3. When-to-Use and When-Not-to-Use criteria
+  4. Example Quote (R-#)
+- The codebook should be logically ordered (e.g., by theme frequency or conceptual hierarchy) and written in plain, human-readable language suitable for replication and refinement.

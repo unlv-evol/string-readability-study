@@ -1,0 +1,2 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,f1a4e398,Concatenation. I'm used to it in C++ ,Quotations in concatenations sometimes add to some confusion while reading it because it's hard to distinguish which section is being quoted,"Concatenation for short, concise tasks and interpolation for longer strings",I have zero familiarity with string interpolation,"Finding a way to eliminate the need for quotations. Maybe using something minimal like a ""q."" to label what is being quoted."

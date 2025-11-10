@@ -1,0 +1,2 @@
+,UID,readability_reflection,comprehension_debugging,preference_rationale,learning_curve,suggestions_improvement
+0,f995163a,string interpolation felt more readable since you can see the spaces and in between each string,it did not affect my ability to quickly understand or debug code snippets,strinf interpolation because it looks cleaner,It helped me understand how the strings were being separated based on my learning of c++ syntax and code,none

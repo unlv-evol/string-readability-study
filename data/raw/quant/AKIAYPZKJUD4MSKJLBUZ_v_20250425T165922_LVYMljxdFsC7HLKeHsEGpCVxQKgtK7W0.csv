@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,1,L-1,Concatenation,2,2,16.294
+1,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,2,L-1,Interpolation,1,1,15.474
+2,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,3,L-2,Concatenation,1,4,29.065
+3,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,4,L-2,Interpolation,2,2,16.804
+4,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,5,L-2,Concatenation,3,3,20.103
+5,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,6,L-2,Interpolation,4,4,15.673
+6,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,7,L-4,Concatenation,4,4,20.418
+7,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,8,L-4,Interpolation,1,1,13.367
+8,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,9,L-3,Concatenation,3,3,12.748
+9,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,10,L-3,Interpolation,2,3,17.774
+10,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,11,L-4,Concatenation,3,3,14.5
+11,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,12,L-4,Interpolation,1,1,12.846
+12,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,13,L-2,Concatenation,4,4,11.93
+13,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,14,L-2,Interpolation,2,2,11.422
+14,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,15,L-3,Concatenation,1,2,16.218
+15,bbfca9f0,Female,25-35,Sophomore,Some college/university,Nevada,Computer Science,0,16,L-3,Interpolation,3,4,8.623

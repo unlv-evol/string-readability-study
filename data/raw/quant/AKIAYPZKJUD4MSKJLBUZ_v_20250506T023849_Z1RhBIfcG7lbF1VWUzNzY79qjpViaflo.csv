@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,1,L-1,Concatenation,2,2,22.811
+1,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,2,L-1,Interpolation,1,1,17.196
+2,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,3,L-2,Concatenation,1,4,19.076
+3,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,4,L-2,Interpolation,2,2,20.142
+4,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,5,L-2,Concatenation,3,3,13.592
+5,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,6,L-2,Interpolation,4,3,34.374
+6,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,7,L-4,Concatenation,4,4,26.849
+7,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,8,L-4,Interpolation,1,1,20.305
+8,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,9,L-3,Concatenation,3,3,17.047
+9,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,10,L-3,Interpolation,2,2,37.435
+10,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,11,L-4,Concatenation,3,3,17.304
+11,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,12,L-4,Interpolation,1,1,18.962
+12,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,13,L-2,Concatenation,4,4,16.329
+13,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,14,L-2,Interpolation,2,2,13.756
+14,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,15,L-3,Concatenation,1,1,52.609
+15,117a6f0e,Male,18-24,Senior,Bachelor Degree,Nevada,computer engineering,3,16,L-3,Interpolation,3,2,16.622

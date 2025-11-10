@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,1,L-1,Concatenation,2,2,20.286
+1,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,2,L-1,Interpolation,1,1,37.259
+2,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,3,L-2,Concatenation,1,4,19.719
+3,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,4,L-2,Interpolation,2,2,23.201
+4,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,5,L-2,Concatenation,3,3,12.278
+5,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,6,L-2,Interpolation,4,3,10.489
+6,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,7,L-4,Concatenation,4,4,59.791
+7,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,8,L-4,Interpolation,1,1,18.357
+8,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,9,L-3,Concatenation,3,3,12.993
+9,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,10,L-3,Interpolation,2,2,15.11
+10,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,11,L-4,Concatenation,3,3,31.467
+11,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,12,L-4,Interpolation,1,1,14.464
+12,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,13,L-2,Concatenation,4,4,11.454
+13,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,14,L-2,Interpolation,2,2,12.751
+14,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,15,L-3,Concatenation,1,1,19.4
+15,51709bd4,Male,18-24,Freshman,High School / GED,Nevada,Computer Science,3,16,L-3,Interpolation,3,3,11.198

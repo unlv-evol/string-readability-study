@@ -1,0 +1,17 @@
+,UID,Gender,Age,YearInCollege,Education,State,Major,JobExperience,TaskID,Complexity,Category,CorrectAnswer,UserAnswer,Duration
+0,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,1,L-1,Concatenation,2,2,42.014
+1,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,2,L-1,Interpolation,1,1,39.892
+2,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,3,L-2,Concatenation,1,4,39.515
+3,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,4,L-2,Interpolation,2,2,39.511
+4,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,5,L-2,Concatenation,3,3,77.313
+5,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,6,L-2,Interpolation,4,3,39.793
+6,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,7,L-4,Concatenation,4,4,68.436
+7,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,8,L-4,Interpolation,1,1,41.445
+8,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,9,L-3,Concatenation,3,3,88.75
+9,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,10,L-3,Interpolation,2,2,35.453
+10,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,11,L-4,Concatenation,3,3,60.035
+11,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,12,L-4,Interpolation,1,1,26.478
+12,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,13,L-2,Concatenation,4,4,29.847
+13,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,14,L-2,Interpolation,2,2,23.965
+14,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,15,L-3,Concatenation,1,1,75.206
+15,47fbae2a,Male,36-44,Senior,Associate Degree,Nevada,BS Computer Science,5,16,L-3,Interpolation,3,3,27.025

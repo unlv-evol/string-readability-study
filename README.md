@@ -1,4 +1,4 @@
-# 📘 String Readability Study — Replication Package
+# String Readability Study — Replication Package
 **Empirical Investigation to Understand the Impact of String Interpolation on Program Readability and Comprehension**
 
 This repository contains all materials required to reproduce the quantitative and qualitative analyses reported in the study. The research investigates how **string interpolation** and **string concatenation** affect program readability, comprehension, and debugging efficiency among developers with prior programming experience.  
@@ -6,7 +6,7 @@ It includes datasets, analysis scripts, survey instruments, qualitative prompts,
 
 ---
 
-## 🧠 Overview
+## Overview
 The study combines **quantitative task-based experiments** and **qualitative thematic analysis** to examine developer reasoning and performance differences when reading or debugging string expressions.
 
 - **Participants:** 314
@@ -17,7 +17,7 @@ The study combines **quantitative task-based experiments** and **qualitative the
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ```
 string-readability-study/
 string-readability-study/
@@ -47,16 +47,16 @@ string-readability-study/
 
 ---
 
-## ⚙️ Setup and Environment
+## Setup and Environment
 
-### 🔧 Prerequisites
+### Prerequisites
 - **Python** ≥ 3.10  
 - **Pip** ≥ 23.0  
 - **Git**, **Docker** (optional)
 
 ---
 
-## ▶️ Reproduction Instructions
+## Reproduction Instructions
 ### Tool Setup
 To replicate the experiment, you can simply follow the steps below to setup the data gathering tool.
 #### Installation and Usage
@@ -99,23 +99,23 @@ Results appear in `results/figures/` and `results/csv_xlsx/`.
 
 ---
 
-## 🧩 Qualitative Coding and Codebook
+## Qualitative Coding and Codebook
 The repository includes:
-- `instruments/prompts/` — standardized LLM prompts for RQ1–RQ5  
-- `data/processed/codebook_final.csv` — validated codebook  
-- `results/logs/qual_refinement.md` — coder agreement notes  
+- `instruments/llm/prompts/` — standardized LLM prompts for RQ1–RQ5  
+- `instruments/llm/codebooks` — validated codebook  
+- `results/figures/` and `results/csv_xlsx/` — results 
 
 Coding followed the **Framework Method** with human validation of all model-assisted outputs.
 
 ---
 
-## 📊 Summary of Key Results
+## Summary of Key Results
 - Interpolation improved readability and reduced comprehension time.  
 - Familiarity influenced preferences, but interpolation’s advantages were consistent across levels.  
 - Tooling, syntax, and formatting were key readability factors.
 
 ---
 
-## 🧾 License
+## License
 - **Code:** MIT License  
 - **Data:** Creative Commons Attribution 4.0 International (CC BY 4.0)

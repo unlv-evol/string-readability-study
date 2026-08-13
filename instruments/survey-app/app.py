@@ -1,20 +1,82 @@
 from flask import Flask, redirect, url_for, render_template,session, jsonify, request,send_file, send_from_directory
 from datetime import datetime
+from pathlib import Path
 import randomize
 import csv
 import os
 import uuid
 import pandas as pd
-import boto3
-from boto3.s3.transfer import S3Transfer
 from dotenv import load_dotenv
 load_dotenv()
 
-s3_client = boto3.client('s3', aws_access_key_id=os.environ['AccessKey'], aws_secret_access_key=os.environ['SecreteAccessKey'])
-transfer = S3Transfer(s3_client)
+# Response storage. The original study uploaded each response to a private S3
+# bucket; replications have no access to it, so local CSV storage is the
+# default. Set RESPONSE_STORAGE=s3 (plus AccessKey/SecreteAccessKey and the
+# bucket names) to restore the original behaviour. See .env.example.
+RESPONSE_STORAGE = os.environ.get('RESPONSE_STORAGE', 'local').lower()
+
+
+def _default_response_dir():
+    """<repo>/data/responses when running from the repository, else ./responses.
+
+    In a container the app is copied to /app, outside the repository layout,
+    so the repo-relative default is not always available.
+    """
+    app_dir = Path(__file__).resolve().parent
+    if len(app_dir.parents) >= 2:
+        return app_dir.parents[1] / 'data' / 'responses'
+    return app_dir / 'responses'
+
+
+RESPONSE_DIR = Path(os.environ.get('RESPONSE_DIR') or _default_response_dir())
+TASK_BUCKET = os.environ.get('TaskBucket', 'string-experiment')
+SURVEY_BUCKET = os.environ.get('SurveyBucket', 'string-experiment-post')
+
+transfer = None
+if RESPONSE_STORAGE == 's3':
+    import boto3
+    from boto3.s3.transfer import S3Transfer
+    try:
+        s3_client = boto3.client(
+            's3',
+            aws_access_key_id=os.environ['AccessKey'],
+            aws_secret_access_key=os.environ['SecreteAccessKey'],
+        )
+    except KeyError as exc:
+        raise SystemExit(
+            f"RESPONSE_STORAGE=s3 requires {exc} in the environment or .env file.\n"
+            "Copy .env.example to .env and fill it in, or unset RESPONSE_STORAGE "
+            "to record responses locally instead."
+        )
+    transfer = S3Transfer(s3_client)
+else:
+    RESPONSE_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def store_response(df, uid, kind, bucket):
+    """Persist one participant's responses.
+
+    Writes a CSV next to the other study data (local mode) or uploads it to the
+    study's S3 bucket (s3 mode). Returns the path written locally, if any.
+    """
+    filename = f"{uid}_{kind}.csv"
+
+    if transfer is None:
+        path = RESPONSE_DIR / filename
+        df.to_csv(path, index=False)
+        return path
+
+    path = Path('/tmp') / filename
+    df.to_csv(path, index=False)
+    # The object key is the access key id, matching the naming of the original
+    # collected files in data/raw/ (the bucket is versioned).
+    transfer.upload_file(str(path), bucket, os.environ['AccessKey'],
+                         extra_args={'ServerSideEncryption': "AES256"})
+    return path
+
 
 app = Flask(__name__)
-app.secret_key="v_qf*A&Juo)~9'D"
+app.secret_key = os.environ.get('FLASK_SECRET_KEY', 'dev-secret-not-for-production')
 
 @app.route("/informed-consent")
 def consent():
@@ -83,10 +145,8 @@ def process_post_survey():
 
      # Create DataFrame
     df = pd.DataFrame(data_for_df)
-    # df.to_csv(f"data/{uid}_post_survey_response.csv")
-    df.to_csv(f"/tmp/{uid}_post_survey_response.csv")
-    transfer.upload_file(f"/tmp/{uid}_post_survey_response.csv", "string-experiment-post", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
-  
+    store_response(df, uid, 'post_survey_response', SURVEY_BUCKET)
+
     return redirect(url_for('experiment_completed'))
 
 @app.route("/process", methods=['POST'])
@@ -131,9 +191,7 @@ def save():
 
     # Create DataFrame
     df = pd.DataFrame(data_for_df)
-    # df.to_csv(f"data/{uid}_response.csv")
-    df.to_csv(f"/tmp/{uid}_response.csv")
-    transfer.upload_file(f"/tmp/{uid}_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
+    store_response(df, uid, 'response', TASK_BUCKET)
 
     return jsonify({'status': 'success'})
 
@@ -143,8 +201,14 @@ def responses():
 
 @app.route('/download')
 def download():
-    path = f"/tmp/{session['uid']}_response.csv"
-    return send_file(path, as_attachment=True)
+    directory = Path('/tmp') if transfer is not None else RESPONSE_DIR
+    return send_file(directory / f"{session['uid']}_response.csv", as_attachment=True)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # On macOS, port 5000 is taken by the AirPlay Receiver by default.
+    # Either disable it in System Settings > General > AirDrop & Handoff,
+    # or run with a different port:  PORT=5050 python app.py
+    port = int(os.environ.get('PORT', 5000))
+    print(f" * Storing responses: {RESPONSE_STORAGE}"
+          + (f" ({RESPONSE_DIR})" if transfer is None else ""))
+    app.run(debug=True, port=port)

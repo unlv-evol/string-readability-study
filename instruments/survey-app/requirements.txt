@@ -1,8 +1,11 @@
-flask
-requests
-python-dotenv
-flask-mail
-pandas
-boto3
-plotly
-mathplotlib
+# Dependencies for the Flask experiment platform (instruments/survey-app).
+# Lower bounds are the versions this package was last verified against.
+# For the analysis scripts and notebook, see code/requirements.txt.
+
+flask>=3.0
+pandas>=2.0
+python-dotenv>=1.0
+
+# Optional: only needed when RESPONSE_STORAGE=s3 (see .env.example).
+# The app runs and records responses locally without it.
+boto3>=1.34

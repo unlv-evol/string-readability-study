@@ -1,0 +1,75 @@
+UID,R-X,ResponseText
+2d9b6c95,R-112,"The ""+"" method was better for me. The meaning was generally more clear."
+bd8d6ce0,R-43,I feal that interpolation was more readable because I could easily fill in the blanks.
+ca3ddf84,R-37,String concatenation was more readable as I have had more practice and experience with it.
+1736e08f,R-167,concatenation
+2d4add36,R-161,string concatenation
+d27b7a6c,R-258,I used concatenation as I know that combines strings
+3.0377e+64,R-162,"Concatenation, it was easier to read. Some of the code examples for interpolation were incorrect"
+bfe358c5,R-309,"Interpolation, the + signs got confusing with the """""
+67e9b909,R-225,"String concatenation, because that is what I'm more familiar with"
+c2c8d96a,R-137,I do not have enough experience with concatenation to determine which approach was best.
+42d4fa68,R-202,I found + more readable because it made more sense to me.
+b45fec71,R-194,String concatenation
+40263bce,R-311,-
+b7914eb6,R-191,I found string interpolation more readable. 
+e59d71a4,R-120,It was cool
+f1a4e398,R-108,Concatenation. I'm used to it in C++ 
+2731e3e2,R-73,"I found the version with the ""+"" more readable. I just use it more in concatenation than the {}."
+cee71616,R-107,"Concatenation is more readable because it feels more organic. + symbolizes adding together, so it makes more sense than {}."
+0de01107,R-11,The string concatenation because I have more practice meaning with quotations has to do with strings and others with numbers dealing with variables integers
+18f2c7c2,R-123,I find more string interpolation because I right away was able to find the output based on the string.
+190a4420,R-312,I found interpolation more readable. I was easier and quicker for my brain to understand the logic behind it.
+7dee3571,R-70,the string concatenation was more legible because the quotations take up less space in the text
+21a24348,R-85,I found string concatenation easier to understand as it read just like math adding strings together.
+2dfa0faa,R-315,"String concatenation I found to be easier to read than interpolation, due to having more experience with concatenation. "
+60d2a731,R-151,I found concatenation easier and quicker to read because it clearly shows each part being added
+6400cbec,R-124,I found string concatenation to be easier to read as it is something that I have dealt with more.
+c75f1b9a,R-141,find any replacement for whats inside {} and if none is provided then just use the value in the {}
+355bf42c,R-127,I found string interpolation more readable as it just made more sense in my head while looking at it.
+49a2839b,R-114,"I found string concatenation more readable because I am used to doing it and the syntax, particularly in c++ and python. Even java."
+702714c8,R-280,I liked string interpolation more readable because it was much easier to see and more intuitive.
+0f98cb0b,R-190,"I feel like string concatention is easier for me since it looks like c++, instead of using + we use <<"
+548a9462,R-94,"I think that concatenation was much more readable. + signs are already a common part of everyday language, and it follows the same logic in everyday life as it does in string concatenation."
+c6c04cbf,R-19,"I found concatenation more readable. If there is pure concatenation, it's easier to follow the markers to know where the blocks are. With interpolation it's possible to figure out the blocks, but it just takes longer for me."
+d7a03449,R-7,String interpolation is much more readable as everything is just in one string and if you need to insert variables you can just put {} instead of having to break it into multiple strings concatenated.
+75dfbce0,R-169,"Concatenation, but I think it's because the CompSci program I've taken in my university does not teach interpolation in its I or II introductory courses, so I was less familiar."
+0b7c4cd6,R-166,"I found string concatenation much more readable as the brackets in string interpolation threw me off. I also am unsure what string interpolation is, which made it difficult to select answers."
+f1dc0159,R-207,"The ""+"", my entire time learning code in the university i have never once used the ""{}"" to combine my strings together. Plus its a lot easier for most people since the sign ""+"" is so universal. "
+d61846fb,R-168,I found concatenation easier since in most cases it was easy to just place the strings next to each other without having to analyze the whitespace on the line defining the string.
+dffcf266,R-300,I found string concatenation more readable because the {} in string interpolation could get confusing with longer strings and I have been using string concatenation more often. 
+22de4589,R-174,"I found the string concatenation more readable. This is because for the interpolation, I was confused on if there was spacing between the strings or not. "
+7f1cdc82,R-128,I enjoyed concatenation more because it was easier to think of adding strings together than looking at the brackets to understand how to add strings together.
+40c4c097,R-179,string interpolation is more readable. You don't need to be checking if there are quotes around it because as soon as you see {} you knew that it was referring to a variable. 
+93683770,R-176,"I think string concatenation was more readable for me. It just seems a little easier to know what it will output, maybe it might be because I'm used to working with string concatenation."
+9496eaba,R-277,I found string interpolation to be more readable as I can easily see where the variables would be inserted as well as any surrounding white space.
+9024057a,R-261,"I think concatenaton is more easier because I learned it first and I think it's very simple. It's easier for the eye too. ""Thank "" + ""you!"""
+97ff9b88,R-105,The approach I found more readable were the ones involving C++ and quotes. This is the case because this is what was taught during my time in college. I have had little experience with using {} to represent outputs.
+b1858df4,R-78,"I thought that concatenation was far more readable. Concatenation is widely used and more familiar to me because of its commonality, so I had to learn what ""string interpolation"" was as I was working through the problems. "
+9fdb488e,R-93,"string concatenation was more readable. I have never actually used string interpolation but even after looking it up, it felt much less readable than concatenation felt when I first learned about it. I think concatenation just feels more natural because the quotations basically work the same way they do in language. The interpolation examples really threw me off and were a bit overwhelming. I'm  probably just too used to concatenation."
+61398d75,R-17,"I found interpolation to be more readable because the string fits more snugly into the line of code. For example, when writing a string such as ""https://example.com/"", I find it much more intuitive to have the domain be interpolated inside the string like ""https://{domain}/"" rather than inserting it with the concatenation like ""https://"" + domain + ""/"" and having those nasty plus signs."
+5c429f4f,R-8,"I felt that string interpolation was more readable because when reading a string, it was much clearer that the curly brackets were not part of the string. While with concatenation, '+' could have been part of it, and it takes more time to read strings that use concatenation.
+Example of String Concatenation that I feel would be difficult to read: a + "" + "" + b
+Same example using String Interpolation: ""{a} + {b}"""
+e8068a53,R-157,"In the survey, string interpolation was more readable than the other. Concatenation was more readable in code like ""C://"" + home, where there were a lot of symbols mixed in compared to interpolation with ""C://{home}"", but interpolation was more readable in ""a = {a}"" and ""{name}, you scored {score} out of {total}"" than concatenation. "
+c54bce8e,R-147,"In my personal opinion, I found string interpolation to be more readable. This is because the brackets {} bring more attention to the variable name, and the line of pseudocode is not covered by an abundance of plus symbols, which may make reading at a faster pace more difficult.
+
+For example, here are some variables:
+name = ""Tom""
+gpa = ""4.0""
+
+A sentence in interpolation: ""Hello {name}, congratulations on passing with a {gpa} GPA!""
+A sentence in concatenation: ""Hello "" + name + "", congratulations on passing with a "" + gpa + "" GPA!""
+
+To me, the sentence in interpolation is easier to read. "
+e22de289,R-251,"I personally found string concatenation to be more readable. This is likely because C++ is the only high-level language I've learned, and am not particularly familiar with the syntax for string interpolation. For example in C++; a = ""Hello "", b = ""World"", cout << a + b;, then the output would be ""Hello World"". Same for when came to string interpolation, a = ""Hello "", b = ""World""  {a}{b}, then the output would be the exact same ""Hello World"". However, the interpolation syntax was confusing as it seemed like putting a space between {a} {b} would implicitly insert a space, even if "" "" was not at the end of a = ""Hello"". Although, at the end of the day it's due to my lack of knowledge and application for string interpolation that leads me to say that string concatenation is more readable."
+16398729,R-150,"The + was more readable for me, but I think its due to the fact that math has been a constant in my life since the age of 4 years old, so I know what + is meant to do in a variety of different contexts. While {} are new to me from the last 10ish years and even then I wasn't really sure what they were meant to do, I just knew I needed them or the code wouldn't work."
+a5762d21,R-313,"String concatenation is more readable simply because it has less text to parse through. For example, if a = ""(1"" and b = ""0)"", then a + b is much easier to read than {a} {b}. However, it also depends on the context a bit. I like the interpolation of f strings in python, especially in an IDE that can color the interpolated section differently than the rest of the string. f""/Users/{user}/Downloads"" is easier for me to read than ""/Users/"" + user + ""/Downloads"". So, I think if only variables are used, then concatenation is simpler. But if there is a mix of string with variables interspersed, interpolation is easier."
+77ddcb3f,R-255,"I found interpolation to be more readable because it got rid of unnecessary spaces that clog up my reading when using concatenation. With interpolation, all that separates a pure string from a variable being dereferenced is ""{"" and ""}"", whereas with concatenation, it's ""' + "" and/or "" + '""."
+228f5b94,R-121,"I found string interpolation more readable than string concatenation because it integrates variable values directly within the string structure. For example, using ""Hello, {name}!"" is much cleaner and less error-prone than ""Hello, "" + name + ""!"". Interpolation reduces the visual clutter of multiple + operators and quotes, especially in longer strings."
+ab804763,R-183,"Concatenation was most easier because I am used to it. However, interpolation seems like it would make for more readable code in the more meaningful context. What I mean is it was hard to read concatenation when it was just seemingly random letters/numbers, but when it was within the URLs it made a lot more sense (and wasn't separated out by "" + "")
+"
+73dd28f9,R-193,"I found string concatenation more readable, because I usually interpret anything inside of quotes to be part of the string itself. I'm relatively new to string interpolation, so I got somewhat confused when the interpolation brackets would be inside quotes for one question, then outside for another."
+02f6d9a0,R-279,"Interpolation seems to be a little bit more readable than concatenation. With concatenation, having all the strings separated with a plus sign made it confusing to visualize a final resulting string, interpolation on the other hand made it very simple to visualize the result of how a string variable being inserted in another string.  "
+2f8ffb2c,R-164,"For numbers, I especially found interpolation (""{}"") more readable. When using the + symbol, I would often find myself confusing it with addition. For regular strings or when using variable names, I slightly leaned towards concatenation (""+"") as being easier to read, partially due to my experience with using this symbol most often in my own code. That being said, the longer the sentence and the more often variable names are used, I leaned more and more towards finding interpolation more readable."
+4ecfca46,R-99,The questions that utilized the + for concatenation and deliberate use of keywords to replace specific portions of a string were easiest to decipher by printing out the created string. The use of { } and quotes within quotes made it harder for someone who does not know the language being used to read the string.

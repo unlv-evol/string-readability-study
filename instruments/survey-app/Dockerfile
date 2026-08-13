@@ -1,21 +1,22 @@
 FROM python:3.10-slim
 
-# Dir setup
-ENV APP_DIR /app
-RUN mkdir ${APP_DIR}
-VOLUME ${APP_DIR}
-WORKDIR ${APP_DIR}
+WORKDIR /app
 
-# Install requirements early so we can change code and re-build quickly
+# Install requirements early so code changes don't invalidate the layer cache
 COPY requirements.txt .
-RUN pip3 install --upgrade pip
-RUN pip3 install --trusted-host pypi.org --trusted-host files.pythonhosted.org pip setuptools && \
-    pip3 install -r requirements.txt
+RUN pip3 install --no-cache-dir --upgrade pip && \
+    pip3 install --no-cache-dir -r requirements.txt
 
-# expose http port
-EXPOSE 5000
-#
-# copy config files into filesystem
 COPY . .
 
-CMD python app.py
+# Responses are written here when RESPONSE_STORAGE=local (the default).
+# docker-compose mounts the host repository's data/responses over this path.
+ENV RESPONSE_DIR=/data/responses
+RUN mkdir -p /data/responses
+
+EXPOSE 5000
+
+# Bind to 0.0.0.0 so the port is reachable from outside the container.
+# (app.py's own `app.run()` binds 127.0.0.1, which is unreachable from the host.)
+ENV FLASK_APP=app.py
+CMD ["python", "-m", "flask", "run", "--host=0.0.0.0", "--port=5000"]

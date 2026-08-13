@@ -1,0 +1,12 @@
+# Dependencies for the analysis scripts and notebook (code/).
+# Lower bounds are the versions this package was last verified against.
+# For the Flask experiment platform, see instruments/survey-app/requirements.txt.
+
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+statsmodels>=0.14      # power_analysis.py
+openpyxl>=3.1          # reading results/csv_xlsx/*.xlsx
+
+# Only needed to execute code/notebooks/1.0_quant_plots.ipynb
+jupyter>=1.0

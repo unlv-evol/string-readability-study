@@ -1,18 +1,15 @@
-version: '3'
-
 services:
   web:
     build: ./
-    container_name: tool
-    volumes:
-      - ./
-    restart: always  
+    container_name: string-experiment
     ports:
-        - "5000:5000"
-    networks:
-        - tool
-    tty: true
-networks: 
-  tool:
-volumes:
-  tool:
+      - "5000:5000"
+    environment:
+      # Record responses to a mounted local directory (see .env.example).
+      RESPONSE_STORAGE: local
+      RESPONSE_DIR: /data/responses
+      FLASK_SECRET_KEY: dev-secret-not-for-production
+    volumes:
+      # Responses land in <repo>/data/responses on the host.
+      - ../../data/responses:/data/responses
+    restart: unless-stopped

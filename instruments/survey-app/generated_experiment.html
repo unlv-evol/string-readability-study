@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment Tasks — An Empirical Study on the Impact of String Interpolation on Program Readability and Comprehension</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 860px; margin: 2rem auto; padding: 0 1rem; color: #222; }
+    h1 { font-size: 1.4rem; border-bottom: 2px solid #333; padding-bottom: .4rem; }
+    h2 { font-size: 1.1rem; background: #f0f0f0; padding: .5rem .75rem; border-left: 4px solid #555; margin-top: 2rem; }
+    .instruction { color: #444; margin-bottom: .5rem; }
+    pre { background: #fafafa; border: 1px solid #ddd; padding: .75rem 1rem; border-radius: 4px; overflow-x: auto; }
+    code { font-family: "Courier New", monospace; font-size: .92rem; }
+    ol.options { list-style: none; padding: 0; margin: .5rem 0; }
+    ol.options li { padding: .2rem .5rem; font-family: monospace; font-size: .9rem; }
+    li.correct-answer { background: #e6f4ea; font-weight: bold; }
+    .correct-label { font-size: .88rem; color: #2a6b2a; margin-top: .4rem; }
+    .task-notes { font-size: .85rem; color: #555; background: #fffbe6; border: 1px solid #e0d080; padding: .5rem .75rem; margin-top: .75rem; border-radius: 3px; }
+    .task-warning { font-size: .85rem; color: #7a1a1a; background: #fff0f0; border: 1px solid #e08080; padding: .5rem .75rem; margin-top: .75rem; border-radius: 3px; }
+    table { border-collapse: collapse; margin: .75rem 0; }
+    th, td { border: 1px solid #ccc; padding: .4rem .75rem; font-size: .88rem; }
+    th { background: #f0f0f0; }
+    .meta-block { background: #f7f7f7; border: 1px solid #ddd; padding: .75rem 1rem; font-size: .88rem; margin-bottom: 1.5rem; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>An Empirical Study on the Impact of String Interpolation on Program Readability and Comprehension</h1>
+  <div class="meta-block">
+    <p>Complete task inventory for the within-subjects experiment. Each participant saw all 16 tasks in a fixed order, alternating between Concatenation and Interpolation conditions. See TASK_DESIGN.md for the pseudo-syntax evaluation rules used to determine correct answers.</p>
+    <p>For pseudo-syntax evaluation rules, see <code>TASK_DESIGN.md</code>.</p>
+    <h3 style="margin-top:.75rem;font-size:.95rem;">Complexity Levels</h3>
+    <table>
+      <tr><th>Level</th><th>Definition</th></tr>
+      <tr><td><strong>L-1</strong></td><td>Two embedded variables or literal values</td></tr>
+      <tr><td><strong>L-2</strong></td><td>Three embedded variables or literal values</td></tr>
+      <tr><td><strong>L-3</strong></td><td>Four embedded variables or literal values</td></tr>
+      <tr><td><strong>L-4</strong></td><td>More than four embedded variables or literal values</td></tr>
+    </table>
+    <h3 style="margin-top:.75rem;font-size:.95rem;">Notes</h3>
+    <ul>
+      <li>Complexity values recorded here reflect what was stored in the experimental platform (experiment.html). These differ from the values reported in Table 3 of the paper; the HTML is the authoritative source because it is what was logged in participant CSV files.</li>\n    </ul>
+  </div>
+
+  <section class="task" id="task-1">
+    <h2>Task 1 of 16 &mdash; Concatenation &mdash; Complexity: L-1</h2>
+    <p class="instruction">
+      The <code>"+"</code> symbol represents concatenation.
+      Select the correct output.
+    </p>
+    <pre><code>&quot;John Doe, &quot; + &quot;3&quot; + &quot;1&quot;</code></pre>
+    <ol class="options">
+      <li>1. &quot;JohnDoe, 31&quot;</li>
+      <li class="correct-answer">2. &quot;John Doe, 31&quot; ✓</li>
+      <li>3. &quot;Doe &quot;</li>
+      <li>4. &quot;John There&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 2 &rarr; <code>John Doe, 31</code></p>
+    
+  </section>
+
+  <section class="task" id="task-2">
+    <h2>Task 2 of 16 &mdash; Interpolation &mdash; Complexity: L-1</h2>
+    <p class="instruction">
+      The <code>"{ }"</code> symbol represents interpolation.
+      Select the correct output.
+    </p>
+    <pre><code>&quot;{5}{6}, John Doe&quot;</code></pre>
+    <ol class="options">
+      <li class="correct-answer">1. &quot;56, John Doe&quot; ✓</li>
+      <li>2. &quot;John Doe, 56&quot;</li>
+      <li>3. &quot;56, Doe John&quot;</li>
+      <li>4. &quot;Doe John There&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 1 &rarr; <code>56, John Doe</code></p>
+    
+  </section>
+
+  <section class="task" id="task-3">
+    <h2>Task 3 of 16 &mdash; Concatenation &mdash; Complexity: L-2</h2>
+    <p class="instruction">
+      The <code>"+"</code> symbol represents concatenation.
+      Select the correct output.
+    </p>
+    <pre><code>a = &quot;123 Main St, &quot;
+b = &quot;Springfield, &quot;
+c = &quot;OH&quot;
+
+a + (b + c)</code></pre>
+    <ol class="options">
+      <li class="correct-answer">1. &quot;123 Main St, (Springfield, OH)&quot; ✓</li>
+      <li>2. &quot;123 Main St,Springfield,OH&quot;</li>
+      <li>3. &quot;123 Main St,(Springfield,OH)&quot;</li>
+      <li>4. &quot;123 Main St, Springfield, OH&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 1 &rarr; <code>123 Main St, (Springfield, OH)</code></p>
+    
+    <div class="task-notes">
+      <strong>Design note:</strong> Under the pseudo-syntax, parentheses in the expression are preserved in the output as grouping markers. Option 4 is the naive evaluation result that ignores the grouping display rule.
+    </div>
+  </section>
+
+  <section class="task" id="task-4">
+    <h2>Task 4 of 16 &mdash; Interpolation &mdash; Complexity: L-2</h2>
+    <p class="instruction">
+      The <code>"{ }"</code> symbol represents interpolation.
+      Select the correct output.
+    </p>
+    <pre><code>a = &quot;123 Main St, &quot;
+b = &quot;Springfield, &quot;
+c = &quot;OH&quot;
+
+&quot;{b} ({a} {c})&quot;</code></pre>
+    <ol class="options">
+      <li>1. &quot;Springfield,(123 Main St),OH&quot;</li>
+      <li class="correct-answer">2. &quot;Springfield, (123 Main St, OH)&quot; ✓</li>
+      <li>3. &quot;123 Main St, (Springfield, OH)&quot;</li>
+      <li>4. &quot;(123 Main St,Springfield),OH&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 2 &rarr; <code>Springfield, (123 Main St, OH)</code></p>
+    
+  </section>
+
+  <section class="task" id="task-5">
+    <h2>Task 5 of 16 &mdash; Concatenation &mdash; Complexity: L-2</h2>
+    <p class="instruction">
+      The <code>"+"</code> symbol represents concatenation.
+      Select the correct output.
+    </p>
+    <pre><code>name = &quot;Daniel&quot;
+score = 50
+total = 100
+
+&quot;Hello &quot; + name + &quot;, your score is &quot; + score + &quot; out of &quot; + total + &quot;.&quot;</code></pre>
+    <ol class="options">
+      <li>1. &quot;Hello name, your score is score out of total.&quot;</li>
+      <li>2. &quot;Hello Daniel, your 50 is score out of total.&quot;</li>
+      <li class="correct-answer">3. &quot;Hello Daniel, your score is 50 out of 100.&quot; ✓</li>
+      <li>4. &quot;Hello Daniel, your score is 100 out of 50.&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 3 &rarr; <code>Hello Daniel, your score is 50 out of 100.</code></p>
+    
+  </section>
+
+  <section class="task" id="task-6">
+    <h2>Task 6 of 16 &mdash; Interpolation &mdash; Complexity: L-2</h2>
+    <p class="instruction">
+      The <code>"{ }"</code> symbol represents interpolation.
+      Select the correct output.
+    </p>
+    <pre><code>name = &quot;Daniel&quot;
+score = 50
+total = 100
+
+&quot;{name}, out of {total}, you scored {score}.&quot;</code></pre>
+    <ol class="options">
+      <li>1. &quot;Hello Daniel, your score is 50 out of 100.&quot;</li>
+      <li>2. &quot;Daniel, you scored 50 out of 100.&quot;</li>
+      <li class="correct-answer">3. &quot;Daniel, out of 100, you scored 50&quot; ✓</li>
+      <li>4. &quot;Daniel, out of 100, you scored 100&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 3 &rarr; <code>Daniel, out of 100, you scored 50</code></p>
+    
+  </section>
+
+  <section class="task" id="task-7">
+    <h2>Task 7 of 16 &mdash; Concatenation &mdash; Complexity: L-4</h2>
+    <p class="instruction">
+      The <code>"+"</code> symbol represents concatenation.
+      Select the correct output.
+    </p>
+    <pre><code>&quot;World, &quot; + 1 + 2 + 3 + (1 + 1 + 1 + 1) + (&quot;5&quot; + (6 + 7))</code></pre>
+    <ol class="options">
+      <li>1. &quot;World, 123(\&quot;5\&quot;(67))&quot;</li>
+      <li>2. &quot;World, 123(\&quot;5\&quot;))&quot;</li>
+      <li>3. &quot;123(1111)(\&quot;5\&quot;(67)), World&quot;</li>
+      <li class="correct-answer">4. &quot;World, 123(1111)(\&quot;5\&quot;(67))&quot; ✓</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 4 &rarr; <code>World, 123(1111)(&quot;5&quot;(67))</code></p>
+    
+    <div class="task-notes">
+      <strong>Design note:</strong> Under the pseudo-syntax, numeric values are not arithmetically evaluated; they are treated as literal tokens. Parenthesized subexpressions are displayed with their grouping parentheses preserved in the output. Therefore (1+1+1+1) renders as (1111) and (6+7) renders as (67). This differs from standard Python/Java semantics where (1+1+1+1)=4 and (6+7)=13.
+    </div>
+  </section>
+
+  <section class="task" id="task-8">
+    <h2>Task 8 of 16 &mdash; Interpolation &mdash; Complexity: L-4</h2>
+    <p class="instruction">
+      The <code>"{ }"</code> symbol represents interpolation.
+      Select the correct output.
+    </p>
+    <pre><code>&quot;{1} {2} {3} {({9} {9} {9} {1})} World { ({\&quot;5\&quot;} {(67)} )}&quot;</code></pre>
+    <ol class="options">
+      <li class="correct-answer">1. &quot;1 2 3 (9 9 9 1) World (\&quot;5\&quot; (67) )&quot; ✓</li>
+      <li>2. &quot;123(9991)World(\&quot;5\&quot;(67))&quot;</li>
+      <li>3. &quot;1 2 3 ({9} {9} {9} 1) World (\&quot;5\&quot; (67) )&quot;</li>
+      <li>4. &quot;1 2 3 9 9 9 1 World \&quot;5\&quot;67&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 1 &rarr; <code>1 2 3 (9 9 9 1) World (&quot;5&quot; (67) )</code></p>
+    
+    <div class="task-notes">
+      <strong>Design note:</strong> The pseudo-syntax used in this experiment is language-neutral and does not correspond to any specific language runtime. Nested interpolation markers {(...)} are valid in this pseudo-syntax: the outer {} triggers interpolation and the inner () marks a group whose contents are also interpolated. This would not compile in Python or similar languages, but is intentional here to test comprehension of nested structure without language-specific bias.
+    </div>
+  </section>
+
+  <section class="task" id="task-9">
+    <h2>Task 9 of 16 &mdash; Concatenation &mdash; Complexity: L-3</h2>
+    <p class="instruction">
+      The <code>"+"</code> symbol represents concatenation.
+      Select the correct output.
+    </p>
+    <pre><code>a = 5
+b = 6
+c = 4
+d = 10
+
+&quot;a = &quot; + a + &quot; d = &quot; + d + &quot; c = &quot; + c + &quot; b = &quot; + b</code></pre>
+    <ol class="options">
+      <li>1. &quot;a = 5 b = 6 c = 4 d = 10&quot;</li>
+      <li>2. &quot;a = 5 d = 6 c = 10 b = 4&quot;</li>
+      <li class="correct-answer">3. &quot;a = 5 d = 10 c = 4 b = 6&quot; ✓</li>
+      <li>4. &quot;b = 6 d = 10 c = 4 a = 5&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 3 &rarr; <code>a = 5 d = 10 c = 4 b = 6</code></p>
+    
+  </section>
+
+  <section class="task" id="task-10">
+    <h2>Task 10 of 16 &mdash; Interpolation &mdash; Complexity: L-3</h2>
+    <p class="instruction">
+      The <code>"{ }"</code> symbol represents interpolation.
+      Select the correct output.
+    </p>
+    <pre><code>a = 5
+b = 6
+c = 4
+d = 10
+
+&quot;a = {a} b = {d} c = {b} d = {c}&quot;</code></pre>
+    <ol class="options">
+      <li>1. &quot;a = 4 b = 5 c = 6 d = 10&quot;</li>
+      <li class="correct-answer">2. &quot;a = 5 b = 10 c = 6 d = 4&quot; ✓</li>
+      <li>3. &quot;a = {a} b = {d} c = {b} d = {c}&quot;</li>
+      <li>4. &quot;a = a b = b c = b d = c&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 2 &rarr; <code>a = 5 b = 10 c = 6 d = 4</code></p>
+    
+    <div class="task-notes">
+      <strong>Design note:</strong> This task deliberately aliases label names to different variables (e.g., label &#x27;b&#x27; uses variable {d}) to test careful tracking of placeholder-to-variable mappings.
+    </div>
+  </section>
+
+  <section class="task" id="task-11">
+    <h2>Task 11 of 16 &mdash; Concatenation &mdash; Complexity: L-4</h2>
+    <p class="instruction">
+      The <code>"+"</code> symbol represents concatenation.
+      Select the correct output.
+    </p>
+    <pre><code>&quot;(0 &quot; + &quot; 1)&quot; + &quot;(1 &quot; + &quot; 1)&quot; + &quot;...&quot; + m + n-1 + l-2 + &quot; = m(m+1)/2 = O(m^2)&quot;</code></pre>
+    <ol class="options">
+      <li>1. &quot;(01)(11) ... mn-1l-2 = m(m1)/2 = O(m^2)&quot;</li>
+      <li>2. &quot;12...mn-1l-2=mm1/2=0m^2&quot;</li>
+      <li class="correct-answer">3. &quot;(0 1) (1 1) ... m n-1 l-2 = m(m 1)/2 = O(m^2)&quot; ✓</li>
+      <li>4. &quot;1 2 ... mn-1l-2 = mm1/2 = 0m^2&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 3 &rarr; <code>(0 1) (1 1) ... m n-1 l-2 = m(m 1)/2 = O(m^2)</code></p>
+    
+    <div class="task-notes">
+      <strong>Design note:</strong> This task tests comprehension of concatenation across a complex mathematical expression. The &#x27;+&#x27; inside the literal strings does not represent concatenation — only the outer &#x27;+&#x27; operators between quoted segments do. The expression also includes symbolic variables (m, n, l) that are not defined, requiring participants to treat them as literal tokens.
+    </div>
+  </section>
+
+  <section class="task" id="task-12">
+    <h2>Task 12 of 16 &mdash; Interpolation &mdash; Complexity: L-4</h2>
+    <p class="instruction">
+      The <code>"{ }"</code> symbol represents interpolation.
+      Select the correct output.
+    </p>
+    <pre><code>&quot;{(0 2 1)} {(1 2 1)} {...} n {m-1} {l-2} = m(m 1)/2 = O(m^2)&quot;</code></pre>
+    <ol class="options">
+      <li class="correct-answer">1. &quot;(0 2 1) (1 2 1) ... n m-1 l-2 = m(m 1)/2 = O(m^2)&quot; ✓</li>
+      <li>2. &quot;3 4 ... n m-1 l-2 = m(m 1)/2 = O(m^2)&quot;</li>
+      <li>3. &quot;(021)(121) ... nm-1l-2 = m(m 1)/2 = O(m^2)&quot;</li>
+      <li>4. &quot;... n m-1 l-2 = m(m 1)/2 = O(m^2)&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 1 &rarr; <code>(0 2 1) (1 2 1) ... n m-1 l-2 = m(m 1)/2 = O(m^2)</code></p>
+    
+  </section>
+
+  <section class="task" id="task-13">
+    <h2>Task 13 of 16 &mdash; Concatenation &mdash; Complexity: L-2</h2>
+    <p class="instruction">
+      The <code>"+"</code> symbol represents concatenation.
+      Select the correct output.
+    </p>
+    <pre><code>a = &quot;Hi&quot;
+b = &quot;There&quot;
+userName = &quot;Peter&quot;
+
+&quot;C:\\Users\\&quot; + userName + &quot;\\Documents&quot;</code></pre>
+    <ol class="options">
+      <li>1. &quot;Hi There Peter&quot;</li>
+      <li>2. &quot;C:\\Users\\Documents\\Peter&quot;</li>
+      <li>3. &quot;C:\\Peter\\Users\\Documents&quot;</li>
+      <li class="correct-answer">4. &quot;C:\\Users\\Peter\\Documents&quot; ✓</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 4 &rarr; <code>C:\Users\Peter\Documents</code></p>
+    
+    <div class="task-notes">
+      <strong>Design note:</strong> Variables a and b are declared but not referenced in the expression, serving as distractors to increase working memory load.
+    </div>
+  </section>
+
+  <section class="task" id="task-14">
+    <h2>Task 14 of 16 &mdash; Interpolation &mdash; Complexity: L-2</h2>
+    <p class="instruction">
+      The <code>"{ }"</code> symbol represents interpolation.
+      Select the correct output.
+    </p>
+    <pre><code>a = &quot;Hi&quot;
+doc = &quot;Downloads&quot;
+userName = &quot;Peter&quot;
+
+&quot;C://Users//{doc}//{userName}&quot;</code></pre>
+    <ol class="options">
+      <li>1. &quot;C://Users//Peter//Peter&quot;</li>
+      <li class="correct-answer">2. &quot;C://Users//Downloads//Peter&quot; ✓</li>
+      <li>3. &quot;C://Users//Peter//Downloads&quot;</li>
+      <li>4. &quot;C:\\Users\\Peter\\Documents&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 2 &rarr; <code>C://Users//Downloads//Peter</code></p>
+    
+    <div class="task-notes">
+      <strong>Design note:</strong> Variable a is declared but not referenced. Option 4 uses backslash separators to test whether participants conflate this with Task 13.
+    </div>
+  </section>
+
+  <section class="task" id="task-15">
+    <h2>Task 15 of 16 &mdash; Concatenation &mdash; Complexity: L-3</h2>
+    <p class="instruction">
+      The <code>"+"</code> symbol represents concatenation.
+      Select the correct output.
+    </p>
+    <pre><code>domain = &quot;example.com&quot;
+query = &quot;?user=john&quot;
+protocol = &quot;https://&quot;
+path = &quot;/home&quot;
+
+protocol + domain + path + query</code></pre>
+    <ol class="options">
+      <li class="correct-answer">1. &quot;https://example.com/home?user=john&quot; ✓</li>
+      <li>2. &quot;https://example.com /home ?user=john&quot;</li>
+      <li>3. &quot;https://example.com/home&quot;</li>
+      <li>4. &quot;https://example.com?user=john&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 1 &rarr; <code>https://example.com/home?user=john</code></p>
+    
+  </section>
+
+  <section class="task" id="task-16">
+    <h2>Task 16 of 16 &mdash; Interpolation &mdash; Complexity: L-3</h2>
+    <p class="instruction">
+      The <code>"{ }"</code> symbol represents interpolation.
+      Select the correct output.
+    </p>
+    <pre><code>domain = &quot;example.com&quot;
+query = &quot;?user=john&quot;
+protocol = &quot;https://&quot;
+path = &quot;/home&quot;
+
+&quot;https://protocol/{domain}/path/{query}&quot;</code></pre>
+    <ol class="options">
+      <li>1. &quot;https://protocol/home/?user=john&quot;</li>
+      <li>2. &quot;https://example.com//home/?user=john&quot;</li>
+      <li class="correct-answer">3. &quot;https://protocol/example.com/path/?user=john&quot; ✓</li>
+      <li>4. &quot;https://https:///example.com//home/?user=john&quot;</li>
+    </ol>
+    <p class="correct-label">Correct answer: option 3 &rarr; <code>https://protocol/example.com/path/?user=john</code></p>
+    
+    <div class="task-notes">
+      <strong>Design note:</strong> Only {domain} and {query} are interpolation placeholders. The words &#x27;protocol&#x27; and &#x27;path&#x27; in the template string are plain text, not placeholders. This tests whether participants distinguish between literal text and interpolation markers.
+    </div>
+  </section>
+
+</body>
+</html>

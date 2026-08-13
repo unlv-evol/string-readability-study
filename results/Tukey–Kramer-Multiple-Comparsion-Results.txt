@@ -1,0 +1,168 @@
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Freshman and Sophomore
+Statistic (t): -0.055
+Degrees Of Freedom: 5033.0
+Probability: 1.0
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Freshman and Junior
+Statistic (t): -1.47
+Degrees Of Freedom: 5033.0
+Probability: 0.763
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Freshman and Senior
+Statistic (t): 1.16
+Degrees Of Freedom: 5033.0
+Probability: 0.909
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Freshman and Graduate
+Statistic (t): -1.772
+Degrees Of Freedom: 5033.0
+Probability: 0.567
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Freshman and Not Applicable
+Statistic (t): -0.11
+Degrees Of Freedom: 5033.0
+Probability: 1.0
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Freshman and Post-graduate
+Statistic (t): 1.242
+Degrees Of Freedom: 5033.0
+Probability: 0.878
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Sophomore and Junior
+Statistic (t): -1.772
+Degrees Of Freedom: 5033.0
+Probability: 0.567
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Sophomore and Senior
+Statistic (t): 1.447
+Degrees Of Freedom: 5033.0
+Probability: 0.776
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Sophomore and Graduate
+Statistic (t): -1.798
+Degrees Of Freedom: 5033.0
+Probability: 0.549
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Sophomore and Not Applicable
+Statistic (t): -0.092
+Degrees Of Freedom: 5033.0
+Probability: 1.0
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Sophomore and Post-graduate
+Statistic (t): 1.27
+Degrees Of Freedom: 5033.0
+Probability: 0.866
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Junior and Senior
+Statistic (t): 2.994
+Degrees Of Freedom: 5033.0
+Probability: 0.044
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Junior and Graduate
+Statistic (t): -1.248
+Degrees Of Freedom: 5033.0
+Probability: 0.875
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Junior and Not Applicable
+Statistic (t): 0.459
+Degrees Of Freedom: 5033.0
+Probability: 0.999
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Junior and Post-graduate
+Statistic (t): 1.624
+Degrees Of Freedom: 5033.0
+Probability: 0.667
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Senior and Graduate
+Statistic (t): -2.281
+Degrees Of Freedom: 5033.0
+Probability: 0.253
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Senior and Not Applicable
+Statistic (t): -0.6
+Degrees Of Freedom: 5033.0
+Probability: 0.997
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Senior and Post-graduate
+Statistic (t): 0.932
+Degrees Of Freedom: 5033.0
+Probability: 0.967
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Graduate and Not Applicable
+Statistic (t): 1.237
+Degrees Of Freedom: 5033.0
+Probability: 0.88
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Graduate and Post-graduate
+Statistic (t): 2.07
+Degrees Of Freedom: 5033.0
+Probability: 0.371
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two independent samples
+Samples: Not Applicable and Post-graduate
+Statistic (t): 1.135
+Degrees Of Freedom: 5033.0
+Probability: 0.918
+
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Freshman and Sophomore., t(5033) = -0.05, p = 1.0.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Freshman and Junior., t(5033) = -1.47, p = .763.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Freshman and Senior., t(5033) = 1.16, p = .909.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Freshman and Graduate., t(5033) = -1.77, p = .567.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Freshman and Not Applicable., t(5033) = -0.11, p = 1.0.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Freshman and Post-graduate., t(5033) = 1.24, p = .878.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Sophomore and Junior., t(5033) = -1.77, p = .567.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Sophomore and Senior., t(5033) = 1.45, p = .776.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Sophomore and Graduate., t(5033) = -1.8, p = .549.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Sophomore and Not Applicable., t(5033) = -0.09, p = 1.0.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Sophomore and Post-graduate., t(5033) = 1.27, p = .866.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Junior and Senior., t(5033) = 2.99, p = .044.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Junior and Graduate., t(5033) = -1.25, p = .875.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Junior and Not Applicable., t(5033) = 0.46, p = .999.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Junior and Post-graduate., t(5033) = 1.62, p = .667.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Senior and Graduate., t(5033) = -2.28, p = .253.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Senior and Not Applicable., t(5033) = -0.6, p = .997.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Senior and Post-graduate., t(5033) = 0.93, p = .967.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Graduate and Not Applicable., t(5033) = 1.24, p = .88.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Graduate and Post-graduate., t(5033) = 2.07, p = .371.
+
+A Tukey–Kramer Multiple Comparisons Test was conducted on two samples Not Applicable and Post-graduate., t(5033) = 1.13, p = .918.

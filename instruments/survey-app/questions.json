@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "study": "An Empirical Study on the Impact of String Interpolation on Program Readability and Comprehension",
+    "description": "Complete task inventory for the within-subjects experiment. Each participant saw all 16 tasks in a fixed order, alternating between Concatenation and Interpolation conditions. See TASK_DESIGN.md for the pseudo-syntax evaluation rules used to determine correct answers.",
+    "complexity_levels": {
+      "L-1": "Two embedded variables or literal values",
+      "L-2": "Three embedded variables or literal values",
+      "L-3": "Four embedded variables or literal values",
+      "L-4": "More than four embedded variables or literal values"
+    },
+    "symbols": {
+      "concatenation": "+",
+      "interpolation": "{ }"
+    },
+    "notes": [
+      "Complexity values recorded here reflect what was stored in the experimental platform (experiment.html). These differ from the values reported in Table 3 of the paper; the HTML is the authoritative source because it is what was logged in participant CSV files."
+    ]
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "type": "Concatenation",
+      "complexity": "L-1",
+      "domain": "Simple literal concatenation",
+      "variables": {},
+      "expression": "\"John Doe, \" + \"3\" + \"1\"",
+      "options": [
+        "\"JohnDoe, 31\"",
+        "\"John Doe, 31\"",
+        "\"Doe \"",
+        "\"John There\""
+      ],
+      "correct_option": 2,
+      "correct_output": "John Doe, 31",
+      "distractor_types": [
+        "missing space after comma",
+        "partial string fragment",
+        "swapped unrelated words"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Interpolation",
+      "complexity": "L-1",
+      "domain": "Simple literal interpolation",
+      "variables": {},
+      "expression": "\"{5}{6}, John Doe\"",
+      "options": [
+        "\"56, John Doe\"",
+        "\"John Doe, 56\"",
+        "\"56, Doe John\"",
+        "\"Doe John There\""
+      ],
+      "correct_option": 1,
+      "correct_output": "56, John Doe",
+      "distractor_types": [
+        "reversed segment order",
+        "reversed name tokens",
+        "unrelated word substitution"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Concatenation",
+      "complexity": "L-2",
+      "domain": "Address formatting with nested grouping",
+      "variables": {
+        "a": "\"123 Main St, \"",
+        "b": "\"Springfield, \"",
+        "c": "\"OH\""
+      },
+      "expression": "a + (b + c)",
+      "options": [
+        "\"123 Main St, (Springfield, OH)\"",
+        "\"123 Main St,Springfield,OH\"",
+        "\"123 Main St,(Springfield,OH)\"",
+        "\"123 Main St, Springfield, OH\""
+      ],
+      "correct_option": 1,
+      "correct_output": "123 Main St, (Springfield, OH)",
+      "distractor_types": [
+        "missing spaces around commas",
+        "parentheses collapsed with no space",
+        "parentheses omitted entirely (naive evaluation)"
+      ],
+      "notes": "Under the pseudo-syntax, parentheses in the expression are preserved in the output as grouping markers. Option 4 is the naive evaluation result that ignores the grouping display rule."
+    },
+    {
+      "id": 4,
+      "type": "Interpolation",
+      "complexity": "L-2",
+      "domain": "Address formatting with reordered variables and literal parentheses",
+      "variables": {
+        "a": "\"123 Main St, \"",
+        "b": "\"Springfield, \"",
+        "c": "\"OH\""
+      },
+      "expression": "\"{b} ({a} {c})\"",
+      "options": [
+        "\"Springfield,(123 Main St),OH\"",
+        "\"Springfield, (123 Main St, OH)\"",
+        "\"123 Main St, (Springfield, OH)\"",
+        "\"(123 Main St,Springfield),OH\""
+      ],
+      "correct_option": 2,
+      "correct_output": "Springfield, (123 Main St, OH)",
+      "distractor_types": [
+        "missing space after comma",
+        "original variable order instead of template order",
+        "parentheses moved to wrong position"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Concatenation",
+      "complexity": "L-2",
+      "domain": "Score reporting with multiple variables",
+      "variables": {
+        "name": "\"Daniel\"",
+        "score": "50",
+        "total": "100"
+      },
+      "expression": "\"Hello \" + name + \", your score is \" + score + \" out of \" + total + \".\"",
+      "options": [
+        "\"Hello name, your score is score out of total.\"",
+        "\"Hello Daniel, your 50 is score out of total.\"",
+        "\"Hello Daniel, your score is 50 out of 100.\"",
+        "\"Hello Daniel, your score is 100 out of 50.\""
+      ],
+      "correct_option": 3,
+      "correct_output": "Hello Daniel, your score is 50 out of 100.",
+      "distractor_types": [
+        "variable names not substituted",
+        "partial substitution with mixed literal/variable",
+        "score and total swapped"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "Interpolation",
+      "complexity": "L-2",
+      "domain": "Score reporting with reordered template",
+      "variables": {
+        "name": "\"Daniel\"",
+        "score": "50",
+        "total": "100"
+      },
+      "expression": "\"{name}, out of {total}, you scored {score}.\"",
+      "options": [
+        "\"Hello Daniel, your score is 50 out of 100.\"",
+        "\"Daniel, you scored 50 out of 100.\"",
+        "\"Daniel, out of 100, you scored 50\"",
+        "\"Daniel, out of 100, you scored 100\""
+      ],
+      "correct_option": 3,
+      "correct_output": "Daniel, out of 100, you scored 50",
+      "distractor_types": [
+        "wrong template structure (matches Task 5 pattern)",
+        "correct values but wrong template order",
+        "correct order but score replaced with total"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Concatenation",
+      "complexity": "L-4",
+      "domain": "Complex arithmetic-style expression with nested grouping",
+      "variables": {},
+      "expression": "\"World, \" + 1 + 2 + 3 + (1 + 1 + 1 + 1) + (\"5\" + (6 + 7))",
+      "options": [
+        "\"World, 123(\\\"5\\\"(67))\"",
+        "\"World, 123(\\\"5\\\"))\"",
+        "\"123(1111)(\\\"5\\\"(67)), World\"",
+        "\"World, 123(1111)(\\\"5\\\"(67))\""
+      ],
+      "correct_option": 4,
+      "correct_output": "World, 123(1111)(\"5\"(67))",
+      "distractor_types": [
+        "inner grouping (1+1+1+1) omitted",
+        "outer grouping parentheses missing",
+        "segment order reversed"
+      ],
+      "notes": "Under the pseudo-syntax, numeric values are not arithmetically evaluated; they are treated as literal tokens. Parenthesized subexpressions are displayed with their grouping parentheses preserved in the output. Therefore (1+1+1+1) renders as (1111) and (6+7) renders as (67). This differs from standard Python/Java semantics where (1+1+1+1)=4 and (6+7)=13."
+    },
+    {
+      "id": 8,
+      "type": "Interpolation",
+      "complexity": "L-4",
+      "domain": "Complex interpolation with nested grouping and quoted literal",
+      "variables": {},
+      "expression": "\"{1} {2} {3} {({9} {9} {9} {1})} World { ({\\\"5\\\"} {(67)} )}\"",
+      "options": [
+        "\"1 2 3 (9 9 9 1) World (\\\"5\\\" (67) )\"",
+        "\"123(9991)World(\\\"5\\\"(67))\"",
+        "\"1 2 3 ({9} {9} {9} 1) World (\\\"5\\\" (67) )\"",
+        "\"1 2 3 9 9 9 1 World \\\"5\\\"67\""
+      ],
+      "correct_option": 1,
+      "correct_output": "1 2 3 (9 9 9 1) World (\"5\" (67) )",
+      "distractor_types": [
+        "spaces removed, grouping collapsed",
+        "partial interpolation — inner braces not resolved",
+        "all grouping structure and spacing removed"
+      ],
+      "notes": "The pseudo-syntax used in this experiment is language-neutral and does not correspond to any specific language runtime. Nested interpolation markers {(...)} are valid in this pseudo-syntax: the outer {} triggers interpolation and the inner () marks a group whose contents are also interpolated. This would not compile in Python or similar languages, but is intentional here to test comprehension of nested structure without language-specific bias."
+    },
+    {
+      "id": 9,
+      "type": "Concatenation",
+      "complexity": "L-3",
+      "domain": "Variable assignment display with non-sequential order",
+      "variables": {
+        "a": "5",
+        "b": "6",
+        "c": "4",
+        "d": "10"
+      },
+      "expression": "\"a = \" + a + \" d = \" + d + \" c = \" + c + \" b = \" + b",
+      "options": [
+        "\"a = 5 b = 6 c = 4 d = 10\"",
+        "\"a = 5 d = 6 c = 10 b = 4\"",
+        "\"a = 5 d = 10 c = 4 b = 6\"",
+        "\"b = 6 d = 10 c = 4 a = 5\""
+      ],
+      "correct_option": 3,
+      "correct_output": "a = 5 d = 10 c = 4 b = 6",
+      "distractor_types": [
+        "alphabetical variable order instead of expression order",
+        "variable values shuffled",
+        "variable order reversed"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Interpolation",
+      "complexity": "L-3",
+      "domain": "Variable assignment display with aliased placeholders",
+      "variables": {
+        "a": "5",
+        "b": "6",
+        "c": "4",
+        "d": "10"
+      },
+      "expression": "\"a = {a} b = {d} c = {b} d = {c}\"",
+      "options": [
+        "\"a = 4 b = 5 c = 6 d = 10\"",
+        "\"a = 5 b = 10 c = 6 d = 4\"",
+        "\"a = {a} b = {d} c = {b} d = {c}\"",
+        "\"a = a b = b c = b d = c\""
+      ],
+      "correct_option": 2,
+      "correct_output": "a = 5 b = 10 c = 6 d = 4",
+      "distractor_types": [
+        "values in alphabetical variable order instead of template order",
+        "interpolation not applied — braces shown literally",
+        "variable names shown instead of values"
+      ],
+      "notes": "This task deliberately aliases label names to different variables (e.g., label 'b' uses variable {d}) to test careful tracking of placeholder-to-variable mappings."
+    },
+    {
+      "id": 11,
+      "type": "Concatenation",
+      "complexity": "L-4",
+      "domain": "Mathematical series expression with ellipsis",
+      "variables": {},
+      "expression": "\"(0 \" + \" 1)\" + \"(1 \" + \" 1)\" + \"...\" + m + n-1 + l-2 + \" = m(m+1)/2 = O(m^2)\"",
+      "options": [
+        "\"(01)(11) ... mn-1l-2 = m(m1)/2 = O(m^2)\"",
+        "\"12...mn-1l-2=mm1/2=0m^2\"",
+        "\"(0 1) (1 1) ... m n-1 l-2 = m(m 1)/2 = O(m^2)\"",
+        "\"1 2 ... mn-1l-2 = mm1/2 = 0m^2\""
+      ],
+      "correct_option": 3,
+      "correct_output": "(0 1) (1 1) ... m n-1 l-2 = m(m 1)/2 = O(m^2)",
+      "distractor_types": [
+        "spaces removed within groups",
+        "spaces and grouping structure removed",
+        "grouping structure removed, spacing collapsed"
+      ],
+      "notes": "This task tests comprehension of concatenation across a complex mathematical expression. The '+' inside the literal strings does not represent concatenation — only the outer '+' operators between quoted segments do. The expression also includes symbolic variables (m, n, l) that are not defined, requiring participants to treat them as literal tokens."
+    },
+    {
+      "id": 12,
+      "type": "Interpolation",
+      "complexity": "L-4",
+      "domain": "Mathematical series expression with ellipsis using interpolation",
+      "variables": {},
+      "expression": "\"{(0 2 1)} {(1 2 1)} {...} n {m-1} {l-2} = m(m 1)/2 = O(m^2)\"",
+      "options": [
+        "\"(0 2 1) (1 2 1) ... n m-1 l-2 = m(m 1)/2 = O(m^2)\"",
+        "\"3 4 ... n m-1 l-2 = m(m 1)/2 = O(m^2)\"",
+        "\"(021)(121) ... nm-1l-2 = m(m 1)/2 = O(m^2)\"",
+        "\"... n m-1 l-2 = m(m 1)/2 = O(m^2)\""
+      ],
+      "correct_option": 1,
+      "correct_output": "(0 2 1) (1 2 1) ... n m-1 l-2 = m(m 1)/2 = O(m^2)",
+      "distractor_types": [
+        "arithmetic evaluation of group contents",
+        "spaces within groups removed",
+        "leading interpolated groups dropped"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "Concatenation",
+      "complexity": "L-2",
+      "domain": "File path construction",
+      "variables": {
+        "a": "\"Hi\"",
+        "b": "\"There\"",
+        "userName": "\"Peter\""
+      },
+      "expression": "\"C:\\\\Users\\\\\" + userName + \"\\\\Documents\"",
+      "options": [
+        "\"Hi There Peter\"",
+        "\"C:\\\\Users\\\\Documents\\\\Peter\"",
+        "\"C:\\\\Peter\\\\Users\\\\Documents\"",
+        "\"C:\\\\Users\\\\Peter\\\\Documents\""
+      ],
+      "correct_option": 4,
+      "correct_output": "C:\\Users\\Peter\\Documents",
+      "distractor_types": [
+        "irrelevant variables a and b substituted instead of userName",
+        "path segments reordered (userName appended at end)",
+        "path segments reordered (userName inserted before Users)"
+      ],
+      "notes": "Variables a and b are declared but not referenced in the expression, serving as distractors to increase working memory load."
+    },
+    {
+      "id": 14,
+      "type": "Interpolation",
+      "complexity": "L-2",
+      "domain": "File path construction with interpolation",
+      "variables": {
+        "a": "\"Hi\"",
+        "doc": "\"Downloads\"",
+        "userName": "\"Peter\""
+      },
+      "expression": "\"C://Users//{doc}//{userName}\"",
+      "options": [
+        "\"C://Users//Peter//Peter\"",
+        "\"C://Users//Downloads//Peter\"",
+        "\"C://Users//Peter//Downloads\"",
+        "\"C:\\\\Users\\\\Peter\\\\Documents\""
+      ],
+      "correct_option": 2,
+      "correct_output": "C://Users//Downloads//Peter",
+      "distractor_types": [
+        "userName substituted for both placeholders",
+        "doc and userName order swapped",
+        "wrong separator style (backslash) and wrong variable values"
+      ],
+      "notes": "Variable a is declared but not referenced. Option 4 uses backslash separators to test whether participants conflate this with Task 13."
+    },
+    {
+      "id": 15,
+      "type": "Concatenation",
+      "complexity": "L-3",
+      "domain": "URL construction",
+      "variables": {
+        "domain": "\"example.com\"",
+        "query": "\"?user=john\"",
+        "protocol": "\"https://\"",
+        "path": "\"/home\""
+      },
+      "expression": "protocol + domain + path + query",
+      "options": [
+        "\"https://example.com/home?user=john\"",
+        "\"https://example.com /home ?user=john\"",
+        "\"https://example.com/home\"",
+        "\"https://example.com?user=john\""
+      ],
+      "correct_option": 1,
+      "correct_output": "https://example.com/home?user=john",
+      "distractor_types": [
+        "spurious spaces between segments",
+        "query segment omitted",
+        "path segment omitted"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "Interpolation",
+      "complexity": "L-3",
+      "domain": "URL construction with partial literal template",
+      "variables": {
+        "domain": "\"example.com\"",
+        "query": "\"?user=john\"",
+        "protocol": "\"https://\"",
+        "path": "\"/home\""
+      },
+      "expression": "\"https://protocol/{domain}/path/{query}\"",
+      "options": [
+        "\"https://protocol/home/?user=john\"",
+        "\"https://example.com//home/?user=john\"",
+        "\"https://protocol/example.com/path/?user=john\"",
+        "\"https://https:///example.com//home/?user=john\""
+      ],
+      "correct_option": 3,
+      "correct_output": "https://protocol/example.com/path/?user=john",
+      "distractor_types": [
+        "path variable incorrectly interpolated where literal 'path' appears",
+        "protocol and path variables interpolated (wrong — they are literal in template)",
+        "all variables including literal text interpolated"
+      ],
+      "notes": "Only {domain} and {query} are interpolation placeholders. The words 'protocol' and 'path' in the template string are plain text, not placeholders. This tests whether participants distinguish between literal text and interpolation markers."
+    }
+  ]
+}

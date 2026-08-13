@@ -4,9 +4,9 @@
 This repository contains all materials required to reproduce the quantitative and qualitative analyses reported in the study. The research investigates how **string interpolation** and **string concatenation** affect program readability, comprehension, and debugging efficiency among developers with prior programming experience.
 It includes datasets, analysis scripts, survey instruments, qualitative prompts, and replication instructions.
 
-> **⚠️ Read [`ERRATA.md`](ERRATA.md) before using the data.** It documents an
+<!-- > **⚠️ Read [`ERRATA.md`](ERRATA.md) before using the data.** It documents an
 > answer-key error affecting all correctness analyses (erratum E-1) and several
-> smaller data issues. Duration-based analyses are unaffected.
+> smaller data issues. Duration-based analyses are unaffected. -->
 
 ---
 

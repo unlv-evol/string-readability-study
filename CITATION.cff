@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+title: >-
+  String Readability Study — Replication Package: An Empirical
+  Investigation to Understand the Impact of String Interpolation
+  on Program Readability and Comprehension
+message: >-
+  If you use this dataset or software, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  # TODO before release: add co-authors in paper order, and ORCID iDs if available.
+  - given-names: Daniel
+    family-names: Ogenrwot
+    email: ogenrwot@unlv.nevada.edu
+    affiliation: University of Nevada, Las Vegas
+repository-code: https://github.com/unlv-evol/string-readability-study
+abstract: >-
+  Replication package for a mixed-method study of how string
+  interpolation and string concatenation affect program
+  readability, comprehension, and debugging efficiency. Includes
+  the web-based experiment platform, raw and processed response
+  data from 314 participants across 16 programming tasks, the
+  qualitative codebooks and LLM prompts used for thematic
+  analysis, and the analysis scripts and figures reported in the
+  paper.
+keywords:
+  - program comprehension
+  - program readability
+  - string interpolation
+  - string concatenation
+  - empirical software engineering
+  - human study
+license: MIT
+# Data in data/ is licensed CC-BY-4.0; code is MIT. See README.md.
+version: 1.0.0
+date-released: '2025-11-09'
+# TODO before release: uncomment and fill in once the Zenodo DOI is minted.
+# doi: 10.5281/zenodo.XXXXXXX
+#
+# TODO before release: uncomment and complete once the paper is published.
+# preferred-citation:
+#   type: conference-paper
+#   title: >-
+#     An Empirical Investigation to Understand the Impact of String
+#     Interpolation on Program Readability and Comprehension
+#   authors:
+#     - given-names: Daniel
+#       family-names: Ogenrwot
+#       affiliation: University of Nevada, Las Vegas
+#   collection-title: ''
+#   year: 2026
+#   doi: ''

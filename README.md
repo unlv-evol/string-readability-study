@@ -100,7 +100,8 @@ python code/scripts/python/build_processed_data.py           # rebuild
 ```
 
 `--check` confirms that the published merged datasets are reproducible from the
-raw session files, and reports the UID corruption documented as erratum E-5.
+raw session files.
+<!-- and reports the UID corruption documented as erratum E-5. -->
 
 ### 2. Sample size and power
 
@@ -117,23 +118,23 @@ python code/scripts/python/outlier_analysis.py --by-task --by-category
 
 Outliers are reported for transparency and **retained** in all analyses.
 
-### 4. Errata impact
+<!-- ### 4. Errata impact
 
 ```bash
 python code/scripts/python/apply_errata.py
 ```
 
 Reports how the Task 6 answer-key error affects reported accuracy and writes a
-corrected copy of the dataset. The published files are never modified.
+corrected copy of the dataset. The published files are never modified. -->
 
-### 5. Inferential statistics and duration plots (Quorum)
+### 4. Inferential statistics and duration plots (Quorum)
 
 ANOVA, Tukey–Kramer, Bonferroni, correlation, linear regression, and the
 duration box plots are implemented in Quorum. See
 [`code/scripts/quorum/README.md`](code/scripts/quorum/README.md) for how to run
 them and for one known gap (`BoxplotTaskCatDurationEach.quorum`).
 
-### 6. Qualitative theme figures
+### 5. Qualitative theme figures
 
 ```bash
 jupyter notebook code/notebooks/1.0_quant_plots.ipynb
